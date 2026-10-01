@@ -190,5 +190,15 @@
       "DISC-20261001-039",
       "DISC-20261001-066"
     ]
+  },
+  {
+    "id": "TRIAGE-B2-015",
+    "framing": "Predict which data favors trees, ordinary neural networks or tabular foundation models.",
+    "decision": "excluded from main scientific scope",
+    "reason": "The maintainer requests mechanisms intrinsic to deep learning, not a model-family selection map. Preserve DISC-20261001-066 and its bibliography as historical discovery; a genuinely mechanistic successor needs its own question and review.",
+    "sources": [],
+    "leads": [
+      "DISC-20261001-066"
+    ]
   }
 ]

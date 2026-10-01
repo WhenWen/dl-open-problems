@@ -44,6 +44,10 @@ def validate(root, batch):
         for key in ['theory', 'empirical', 'prediction']:
             require(isinstance(p['evidence'][key], str) and p['evidence'][key].strip(), f'missing discovery evidence {key}')
         require(p['audit_priority'] in ['first', 'second'], 'unknown audit priority')
+        if 'scope_review' in p:
+            scope = p['scope_review']
+            require(scope['decision'] == 'excluded_from_main', 'unknown scope decision')
+            require(all(isinstance(scope.get(k), str) and scope[k].strip() for k in ['date', 'basis', 'reason', 'provenance']), 'incomplete scope decision')
         for edge in p['related_leads']:
             require(edge['target'] in all_ids and edge['target'] != p['id'], 'dangling discovery relation')
             require(edge['type'] == 'related_to' and edge['reason'].strip(), 'invalid discovery comparison')
@@ -92,6 +96,8 @@ def render(candidates, bibliography, topics, manifest, triage, metadata=None):
     source_ids = {s for c in candidates for s in c['sources']}
     counts = Counter(c['topic'] for c in candidates)
     new = sum(c['disposition'] == 'new_candidate' for c in candidates)
+    excluded = [c for c in candidates if c.get('scope_review', {}).get('decision') == 'excluded_from_main']
+    active = [c for c in candidates if c not in excluded]
     def refs(ids):
         return '; '.join(f"[{bibliography[s]['title']}]({bibliography[s]['url']})" for s in ids)
     rows = [metadata.get('title', '# Discovery batch 2026 10 01'), '',
@@ -111,13 +117,19 @@ def render(candidates, bibliography, topics, manifest, triage, metadata=None):
                  '| Area | Leads |', '| --- | --- |']
         area_counts = Counter(c['area'] for c in candidates)
         rows += [f'| {area} | {area_counts[area]} |' for area in metadata['areas']]
+    if excluded:
+        rows += ['', f'**Scope update:** counts above describe historical discovery. {len(excluded)} lead is excluded from the main queue; the other {len(active)} remain proposals awaiting scope and scientific review. See [scientific scope](../../docs/SCOPE.md).', '']
     rows += ['', '## Lead index', '', '| Lead | Question family | Triage | Audit order |', '| --- | --- | --- | --- |']
-    for c in candidates:
+    for c in active:
         rows.append(f"| [{c['id']}](#{c['id'].lower()}) | {c['title']} | {c['disposition']} | {c['audit_priority']} |")
     rows += ['', '## Audit next', '',
              metadata.get('audit_next', 'Start with a small set spanning different kinds of uncertainty: DISC-20261001-001 (known special cases), 009 (different experimental protocols), 012 (measurement definitions), 015 (mechanism identifiability), 022 (existing robustness guarantees), and 024 (theory-to-hardware mapping). This is a proposed reading order, not an authorized experimental queue.'), '',
              'For each, read full texts, trace subsequent citations, seek an existing answer, compare canonical and discovery neighbors, and write a bounded problem card only if the gap survives. Record resolved or narrowed proposals as useful outcomes.', '', '## Lead details', '']
-    for c in candidates:
+    for c in active + excluded:
+        if excluded and c is excluded[0]:
+            rows += ['## Archived discoveries outside the main scope', '', 'IDs and evidence remain available for provenance; these are not part of the main candidate queue.', '']
+        if c in excluded:
+            rows += ['**Scope decision:** ' + c['scope_review']['reason'], '']
         rows += [f"### {c['id']}", '', f"**{c['title']}** · {c['topic']} · {c['disposition']}", '',
                  '**Author-reported starting points.** '+c['known']+' '+refs(c['sources']), '',
                  '**Proposed question.** '+c['question'], '',

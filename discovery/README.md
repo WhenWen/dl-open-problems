@@ -2,6 +2,8 @@
 
 Batch searches generate leads before full problem-card review. An entry here is a proposed research question, not a claim that the literature has no answer.
 
+**Scope:** mechanisms and predictive laws intrinsic to deep learning; method selection alone is insufficient. See [admission criteria and queue reassessment](../docs/SCOPE.md). The 66 discovery records are historical leads, not endorsed core problems; 066 is excluded from the main queue.
+
 | Batch | Queries | Primary abstracts screened | New leads | Existing-card updates |
 | --- | --- | --- | --- | --- |
 | [2026 10 01](2026-10-01/README.md) | 50 | 57 | 23 | 3 |

@@ -27,7 +27,7 @@ All 24 rows are **abstract-screened entry points**, not completed field audits. 
 | representation identifiability | [063](README.md#disc-20261001-063) | Compare auxiliary-variable, temporal and sparse-mixing identification; quantify approximate assumptions. |
 | symmetry and geometric learning | [064](README.md#disc-20261001-064) | Add equivariant statistical learning theory and stochastic symmetry-breaking outputs. |
 | long-tailed recognition | [065](README.md#disc-20261001-065) | Add label noise, unequal within-class diversity and changing deployment priors; inspect feature sufficiency claims. |
-| tabular learning | [066](README.md#disc-20261001-066) | Compare recent tabular foundation models, meta-learning priors, unseen schema transfer and amortized compute. |
+| tabular learning（historical lead excluded from main scope） | [066](README.md#disc-20261001-066) | Compare recent tabular foundation models, meta-learning priors, unseen schema transfer and amortized compute. |
 
 ## Additional areas not yet given a dedicated pass
 

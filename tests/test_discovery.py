@@ -92,5 +92,17 @@ class DiscoveryTests(unittest.TestCase):
         self.edit('discovery/2026-10-01-expansion/search-manifest.json',lambda x:x[0].update(id=old))
         self.reject('duplicate query batch across batches')
 
+    def test_scope_exclusion_preserves_record_but_removes_main_index_entry(self):
+        batch = self.root/'discovery/2026-10-01-expansion'
+        output = discovery.render(*discovery.validate(self.root,batch))
+        index = output.split('## Lead index')[1].split('## Audit next')[0]
+        self.assertNotIn('DISC-20261001-066', index)
+        self.assertIn('### DISC-20261001-066', output.split('## Archived discoveries outside the main scope')[1])
+
+    def test_scope_exclusion_requires_reason(self):
+        self.batch = self.root/'discovery/2026-10-01-expansion'
+        self.edit('discovery/2026-10-01-expansion/candidates.json',lambda x:x[-1]['scope_review'].update(reason=''))
+        self.reject('incomplete scope decision')
+
 if __name__=='__main__':
     unittest.main()

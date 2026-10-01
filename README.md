@@ -2,6 +2,8 @@
 
 An open, evidence-tracked collection of questions connecting deep learning experiments and theory.
 
+**Scope:** mechanisms and predictive laws intrinsic to deep learning; method selection alone is insufficient. See [admission criteria and queue reassessment](docs/SCOPE.md). The 66 discovery records are historical leads, not endorsed core problems; 066 is excluded from the main queue.
+
 We document what is understood, the assumptions behind that understanding, and precise tests of what remains uncertain. A candidate is **not** a verified claim that nobody has solved the problem. The canonical catalog contains three candidate cards. Two [discovery batches](discovery/README.md) contain 66 leads from 151 primary papers and 111 search queries: 63 proposed new candidates and three existing-card updates. The [breadth expansion](discovery/2026-10-01-expansion/README.md) adds 40 leads across 24 subfields. These are abstract-screened proposals, not a comprehensive survey or a novelty certification.
 
 [Browse problems](INDEX.md) · [Discovery queue](discovery/README.md) · [Contribute](CONTRIBUTING.md) · [Coverage](coverage/README.md) · [中文](README.zh-CN.md)

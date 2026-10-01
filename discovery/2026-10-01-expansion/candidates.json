@@ -1300,6 +1300,13 @@
         "reason": "Dataset-dependent model-family choice differs from scale transfer inside a family."
       }
     ],
-    "audit_limitations": "Primary abstracts only; theorems, proofs, experimental protocols and forward citation closure remain unaudited. This is a proposed gap, not a novelty claim."
+    "audit_limitations": "Primary abstracts only; theorems, proofs, experimental protocols and forward citation closure remain unaudited. This is a proposed gap, not a novelty claim.",
+    "scope_review": {
+      "decision": "excluded_from_main",
+      "date": "2026-10-01",
+      "basis": "Maintainer requested questions intrinsic to deep learning and singled out this model-selection framing.",
+      "reason": "As framed, predicting which model family wins is a selection/benchmark problem; it does not identify a deep-learning mechanism whose explanation is the scientific target.",
+      "provenance": "Maintainer scope clarification; implementation and wording by assistant. This is not a literature-resolution decision."
+    }
   }
 ]

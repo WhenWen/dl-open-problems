@@ -60,6 +60,9 @@ Each row records selected leads, not completeness or search saturation. See [cov
 | synthetic-data feedback | 1 |
 | tabular learning | 1 |
 
+**Scope update:** counts above describe historical discovery. 1 lead is excluded from the main queue; the other 39 remain proposals awaiting scope and scientific review. See [scientific scope](../../docs/SCOPE.md).
+
+
 ## Lead index
 
 | Lead | Question family | Triage | Audit order |
@@ -103,7 +106,6 @@ Each row records selected leads, not completeness or search saturation. See [cov
 | [DISC-20261001-063](#disc-20261001-063) | Minimal structural assumptions for useful latent-factor identification | new_candidate | first |
 | [DISC-20261001-064](#disc-20261001-064) | How much equivariance should be imposed on imperfect symmetries? | new_candidate | second |
 | [DISC-20261001-065](#disc-20261001-065) | When logit correction suffices and when tail features must change | new_candidate | second |
-| [DISC-20261001-066](#disc-20261001-066) | Predicting when tabular neural models beat trees | new_candidate | second |
 
 ## Audit next
 
@@ -975,6 +977,12 @@ For each, read full texts, trace subsequent citations, seek an existing answer, 
 
 **Identity check.** [DISC-20261001-012](../2026-10-01/README.md#disc-20261001-012): Earlier lead asks about representation collapse geometry; this asks which correction intervention suffices for tail risk.
 
+## Archived discoveries outside the main scope
+
+IDs and evidence remain available for provenance; these are not part of the main candidate queue.
+
+**Scope decision:** As framed, predicting which model family wins is a selection/benchmark problem; it does not identify a deep-learning mechanism whose explanation is the scientific target.
+
 ### DISC-20261001-066
 
 **Predicting when tabular neural models beat trees** · representation-generalization · new_candidate
@@ -1013,3 +1021,4 @@ For each, read full texts, trace subsequent citations, seek an existing answer, 
 - **TRIAGE-B2-012 — identity boundaries recorded:** Cross-batch neighbors should be counted as unrelated new subjects. Explicitly linked plasticity versus forgetting, augmentation versus collapse, attribution versus data selection, and classifier correction versus collapse geometry. Human semantic deduplication remains pending.
 - **TRIAGE-B2-013 — coverage limitation recorded:** Every multi-query search adequately covered every query. Results were often dominated by one query. Targeted follow-ups were added for graphs, RL, LoRA, MAE, operators and calibration; recent pruning/offline-RL checks remain thin.
 - **TRIAGE-B2-014 — coverage limitation recorded:** Venue search is equivalent to a completed recent-literature audit. Primary Nature, PMLR and ACL abstracts changed several framings. An OpenReview pruning landing page hit a browser verification gate, so that paper remains an unreviewed search lead; this was not treated as absence of recent pruning work. [Accurate predictions on small data with a tabular foundation model](https://www.nature.com/articles/s41586-024-08328-6); [Provable Zero-Shot Generalization in Offline Reinforcement Learning](https://proceedings.mlr.press/v267/wang25dx.html); [Systematic Generalization in Language Models Scales with Information Entropy](https://aclanthology.org/2025.findings-acl.90/)
+- **TRIAGE-B2-015 — excluded from main scientific scope:** Predict which data favors trees, ordinary neural networks or tabular foundation models. The maintainer requests mechanisms intrinsic to deep learning, not a model-family selection map. Preserve DISC-20261001-066 and its bibliography as historical discovery; a genuinely mechanistic successor needs its own question and review.

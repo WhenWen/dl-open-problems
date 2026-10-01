@@ -2,6 +2,8 @@
 
 ## Scope and identity
 
+Apply the [scientific scope criteria](SCOPE.md) before novelty or audit-priority ranking. State what mechanism or law of deep learning the answer would reveal. Pure model selection, benchmark ranking and predictor-agnostic statistical questions are adjacent background unless their neural-mechanism bridge is explicit. Scope exclusion is not a claim that a problem lacks value elsewhere or has been solved.
+
 Express a problem as assumptions, setting, available inputs, target observable, intervention, and success criterion. Ask whether solving A automatically solves B, and whether the reverse holds. Bidirectional implication suggests equivalence; one direction suggests a special case; shared terminology alone proves neither.
 
 Relations are directed from the current card: `special_case_of` points to the general problem, `depends_on` to a prerequisite within a specified approach, `related_to` to an overlapping problem, and `possibly_equivalent_to` to an unresolved identity question. `equivalent_to` requires an explanation. A norm-based approach can depend on predicting norms without asserting every possible loss predictor must use norms.
