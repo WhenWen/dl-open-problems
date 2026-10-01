@@ -1,0 +1,35 @@
+{
+  "id": "DLOP-0003",
+  "title": "Predicting the limits of simultaneous scale transfer",
+  "topics": [
+    "scaling",
+    "precision"
+  ],
+  "phenomena": [
+    "transfer"
+  ],
+  "gaps": [
+    "scope",
+    "prediction"
+  ],
+  "setting": "Specified maximal-update parametrized architectures with changes in width, depth, training horizon or precision.",
+  "inputs": "Small-model tuning results and a declared parametrization and scaling prescription.",
+  "target": "Transferred hyperparameter performance and an estimate of transfer failure.",
+  "intervention": "Vary scale axes separately and jointly with matched compute accounting.",
+  "sources": [
+    "yang2022"
+  ],
+  "relations": [],
+  "status": "candidate",
+  "created": "2026-10-01",
+  "last_reviewed": "2026-10-01",
+  "contributors": [
+    "WhenWen"
+  ],
+  "canonical_id": null,
+  "evidence": {
+    "theory": "Candidate-level summary only; precise assumptions not yet audited.",
+    "empirical": "No repository reproduction; cited paper reports results in its own settings.",
+    "prediction": "The precise proposed transfer test has not been conducted by this repository."
+  }
+}

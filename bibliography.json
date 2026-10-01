@@ -1,0 +1,23 @@
+[
+  {
+    "id": "tissue2024",
+    "title": "Scaling Law with Learning Rate Annealing",
+    "url": "https://arxiv.org/abs/2408.11029v2",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01"
+  },
+  {
+    "id": "malladi2022",
+    "title": "On the SDEs and Scaling Rules for Adaptive Gradient Algorithms",
+    "url": "https://arxiv.org/abs/2205.10287v3",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01"
+  },
+  {
+    "id": "yang2022",
+    "title": "Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
+    "url": "https://arxiv.org/abs/2203.03466v2",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01"
+  }
+]

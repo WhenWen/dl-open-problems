@@ -1,0 +1,35 @@
+{
+  "id": "DLOP-NNNN",
+  "title": "Replace with a precise question",
+  "topics": [
+    "optimization"
+  ],
+  "phenomena": [
+    "learning-curves",
+    "transfer"
+  ],
+  "gaps": [
+    "prediction",
+    "identifiability"
+  ],
+  "setting": "Replace with the specific scope.",
+  "inputs": "Replace with the specific scope.",
+  "target": "Replace with the specific scope.",
+  "intervention": "Replace with the specific scope.",
+  "sources": [
+    "replace-source-id"
+  ],
+  "relations": [],
+  "status": "candidate",
+  "created": "2026-10-01",
+  "last_reviewed": "2026-10-01",
+  "contributors": [
+    "your-public-handle"
+  ],
+  "canonical_id": null,
+  "evidence": {
+    "theory": "Candidate-level summary only; precise assumptions not yet audited.",
+    "empirical": "No repository reproduction; cited paper reports results in its own settings.",
+    "prediction": "The precise proposed transfer test has not been conducted by this repository."
+  }
+}

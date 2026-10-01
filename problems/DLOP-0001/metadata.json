@@ -1,0 +1,41 @@
+{
+  "id": "DLOP-0001",
+  "title": "Predicting loss under unseen learning rate schedules",
+  "topics": [
+    "optimization"
+  ],
+  "phenomena": [
+    "learning-curves",
+    "transfer"
+  ],
+  "gaps": [
+    "prediction",
+    "identifiability"
+  ],
+  "setting": "A fixed language model, dataset distribution and AdamW configuration; vary continuous nonincreasing schedules after a fixed warmup.",
+  "inputs": "A small declared calibration set and the target schedule, without future target-run loss or internal-state observations.",
+  "target": "The entire held-out validation loss curve and its uncertainty.",
+  "intervention": "Change schedule shape and duration at held-out learning rates.",
+  "sources": [
+    "tissue2024"
+  ],
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "DLOP-0002",
+      "reason": "Predictive state closure is one possible route, not a necessary component of every schedule law."
+    }
+  ],
+  "status": "candidate",
+  "created": "2026-10-01",
+  "last_reviewed": "2026-10-01",
+  "contributors": [
+    "WhenWen"
+  ],
+  "canonical_id": null,
+  "evidence": {
+    "theory": "Candidate-level summary only; precise assumptions not yet audited.",
+    "empirical": "No repository reproduction; cited paper reports results in its own settings.",
+    "prediction": "The precise proposed transfer test has not been conducted by this repository."
+  }
+}

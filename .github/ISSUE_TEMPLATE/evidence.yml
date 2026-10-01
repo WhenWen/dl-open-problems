@@ -1,0 +1,31 @@
+name: "Add an answer or evidence"
+description: "Correct a claim, report a solution, or add a replication."
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem ID or area"
+      description: "Which card or claim is affected?"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Evidence"
+      description: "Link a paper, theorem, public artifact or reproducible result."
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: "Scope and proposed change"
+      description: "Does this answer the exact question or only a special case?"
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: "Verification"
+      description: "State what you read or reproduced and remaining uncertainty."
+    validations:
+      required: true

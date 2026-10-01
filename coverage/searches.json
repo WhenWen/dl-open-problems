@@ -1,0 +1,41 @@
+[
+  {
+    "id": "SEARCH-0001",
+    "date": "2026-10-01",
+    "topic": "optimization",
+    "method": "Read the versioned abstract pages of seed papers; no citation traversal yet.",
+    "queries": [
+      "Scaling Law with Learning Rate Annealing",
+      "On the SDEs and Scaling Rules for Adaptive Gradient Algorithms"
+    ],
+    "sources": [
+      "tissue2024",
+      "malladi2022"
+    ],
+    "problems": [
+      "DLOP-0001",
+      "DLOP-0002"
+    ],
+    "excluded": [],
+    "limitations": "Abstract screening only. No current-field novelty conclusion.",
+    "next_steps": "Audit full texts, assumptions, subsequent citations and alternative terminology."
+  },
+  {
+    "id": "SEARCH-0002",
+    "date": "2026-10-01",
+    "topic": "scaling",
+    "method": "Read the versioned abstract page of one seed paper.",
+    "queries": [
+      "Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer"
+    ],
+    "sources": [
+      "yang2022"
+    ],
+    "problems": [
+      "DLOP-0003"
+    ],
+    "excluded": [],
+    "limitations": "One seed only; precision is tagged on a candidate but has not been searched.",
+    "next_steps": "Trace depth and precision extensions and identify answered subcases."
+  }
+]

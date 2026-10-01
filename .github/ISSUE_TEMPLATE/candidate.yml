@@ -1,0 +1,31 @@
+name: "Propose a candidate problem"
+description: "Propose a precise question connecting experiments and theory."
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: "Question and setting"
+      description: "What is measured, what changes, and what information is available?"
+    validations:
+      required: true
+  - type: textarea
+    id: prior
+    attributes:
+      label: "Prior work"
+      description: "Link primary sources and state what they already establish."
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: "Uncertainty and decisive test"
+      description: "What is unknown, and what would distinguish answers?"
+    validations:
+      required: true
+  - type: textarea
+    id: duplicates
+    attributes:
+      label: "Closest existing problems"
+      description: "Which cards or issues did you check? Explain overlap."
+    validations:
+      required: true

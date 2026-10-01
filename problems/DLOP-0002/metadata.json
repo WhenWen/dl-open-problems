@@ -1,0 +1,41 @@
+{
+  "id": "DLOP-0002",
+  "title": "Closing Adam norm and momentum dynamics with few states",
+  "topics": [
+    "optimization"
+  ],
+  "phenomena": [
+    "learning-curves",
+    "stability"
+  ],
+  "gaps": [
+    "closure",
+    "identifiability"
+  ],
+  "setting": "Stochastic AdamW training with feature learning and module-wise normalization.",
+  "inputs": "Initial or calibrated module statistics and future hyperparameters, without future measured moments.",
+  "target": "Norm and update statistics under a changed schedule.",
+  "intervention": "Change learning rate schedules while fixing architecture, data protocol and optimizer implementation.",
+  "sources": [
+    "malladi2022"
+  ],
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "DLOP-0001",
+      "reason": "State prediction can support loss prediction but is a distinct test from fitting loss using observed states."
+    }
+  ],
+  "status": "candidate",
+  "created": "2026-10-01",
+  "last_reviewed": "2026-10-01",
+  "contributors": [
+    "WhenWen"
+  ],
+  "canonical_id": null,
+  "evidence": {
+    "theory": "Candidate-level summary only; precise assumptions not yet audited.",
+    "empirical": "No repository reproduction; cited paper reports results in its own settings.",
+    "prediction": "The precise proposed transfer test has not been conducted by this repository."
+  }
+}

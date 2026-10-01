@@ -1,0 +1,43 @@
+{
+  "topics": [
+    "optimization",
+    "scaling",
+    "data",
+    "representation-generalization",
+    "in-context-learning",
+    "generative-models",
+    "post-training",
+    "precision"
+  ],
+  "phenomena": [
+    "learning-curves",
+    "stability",
+    "transfer",
+    "generalization",
+    "representation-change",
+    "memory",
+    "generation-quality"
+  ],
+  "gaps": [
+    "mechanism",
+    "prediction",
+    "closure",
+    "identifiability",
+    "scope"
+  ],
+  "statuses": [
+    "candidate",
+    "literature_audited",
+    "empirical_gap",
+    "resolved",
+    "merged",
+    "retired"
+  ],
+  "relations": [
+    "related_to",
+    "depends_on",
+    "special_case_of",
+    "equivalent_to",
+    "possibly_equivalent_to"
+  ]
+}
