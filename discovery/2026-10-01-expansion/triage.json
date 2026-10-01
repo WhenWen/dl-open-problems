@@ -1,0 +1,204 @@
+[
+  {
+    "id": "TRIAGE-B2-001",
+    "framing": "Non-contrastive collapse has no theory.",
+    "decision": "narrowed",
+    "reason": "Linear equilibria and normalized dynamics already have analyses; scope the question to partial informative dimension selection in nonlinear finite encoders.",
+    "sources": [
+      "arxiv-2507.01028",
+      "arxiv-2309.16109"
+    ],
+    "leads": [
+      "DISC-20261001-027"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-002",
+    "framing": "Robustness necessarily costs standard accuracy.",
+    "decision": "narrowed",
+    "reason": "The answer depends on threat geometry, latent structure and finite-data effects; counterexamples rule out a universal premise.",
+    "sources": [
+      "arxiv-2110.11950",
+      "arxiv-2002.10716"
+    ],
+    "leads": [
+      "DISC-20261001-030"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-003",
+    "framing": "A small invariance penalty guarantees domain generalization.",
+    "decision": "narrowed",
+    "reason": "Existing failures distinguish the penalty, invariant predictor and availability of identifying environments.",
+    "sources": [
+      "arxiv-2010.05761",
+      "arxiv-2101.01134"
+    ],
+    "leads": [
+      "DISC-20261001-031",
+      "DISC-20261001-032"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-004",
+    "framing": "Increasing graph expansion must improve GNN performance.",
+    "decision": "narrowed",
+    "reason": "Information transmission, smoothing and label usefulness are distinct; exact-objective hardness does not rule out useful heuristics.",
+    "sources": [
+      "arxiv-2208.03471",
+      "arxiv-2510.17457",
+      "arxiv-2603.26140"
+    ],
+    "leads": [
+      "DISC-20261001-033"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-005",
+    "framing": "Heterophily makes standard GCNs fail.",
+    "decision": "narrowed",
+    "reason": "Existing theory and experiments provide success cases; retain the conditional architecture-selection question.",
+    "sources": [
+      "arxiv-2106.06134",
+      "arxiv-2401.09125"
+    ],
+    "leads": [
+      "DISC-20261001-034"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-006",
+    "framing": "Lottery-ticket existence solves efficient sparse training.",
+    "decision": "narrowed",
+    "reason": "Existence, finding tickets, rewinding and total search cost must be separated.",
+    "sources": [
+      "arxiv-1803.03635",
+      "arxiv-1903.01611",
+      "arxiv-2002.00585"
+    ],
+    "leads": [
+      "DISC-20261001-039"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-007",
+    "framing": "The modality gap has one demonstrated universal cause.",
+    "decision": "narrowed",
+    "reason": "The selected accounts change objectives, temperatures, pair noise and initial conditions. Compare their regimes before calling them contradictory.",
+    "sources": [
+      "arxiv-2203.02053",
+      "arxiv-2412.07909",
+      "arxiv-2607.10698"
+    ],
+    "leads": [
+      "DISC-20261001-042"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-008",
+    "framing": "Synthetic feedback inevitably collapses or is safe whenever data accumulate.",
+    "decision": "narrowed",
+    "reason": "Replacement, accumulation and fixed-budget sampling have different behavior; fresh-data diffusion bounds add another explicit protocol.",
+    "sources": [
+      "arxiv-2404.01413",
+      "arxiv-2410.16713",
+      "arxiv-2602.16601"
+    ],
+    "leads": [
+      "DISC-20261001-046"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-009",
+    "framing": "Universal exact conditional coverage is an achievable open target.",
+    "decision": "narrowed",
+    "reason": "Impossibility and positive restricted-class guarantees already exist; specify shift classes, efficiency and supervision budgets.",
+    "sources": [
+      "arxiv-2305.12616",
+      "arxiv-2607.18088"
+    ],
+    "leads": [
+      "DISC-20261001-049"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-010",
+    "framing": "SAEs have no recovery guarantees; disentanglement is impossible under any assumptions.",
+    "decision": "narrowed",
+    "reason": "Both claims omit existing positive theorems. Retain approximate-misspecification and semantic-validation questions.",
+    "sources": [
+      "arxiv-2506.14002",
+      "arxiv-1811.12359",
+      "arxiv-2206.07751"
+    ],
+    "leads": [
+      "DISC-20261001-055",
+      "DISC-20261001-063"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-011",
+    "framing": "Tree models are permanently superior on tabular data.",
+    "decision": "narrowed",
+    "reason": "TabPFN and its follow-up already change the historical benchmark conclusion; the proposed question is now the regime frontier, prior mismatch and explicit amortized compute.",
+    "sources": [
+      "arxiv-2207.08815",
+      "arxiv-2407.00956",
+      "hollmann2025-tabpfn",
+      "arxiv-2505.20003"
+    ],
+    "leads": [
+      "DISC-20261001-066"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-012",
+    "framing": "Cross-batch neighbors should be counted as unrelated new subjects.",
+    "decision": "identity boundaries recorded",
+    "reason": "Explicitly linked plasticity versus forgetting, augmentation versus collapse, attribution versus data selection, and classifier correction versus collapse geometry. Human semantic deduplication remains pending.",
+    "sources": [],
+    "leads": [
+      "DISC-20261001-027",
+      "DISC-20261001-036",
+      "DISC-20261001-058",
+      "DISC-20261001-065"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-013",
+    "framing": "Every multi-query search adequately covered every query.",
+    "decision": "coverage limitation recorded",
+    "reason": "Results were often dominated by one query. Targeted follow-ups were added for graphs, RL, LoRA, MAE, operators and calibration; recent pruning/offline-RL checks remain thin.",
+    "sources": [],
+    "leads": [
+      "DISC-20261001-037",
+      "DISC-20261001-039",
+      "DISC-20261001-057"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-014",
+    "framing": "Venue search is equivalent to a completed recent-literature audit.",
+    "decision": "coverage limitation recorded",
+    "reason": "Primary Nature, PMLR and ACL abstracts changed several framings. An OpenReview pruning landing page hit a browser verification gate, so that paper remains an unreviewed search lead; this was not treated as absence of recent pruning work.",
+    "sources": [
+      "hollmann2025-tabpfn",
+      "pmlr-wang25dx",
+      "acl-wold2025"
+    ],
+    "leads": [
+      "DISC-20261001-039",
+      "DISC-20261001-066"
+    ]
+  },
+  {
+    "id": "TRIAGE-B2-015",
+    "framing": "Predict which data favors trees, ordinary neural networks or tabular foundation models.",
+    "decision": "excluded from main scientific scope",
+    "reason": "The maintainer requests mechanisms intrinsic to deep learning, not a model-family selection map. Preserve DISC-20261001-066 and its bibliography as historical discovery; a genuinely mechanistic successor needs its own question and review.",
+    "sources": [],
+    "leads": [
+      "DISC-20261001-066"
+    ]
+  }
+]

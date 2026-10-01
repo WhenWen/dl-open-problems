@@ -1,0 +1,31 @@
+{
+  "title": "# Breadth expansion: 2026 10 01",
+  "areas": [
+    "architecture dynamics",
+    "compositional learning",
+    "compression and adaptation",
+    "data attribution",
+    "differentially private learning",
+    "federated learning",
+    "generalization mechanisms",
+    "generative training dynamics",
+    "graph learning",
+    "long-tailed recognition",
+    "machine unlearning",
+    "mechanistic interpretability",
+    "model merging",
+    "multimodal learning",
+    "non-language reinforcement learning",
+    "out-of-distribution detection",
+    "predictive uncertainty",
+    "representation identifiability",
+    "robustness and domain shift",
+    "scientific machine learning",
+    "self-supervised vision",
+    "symmetry and geometric learning",
+    "synthetic-data feedback",
+    "tabular learning"
+  ],
+  "limitations": "This purposive, English-language, arXiv-heavy pass broadens the earlier LM emphasis but is not exhaustive. A selected primary abstract is not a theorem audit or independent validation. Explicit recent-work searches were uneven and sometimes returned unrelated subjects; foundational pairs do not establish the latest frontier. We did not measure search saturation or complete backward/forward citation traversal. The coverage ledger records thin areas and a specific next search for every subfield.",
+  "audit_next": "The focused training-and-generalization queue supersedes the original breadth-first audit order. Start with leads 001, 004, 027, 036, 013 and 051 across the two batches; see [the focused reading queue](../../docs/TRAINING_GENERALIZATION.md). This is a literature-reading priority, not a claim of novelty or an experimental queue."
+}

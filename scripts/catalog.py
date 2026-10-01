@@ -131,7 +131,7 @@ def render(tax, cards, searches):
     def cell(s):
         return s.replace('|', '\\|').replace('\n', ' ')
     rows = ['# Problem index', '', 'Generated from structured metadata. Edit cards and search records, then run `python3 scripts/catalog.py`.', '',
-            'Candidate means an incomplete literature audit, not a verified open problem.', '',
+            'Candidate means an incomplete literature audit, not a verified open problem.', '', '[Batch discovery queue](discovery/README.md) contains additional leads awaiting deeper review and is not counted as canonical cards.', '',
             '| ID | Question | Status | Topics | Last checked |', '| --- | --- | --- | --- | --- |']
     for p in cards:
         rows.append(f"| {p['id']} | [{cell(p['title'])}](problems/{p['id']}/README.md) | {p['status']} | {', '.join(p['topics'])} | {p['last_reviewed']} |")

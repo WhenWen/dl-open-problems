@@ -37,3 +37,7 @@ Only the linked abstract was screened on 2026-10-01. Backward and forward citati
 ## Related problems
 
 DLOP-0002 concerns forecasting internal states. This card concerns loss predictions; either can make progress without resolving the other.
+
+## Discovery update on 2026 10 01
+
+The batch identified optimal-schedule and joint-schedule results in controlled models. The question must focus on the precise transfer and identifiability boundary, rather than claim there is no schedule theory. See the [batch discovery report](../../discovery/2026-10-01/README.md) and its versioned references. Status remains candidate; full-text review is incomplete.

@@ -17,7 +17,11 @@
   "target": "Transferred hyperparameter performance and an estimate of transfer failure.",
   "intervention": "Vary scale axes separately and jointly with matched compute accounting.",
   "sources": [
-    "yang2022"
+    "yang2022",
+    "arxiv-2502.02531",
+    "arxiv-2407.17465",
+    "arxiv-2605.14200",
+    "arxiv-2605.15290"
   ],
   "relations": [],
   "status": "candidate",

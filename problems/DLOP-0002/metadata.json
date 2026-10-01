@@ -17,7 +17,9 @@
   "target": "Norm and update statistics under a changed schedule.",
   "intervention": "Change learning rate schedules while fixing architecture, data protocol and optimizer implementation.",
   "sources": [
-    "malladi2022"
+    "malladi2022",
+    "arxiv-2510.13680",
+    "arxiv-2307.15196"
   ],
   "relations": [
     {

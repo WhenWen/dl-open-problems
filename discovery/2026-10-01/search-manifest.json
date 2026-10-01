@@ -1,0 +1,293 @@
+[
+  {
+    "id": "optimization-scaling",
+    "date": "2026-10-01",
+    "queries": [
+      "\"learning rate schedules\" \"scaling laws\" \"2026\" site:arxiv.org",
+      "\"central flows\" \"edge of stability\" site:arxiv.org",
+      "\"depth\" \"hyperparameter transfer\" \"2025\" site:arxiv.org",
+      "\"neural scaling laws\" \"compute optimal\" \"2026\" site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2602.06797",
+      "2602.04774",
+      "2502.02531",
+      "2609.40148"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "data-representations",
+    "date": "2026-10-01",
+    "queries": [
+      "\"data mixing\" \"scaling\" \"2026\" site:arxiv.org",
+      "\"data repetition\" \"language models\" \"scaling\" site:arxiv.org",
+      "\"grokking\" \"theory\" \"2026\" site:arxiv.org",
+      "\"neural collapse\" \"class imbalance\" \"theory\" site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2608.14071",
+      "2602.11149",
+      "2606.01155",
+      "2606.24998"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "icl-generative",
+    "date": "2026-10-01",
+    "queries": [
+      "\"in-context learning\" \"Bayesian\" \"gradient descent\" site:arxiv.org",
+      "\"in-context learning\" \"out-of-distribution\" \"2026\" site:arxiv.org",
+      "\"classifier-free guidance\" \"theory\" \"2026\" site:arxiv.org",
+      "\"diffusion\" \"memorization\" \"phase transition\" site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2508.17689",
+      "2410.08727",
+      "2601.06100",
+      "2602.17744",
+      "2310.00313"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "post-training-precision",
+    "date": "2026-10-01",
+    "queries": [
+      "\"reinforcement learning\" \"reasoning capacity\" \"ProRL\" site:arxiv.org",
+      "\"DPO\" \"reward overoptimization\" \"theory\" site:arxiv.org",
+      "\"Scaling Laws for Precision\" site:arxiv.org",
+      "\"low precision\" \"Adam\" \"training\" \"2026\" site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2411.04330",
+      "2602.19241",
+      "1006.1645",
+      "2607.10611",
+      "2407.13399"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "opt-foundations",
+    "date": "2026-10-01",
+    "queries": [
+      "\"Understanding Optimization in Deep Learning with Central Flows\"",
+      "\"An Empirical Model of Large-Batch Training\"",
+      "\"The Marginal Value of Momentum\" neural networks",
+      "\"Adam or Gauss-Newton\" basis alignment"
+    ],
+    "returned_arxiv_ids": [
+      "2410.24206",
+      "1812.06162",
+      "2510.13680",
+      "2307.15196"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "rep-foundations",
+    "date": "2026-10-01",
+    "queries": [
+      "\"grokking\" \"lazy\" \"rich\" Kumar",
+      "\"neural collapse\" \"imbalanced\" \"minority collapse\"",
+      "\"benign overfitting\" \"deep neural\" theory empirical",
+      "\"catastrophic forgetting\" \"feature learning\" theory neural network"
+    ],
+    "returned_arxiv_ids": [
+      "2007.04028",
+      "2305.19377",
+      "2207.06569",
+      "2106.10865"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "rl-foundations",
+    "date": "2026-10-01",
+    "queries": [
+      "\"ProRL\" \"Prolonged Reinforcement Learning Expands Reasoning Boundaries\"",
+      "\"Does Reinforcement Learning Really Incentivize Reasoning Capacity\"",
+      "\"Scaling Laws for Reward Model Overoptimization\"",
+      "\"Scaling of Search and Learning\" \"test-time\""
+    ],
+    "returned_arxiv_ids": [
+      "2210.10760",
+      "2504.13837",
+      "2406.02900",
+      "2505.24864"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "grokking-collapse",
+    "date": "2026-10-01",
+    "queries": [
+      "\"Grokking as the Transition from Lazy to Rich Training Dynamics\"",
+      "\"Grokking at the Edge of Numerical Stability\"",
+      "\"neural collapse\" \"layer-peeled\" minority",
+      "\"catastrophic forgetting\" \"theory\" \"feature\" site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2310.06110",
+      "2501.04697",
+      "2101.12699",
+      "2203.09081"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "icl-guidance",
+    "date": "2026-10-01",
+    "queries": [
+      "\"Understanding Classifier-Free Guidance\" \"High-Dimensional\"",
+      "\"What learning algorithm is in-context learning\"",
+      "\"in-context learning\" \"out-of-distribution\" regression site:arxiv.org",
+      "\"Lost in the Middle\" long contexts arxiv"
+    ],
+    "returned_arxiv_ids": [
+      "2307.03172",
+      "2412.10079",
+      "2502.07849",
+      "2211.15661"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "data-compute",
+    "date": "2026-10-01",
+    "queries": [
+      "\"Data Mixing Laws\"",
+      "\"Scaling Data-Constrained Language Models\"",
+      "\"Scaling LLM Test-Time Compute Optimally\"",
+      "\"Scaling Laws for Neural Language Models\" inference compute optimal"
+    ],
+    "returned_arxiv_ids": [
+      "2408.03314",
+      "2403.16952",
+      "2001.08361",
+      "2305.16264"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "order-sampling",
+    "date": "2026-10-01",
+    "queries": [
+      "\"data order\" \"curriculum\" \"language models\" theory site:arxiv.org",
+      "\"diffusion\" \"discretization\" \"score error\" \"theory\" site:arxiv.org",
+      "\"u-μP\" \"Unit-Scaled\"",
+      "\"neural collapse\" \"language models\" site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2607.09487",
+      "2405.17767",
+      "2209.11215",
+      "2604.00770"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "data-order",
+    "date": "2026-10-01",
+    "queries": [
+      "language model data ordering curriculum theory dynamics site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2601.21698",
+      "2510.19099",
+      "2405.07490",
+      "2608.17268",
+      "2401.01335",
+      "2305.13673",
+      "2402.17879",
+      "2203.02155"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "forgetting",
+    "date": "2026-10-01",
+    "queries": [
+      "catastrophic forgetting feature learning theory neural networks site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1312.6211",
+      "1708.02072",
+      "1612.00796",
+      "1904.00310",
+      "2304.04222",
+      "1912.13503",
+      "2210.06579"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "icl-ood",
+    "date": "2026-10-01",
+    "queries": [
+      "in context learning out of distribution generalization linear regression site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2505.14808",
+      "2506.05574",
+      "2507.09440",
+      "2405.15115",
+      "2405.09798",
+      "2310.00313"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "unit-scaling",
+    "date": "2026-10-01",
+    "queries": [
+      "u muP The Unit Scaled Maximal Update Parametrization"
+    ],
+    "returned_arxiv_ids": [
+      "2407.17465",
+      "2605.14200",
+      "2605.15290",
+      "2604.25409"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "forgetting-theory",
+    "date": "2026-10-01",
+    "queries": [
+      "catastrophic forgetting theoretical task similarity feature learning 2025 2026 site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2601.21577",
+      "2608.08673",
+      "2405.20236",
+      "2010.04003",
+      "2210.06579",
+      "1912.13503",
+      "2207.10131"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  },
+  {
+    "id": "sampling-theory",
+    "date": "2026-10-01",
+    "queries": [
+      "diffusion sampling discretization score error sharp convergence 2025 site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2508.03210",
+      "2602.15008",
+      "2607.23226",
+      "2609.36568",
+      "2202.07513",
+      "2311.00613",
+      "2403.17782",
+      "2305.10157",
+      "2403.15383",
+      "2108.04392"
+    ],
+    "method": "Web search for discovery; returned identifiers are search leads, not a list of fully reviewed papers."
+  }
+]

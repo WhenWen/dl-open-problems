@@ -19,5 +19,2405 @@
     "url": "https://arxiv.org/abs/2203.03466v2",
     "reading_depth": "abstract",
     "checked_on": "2026-10-01"
+  },
+  {
+    "id": "arxiv-2602.06797",
+    "title": "Optimal Learning Rate Schedules under Functional Scaling Laws: Power Decay and Warmup-Stable-Decay",
+    "url": "https://arxiv.org/abs/2602.06797v3",
+    "authors": [
+      "Li, Binghui",
+      "Wang, Zilin",
+      "Chen, Fengling",
+      "Zhao, Shiyang",
+      "Zheng, Ruiheng",
+      "Wu, Lei"
+    ],
+    "published": "2026-02-06",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2602.04774",
+    "title": "Theory of Optimal Learning Rate Schedules and Scaling Laws for a Random Feature Model",
+    "url": "https://arxiv.org/abs/2602.04774v2",
+    "authors": [
+      "Bordelon, Blake",
+      "Mori, Francesco"
+    ],
+    "published": "2026-02-04",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2609.40148",
+    "title": "From Spectra to Joint Schedules in LLM Pre-training: 3+3(+2) Scaling-Law Regimes",
+    "url": "https://arxiv.org/abs/2609.40148v1",
+    "authors": [
+      "Wang, Yichen",
+      "Liu, Fanghui",
+      "Chen, Yudong"
+    ],
+    "published": "2026-09-30",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2510.13680",
+    "title": "Adam or Gauss-Newton? A Comparative Study In Terms of Basis Alignment and SGD Noise",
+    "url": "https://arxiv.org/abs/2510.13680v2",
+    "authors": [
+      "Liu, Bingbin",
+      "Bansal, Rachit",
+      "Morwani, Depen",
+      "Vyas, Nikhil",
+      "Alvarez-Melis, David",
+      "Kakade, Sham M."
+    ],
+    "published": "2025-10-15",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2410.24206",
+    "title": "Understanding Optimization in Deep Learning with Central Flows",
+    "url": "https://arxiv.org/abs/2410.24206v2",
+    "authors": [
+      "Cohen, Jeremy M.",
+      "Damian, Alex",
+      "Talwalkar, Ameet",
+      "Kolter, J. Zico",
+      "Lee, Jason D."
+    ],
+    "published": "2024-10-31",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-1812.06162",
+    "title": "An Empirical Model of Large-Batch Training",
+    "url": "https://arxiv.org/abs/1812.06162v1",
+    "authors": [
+      "McCandlish, Sam",
+      "Kaplan, Jared",
+      "Amodei, Dario",
+      "Team, OpenAI Dota"
+    ],
+    "published": "2018-12-14",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2307.15196",
+    "title": "The Marginal Value of Momentum for Small Learning Rate SGD",
+    "url": "https://arxiv.org/abs/2307.15196v2",
+    "authors": [
+      "Wang, Runzhe",
+      "Malladi, Sadhika",
+      "Wang, Tianhao",
+      "Lyu, Kaifeng",
+      "Li, Zhiyuan"
+    ],
+    "published": "2023-07-27",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2502.02531",
+    "title": "Deep Linear Network Training Dynamics from Random Initialization: Data, Width, Depth, and Hyperparameter Transfer",
+    "url": "https://arxiv.org/abs/2502.02531v3",
+    "authors": [
+      "Bordelon, Blake",
+      "Pehlevan, Cengiz"
+    ],
+    "published": "2025-02-04",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2407.17465",
+    "title": "u-$\\mu$P: The Unit-Scaled Maximal Update Parametrization",
+    "url": "https://arxiv.org/abs/2407.17465v3",
+    "authors": [
+      "Blake, Charlie",
+      "Eichenberg, Constantin",
+      "Dean, Josef",
+      "Balles, Lukas",
+      "Prince, Luke Y.",
+      "Deiseroth, Björn",
+      "Cruz-Salinas, Andres Felipe",
+      "Luschi, Carlo",
+      "Weinbach, Samuel",
+      "Orr, Douglas"
+    ],
+    "published": "2024-07-24",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2605.14200",
+    "title": "How to Scale Mixture-of-Experts: From muP to the Maximally Scale-Stable Parameterization",
+    "url": "https://arxiv.org/abs/2605.14200v1",
+    "authors": [
+      "Vankadara, Leena Chennuru",
+      "Haas, Moritz",
+      "Hayward, Luke",
+      "Bordt, Sebastian",
+      "Breccia, Alessandro"
+    ],
+    "published": "2026-05-13",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2605.15290",
+    "title": "GQA-{\\mu}P: The maximal parameterization update for grouped query attention",
+    "url": "https://arxiv.org/abs/2605.15290v1",
+    "authors": [
+      "Chickering, Kyle R.",
+      "Wang, Huijuan",
+      "Wu, Mengxi",
+      "Moreno, Alexander",
+      "Chen, Muhao",
+      "Ma, Xuezhe",
+      "Soboleva, Daria",
+      "Hestness, Joel",
+      "Liu, Zhengzhong",
+      "Xing, Eric"
+    ],
+    "published": "2026-05-14",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2001.08361",
+    "title": "Scaling Laws for Neural Language Models",
+    "url": "https://arxiv.org/abs/2001.08361v1",
+    "authors": [
+      "Kaplan, Jared",
+      "McCandlish, Sam",
+      "Henighan, Tom",
+      "Brown, Tom B.",
+      "Chess, Benjamin",
+      "Child, Rewon",
+      "Gray, Scott",
+      "Radford, Alec",
+      "Wu, Jeffrey",
+      "Amodei, Dario"
+    ],
+    "published": "2020-01-23",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2203.15556",
+    "title": "Training Compute-Optimal Large Language Models",
+    "url": "https://arxiv.org/abs/2203.15556v1",
+    "authors": [
+      "Hoffmann, Jordan",
+      "Borgeaud, Sebastian",
+      "Mensch, Arthur",
+      "Buchatskaya, Elena",
+      "Cai, Trevor",
+      "Rutherford, Eliza",
+      "Casas, Diego de Las",
+      "Hendricks, Lisa Anne",
+      "Welbl, Johannes",
+      "Clark, Aidan",
+      "Hennigan, Tom",
+      "Noland, Eric",
+      "Millican, Katie",
+      "Driessche, George van den",
+      "Damoc, Bogdan",
+      "Guy, Aurelia",
+      "Osindero, Simon",
+      "Simonyan, Karen",
+      "Elsen, Erich",
+      "Rae, Jack W.",
+      "Vinyals, Oriol",
+      "Sifre, Laurent"
+    ],
+    "published": "2022-03-29",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2408.03314",
+    "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+    "url": "https://arxiv.org/abs/2408.03314v1",
+    "authors": [
+      "Snell, Charlie",
+      "Lee, Jaehoon",
+      "Xu, Kelvin",
+      "Kumar, Aviral"
+    ],
+    "published": "2024-08-06",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2403.16952",
+    "title": "Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance",
+    "url": "https://arxiv.org/abs/2403.16952v2",
+    "authors": [
+      "Ye, Jiasheng",
+      "Liu, Peiju",
+      "Sun, Tianxiang",
+      "Zhan, Jun",
+      "Zhou, Yunhua",
+      "Qiu, Xipeng"
+    ],
+    "published": "2024-03-25",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2609.38011",
+    "title": "When do data mixtures improve scaling laws? Insights from high-dimensional regression",
+    "url": "https://arxiv.org/abs/2609.38011v1",
+    "authors": [
+      "Wu, Diyuan",
+      "Chen, Lehan",
+      "Misiakiewicz, Theodor",
+      "Mondelli, Marco"
+    ],
+    "published": "2026-09-29",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2305.16264",
+    "title": "Scaling Data-Constrained Language Models",
+    "url": "https://arxiv.org/abs/2305.16264v5",
+    "authors": [
+      "Muennighoff, Niklas",
+      "Rush, Alexander M.",
+      "Barak, Boaz",
+      "Scao, Teven Le",
+      "Piktus, Aleksandra",
+      "Tazi, Nouamane",
+      "Pyysalo, Sampo",
+      "Wolf, Thomas",
+      "Raffel, Colin"
+    ],
+    "published": "2023-05-25",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2608.14071",
+    "title": "Scaling Domain Data Repetition in LLM Pretraining",
+    "url": "https://arxiv.org/abs/2608.14071v1",
+    "authors": [
+      "Li, Jingwei",
+      "Gu, Xinran",
+      "Dai, Rui",
+      "Hao, Xintong",
+      "Xu, Chengyin",
+      "Wu, Yan",
+      "Zheng, Shuran",
+      "Zhang, Jingzhao"
+    ],
+    "published": "2026-08-14",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2606.24998",
+    "title": "Internal Data Repetition Destroys Language Models",
+    "url": "https://arxiv.org/abs/2606.24998v1",
+    "authors": [
+      "Chudnovsky, Jessica",
+      "Kazdan, Joshua",
+      "Levi, Noam",
+      "Schaeffer, Rylan",
+      "Denisov-Blanch, Yegor",
+      "He, Bo",
+      "Donmez, Mehmet",
+      "Koyejo, Sanmi",
+      "Donoho, David"
+    ],
+    "published": "2026-06-23",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2602.11149",
+    "title": "Data Repetition Beats Data Scaling in Long-CoT Supervised Fine-Tuning",
+    "url": "https://arxiv.org/abs/2602.11149v2",
+    "authors": [
+      "Kopiczko, Dawid J.",
+      "Vaze, Sagar",
+      "Blankevoort, Tijmen",
+      "Asano, Yuki M."
+    ],
+    "published": "2026-02-11",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2601.21698",
+    "title": "Curriculum Learning for LLM Pretraining: An Analysis of Learning Dynamics",
+    "url": "https://arxiv.org/abs/2601.21698v2",
+    "authors": [
+      "Elgaar, Mohamed",
+      "Amiri, Hadi"
+    ],
+    "published": "2026-01-29",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2510.19099",
+    "title": "What Makes a Good Curriculum? Disentangling the Effects of Data Ordering on LLM Mathematical Reasoning",
+    "url": "https://arxiv.org/abs/2510.19099v2",
+    "authors": [
+      "Jia, Yaning",
+      "Zhang, Chunhui",
+      "Diao, Xingjian",
+      "Yuan, Xiangchi",
+      "Ouyang, Zhongyu",
+      "Ma, Chiyu",
+      "Vosoughi, Soroush"
+    ],
+    "published": "2025-10-21",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2608.17268",
+    "title": "Understanding Curriculum Learning in Large Language Models via Cross-Difficulty Optimization Dynamics",
+    "url": "https://arxiv.org/abs/2608.17268v1",
+    "authors": [
+      "Ding, Zhikai",
+      "Ye, Ziyi"
+    ],
+    "published": "2026-08-18",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2310.06110",
+    "title": "Grokking as the Transition from Lazy to Rich Training Dynamics",
+    "url": "https://arxiv.org/abs/2310.06110v3",
+    "authors": [
+      "Kumar, Tanishq",
+      "Bordelon, Blake",
+      "Gershman, Samuel J.",
+      "Pehlevan, Cengiz"
+    ],
+    "published": "2023-10-09",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2501.04697",
+    "title": "Grokking at the Edge of Numerical Stability",
+    "url": "https://arxiv.org/abs/2501.04697v2",
+    "authors": [
+      "Prieto, Lucas",
+      "Barsbey, Melih",
+      "Mediano, Pedro A. M.",
+      "Birdal, Tolga"
+    ],
+    "published": "2025-01-08",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2101.12699",
+    "title": "Exploring Deep Neural Networks via Layer-Peeled Model: Minority Collapse in Imbalanced Training",
+    "url": "https://arxiv.org/abs/2101.12699v3",
+    "authors": [
+      "Fang, Cong",
+      "He, Hangfeng",
+      "Long, Qi",
+      "Su, Weijie J."
+    ],
+    "published": "2021-01-29",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2405.17767",
+    "title": "Linguistic Collapse: Neural Collapse in (Large) Language Models",
+    "url": "https://arxiv.org/abs/2405.17767v3",
+    "authors": [
+      "Wu, Robert",
+      "Papyan, Vardan"
+    ],
+    "published": "2024-05-28",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2607.09487",
+    "title": "Neural Collapse Is Forbidden: Information Floors in Language Models",
+    "url": "https://arxiv.org/abs/2607.09487v1",
+    "authors": [
+      "Abrahao, Bruno"
+    ],
+    "published": "2026-07-10",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2305.19377",
+    "title": "Benign Overfitting in Deep Neural Networks under Lazy Training",
+    "url": "https://arxiv.org/abs/2305.19377v1",
+    "authors": [
+      "Zhu, Zhenyu",
+      "Liu, Fanghui",
+      "Chrysos, Grigorios G",
+      "Locatello, Francesco",
+      "Cevher, Volkan"
+    ],
+    "published": "2023-05-30",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2207.06569",
+    "title": "Benign, Tempered, or Catastrophic: A Taxonomy of Overfitting",
+    "url": "https://arxiv.org/abs/2207.06569v3",
+    "authors": [
+      "Mallinar, Neil",
+      "Simon, James B.",
+      "Abedsoltan, Amirhesam",
+      "Pandit, Parthe",
+      "Belkin, Mikhail",
+      "Nakkiran, Preetum"
+    ],
+    "published": "2022-07-14",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2007.04028",
+    "title": "How benign is benign overfitting?",
+    "url": "https://arxiv.org/abs/2007.04028v1",
+    "authors": [
+      "Sanyal, Amartya",
+      "Dokania, Puneet K",
+      "Kanade, Varun",
+      "Torr, Philip H. S."
+    ],
+    "published": "2020-07-08",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-1612.00796",
+    "title": "Overcoming catastrophic forgetting in neural networks",
+    "url": "https://arxiv.org/abs/1612.00796v2",
+    "authors": [
+      "Kirkpatrick, James",
+      "Pascanu, Razvan",
+      "Rabinowitz, Neil",
+      "Veness, Joel",
+      "Desjardins, Guillaume",
+      "Rusu, Andrei A.",
+      "Milan, Kieran",
+      "Quan, John",
+      "Ramalho, Tiago",
+      "Grabska-Barwinska, Agnieszka",
+      "Hassabis, Demis",
+      "Clopath, Claudia",
+      "Kumaran, Dharshan",
+      "Hadsell, Raia"
+    ],
+    "published": "2016-12-02",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2405.20236",
+    "title": "Disentangling and Mitigating the Impact of Task Similarity for Continual Learning",
+    "url": "https://arxiv.org/abs/2405.20236v1",
+    "authors": [
+      "Hiratani, Naoki"
+    ],
+    "published": "2024-05-30",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2601.21577",
+    "title": "Collaborative Parameter Learning: Mitigating Forgetting via Parameter-Level Gradient Analysis",
+    "url": "https://arxiv.org/abs/2601.21577v2",
+    "authors": [
+      "Yang, Mutian",
+      "Zhan, Zisen",
+      "Chen, Yutong",
+      "Li, Haolin",
+      "Wang, Kaiwen",
+      "Zheng, Kaili",
+      "Wang, Yuguang",
+      "Wang, Qi",
+      "Gao, Jiandong",
+      "Wu, Ji"
+    ],
+    "published": "2026-01-29",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2111.02080",
+    "title": "An Explanation of In-context Learning as Implicit Bayesian Inference",
+    "url": "https://arxiv.org/abs/2111.02080v6",
+    "authors": [
+      "Xie, Sang Michael",
+      "Raghunathan, Aditi",
+      "Liang, Percy",
+      "Ma, Tengyu"
+    ],
+    "published": "2021-11-03",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2212.07677",
+    "title": "Transformers learn in-context by gradient descent",
+    "url": "https://arxiv.org/abs/2212.07677v2",
+    "authors": [
+      "von Oswald, Johannes",
+      "Niklasson, Eyvind",
+      "Randazzo, Ettore",
+      "Sacramento, João",
+      "Mordvintsev, Alexander",
+      "Zhmoginov, Andrey",
+      "Vladymyrov, Max"
+    ],
+    "published": "2022-12-15",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2211.15661",
+    "title": "What learning algorithm is in-context learning? Investigations with linear models",
+    "url": "https://arxiv.org/abs/2211.15661v3",
+    "authors": [
+      "Akyürek, Ekin",
+      "Schuurmans, Dale",
+      "Andreas, Jacob",
+      "Ma, Tengyu",
+      "Zhou, Denny"
+    ],
+    "published": "2022-11-28",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2507.09440",
+    "title": "Transformers Don't In-Context Learn Least Squares Regression",
+    "url": "https://arxiv.org/abs/2507.09440v1",
+    "authors": [
+      "Hill, Joshua",
+      "Eyre, Benjamin",
+      "Creager, Elliot"
+    ],
+    "published": "2025-07-13",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2505.14808",
+    "title": "Out-of-Distribution Generalization of In-Context Learning: A Low-Dimensional Subspace Perspective",
+    "url": "https://arxiv.org/abs/2505.14808v2",
+    "authors": [
+      "Kwon, Soo Min",
+      "Xu, Alec S.",
+      "Yaras, Can",
+      "Balzano, Laura",
+      "Qu, Qing"
+    ],
+    "published": "2025-05-20",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2506.05574",
+    "title": "When can in-context learning generalize out of task distribution?",
+    "url": "https://arxiv.org/abs/2506.05574v2",
+    "authors": [
+      "Goddard, Chase",
+      "Smith, Lindsay M.",
+      "Ngampruetikorn, Vudtiwat",
+      "Schwab, David J."
+    ],
+    "published": "2025-06-05",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2405.15115",
+    "title": "Towards Better Understanding of In-Context Learning Ability from In-Context Uncertainty Quantification",
+    "url": "https://arxiv.org/abs/2405.15115v1",
+    "authors": [
+      "Liu, Shang",
+      "Cai, Zhongze",
+      "Chen, Guanting",
+      "Li, Xiaocheng"
+    ],
+    "published": "2024-05-24",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2307.03172",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "url": "https://arxiv.org/abs/2307.03172v3",
+    "authors": [
+      "Liu, Nelson F.",
+      "Lin, Kevin",
+      "Hewitt, John",
+      "Paranjape, Ashwin",
+      "Bevilacqua, Michele",
+      "Petroni, Fabio",
+      "Liang, Percy"
+    ],
+    "published": "2023-07-06",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2412.10079",
+    "title": "Lost in the Middle, and In-Between: Enhancing Language Models' Ability to Reason Over Long Contexts in Multi-Hop QA",
+    "url": "https://arxiv.org/abs/2412.10079v1",
+    "authors": [
+      "Baker, George Arthur",
+      "Raut, Ankush",
+      "Shaier, Sagi",
+      "Hunter, Lawrence E",
+      "von der Wense, Katharina"
+    ],
+    "published": "2024-12-13",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2502.07849",
+    "title": "Classifier-Free Guidance: From High-Dimensional Analysis to Generalized Guidance Forms",
+    "url": "https://arxiv.org/abs/2502.07849v2",
+    "authors": [
+      "Pavasovic, Krunoslav Lehman",
+      "Verbeek, Jakob",
+      "Biroli, Giulio",
+      "Mezard, Marc"
+    ],
+    "published": "2025-02-11",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2508.17689",
+    "title": "On the Edge of Memorization in Diffusion Models",
+    "url": "https://arxiv.org/abs/2508.17689v1",
+    "authors": [
+      "Buchanan, Sam",
+      "Pai, Druv",
+      "Ma, Yi",
+      "De Bortoli, Valentin"
+    ],
+    "published": "2025-08-25",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2410.08727",
+    "title": "Losing dimensions: Geometric memorization in generative diffusion",
+    "url": "https://arxiv.org/abs/2410.08727v2",
+    "authors": [
+      "Achilli, Beatrice",
+      "Ventura, Enrico",
+      "Silvestri, Gianluigi",
+      "Pham, Bao",
+      "Raya, Gabriel",
+      "Krotov, Dmitry",
+      "Lucibello, Carlo",
+      "Ambrogioni, Luca"
+    ],
+    "published": "2024-10-11",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2209.11215",
+    "title": "Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions",
+    "url": "https://arxiv.org/abs/2209.11215v3",
+    "authors": [
+      "Chen, Sitan",
+      "Chewi, Sinho",
+      "Li, Jerry",
+      "Li, Yuanzhi",
+      "Salim, Adil",
+      "Zhang, Anru R."
+    ],
+    "published": "2022-09-22",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2508.03210",
+    "title": "Convergence of Deterministic and Stochastic Diffusion-Model Samplers: A Simple Analysis in Wasserstein Distance",
+    "url": "https://arxiv.org/abs/2508.03210v2",
+    "authors": [
+      "Beyler, Eliot",
+      "Bach, Francis"
+    ],
+    "published": "2025-08-05",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2607.23226",
+    "title": "From Score Learning to Discretized Sampling: An End-to-End Generalization Analysis of Diffusion Models",
+    "url": "https://arxiv.org/abs/2607.23226v1",
+    "authors": [
+      "Huang, Jinshu",
+      "Jiang, Yiming",
+      "Wu, Chunlin"
+    ],
+    "published": "2026-07-25",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2504.13837",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "url": "https://arxiv.org/abs/2504.13837v5",
+    "authors": [
+      "Yue, Yang",
+      "Chen, Zhiqi",
+      "Lu, Rui",
+      "Zhao, Andrew",
+      "Wang, Zhaokai",
+      "Yue, Yang",
+      "Song, Shiji",
+      "Huang, Gao"
+    ],
+    "published": "2025-04-18",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2505.24864",
+    "title": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models",
+    "url": "https://arxiv.org/abs/2505.24864v1",
+    "authors": [
+      "Liu, Mingjie",
+      "Diao, Shizhe",
+      "Lu, Ximing",
+      "Hu, Jian",
+      "Dong, Xin",
+      "Choi, Yejin",
+      "Kautz, Jan",
+      "Dong, Yi"
+    ],
+    "published": "2025-05-30",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2210.10760",
+    "title": "Scaling Laws for Reward Model Overoptimization",
+    "url": "https://arxiv.org/abs/2210.10760v1",
+    "authors": [
+      "Gao, Leo",
+      "Schulman, John",
+      "Hilton, Jacob"
+    ],
+    "published": "2022-10-19",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2406.02900",
+    "title": "Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms",
+    "url": "https://arxiv.org/abs/2406.02900v2",
+    "authors": [
+      "Rafailov, Rafael",
+      "Chittepu, Yaswanth",
+      "Park, Ryan",
+      "Sikchi, Harshit",
+      "Hejna, Joey",
+      "Knox, Bradley",
+      "Finn, Chelsea",
+      "Niekum, Scott"
+    ],
+    "published": "2024-06-05",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2407.13399",
+    "title": "Correcting the Mythos of KL-Regularization: Direct Alignment without Overoptimization via Chi-Squared Preference Optimization",
+    "url": "https://arxiv.org/abs/2407.13399v3",
+    "authors": [
+      "Huang, Audrey",
+      "Zhan, Wenhao",
+      "Xie, Tengyang",
+      "Lee, Jason D.",
+      "Sun, Wen",
+      "Krishnamurthy, Akshay",
+      "Foster, Dylan J."
+    ],
+    "published": "2024-07-18",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2411.04330",
+    "title": "Scaling Laws for Precision",
+    "url": "https://arxiv.org/abs/2411.04330v2",
+    "authors": [
+      "Kumar, Tanishq",
+      "Ankner, Zachary",
+      "Spector, Benjamin F.",
+      "Bordelon, Blake",
+      "Muennighoff, Niklas",
+      "Paul, Mansheej",
+      "Pehlevan, Cengiz",
+      "Ré, Christopher",
+      "Raghunathan, Aditi"
+    ],
+    "published": "2024-11-07",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2602.19241",
+    "title": "Scaling Laws for Precision in High-Dimensional Linear Regression",
+    "url": "https://arxiv.org/abs/2602.19241v2",
+    "authors": [
+      "Dechen Zhang",
+      "Xuan Tang",
+      "Yingyu Liang",
+      "Difan Zou"
+    ],
+    "published": "2026-02-22",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2607.10611",
+    "title": "M+Adam: Low-Precision Training via Additive-Multiplicative Optimization",
+    "url": "https://arxiv.org/abs/2607.10611v2",
+    "authors": [
+      "Liang, Xiaoyuan",
+      "Loeschcke, Sebastian",
+      "Toftrup, Mads",
+      "Anandkumar, Anima"
+    ],
+    "published": "2026-07-12",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract page screened in discovery batch 2026-10-01; theorem assumptions and current-field novelty not audited."
+  },
+  {
+    "id": "arxiv-2110.04947",
+    "title": "Towards Demystifying Representation Learning with Non-contrastive Self-supervision",
+    "url": "https://arxiv.org/abs/2110.04947v2",
+    "authors": [
+      "Wang, Xiang",
+      "Chen, Xinlei",
+      "Du, Simon S.",
+      "Tian, Yuandong"
+    ],
+    "published": "2021-10-11",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2309.16109",
+    "title": "Feature Normalization Prevents Collapse of Non-contrastive Learning Dynamics",
+    "url": "https://arxiv.org/abs/2309.16109v2",
+    "authors": [
+      "Bao, Han"
+    ],
+    "published": "2023-09-28",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2209.15007",
+    "title": "Understanding Collapse in Non-Contrastive Siamese Representation Learning",
+    "url": "https://arxiv.org/abs/2209.15007v2",
+    "authors": [
+      "Li, Alexander C.",
+      "Efros, Alexei A.",
+      "Pathak, Deepak"
+    ],
+    "published": "2022-09-29",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2507.01028",
+    "title": "Dual Perspectives on Non-Contrastive Self-Supervised Learning",
+    "url": "https://arxiv.org/abs/2507.01028v3",
+    "authors": [
+      "Ponce, Jean",
+      "Terver, Basile",
+      "Hebert, Martial",
+      "Arbel, Michael"
+    ],
+    "published": "2025-06-18",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2203.13457",
+    "title": "Chaos is a Ladder: A New Theoretical Understanding of Contrastive Learning via Augmentation Overlap",
+    "url": "https://arxiv.org/abs/2203.13457v2",
+    "authors": [
+      "Wang, Yifei",
+      "Zhang, Qi",
+      "Wang, Yisen",
+      "Yang, Jiansheng",
+      "Lin, Zhouchen"
+    ],
+    "published": "2022-03-25",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2506.04411",
+    "title": "Self-Supervised Contrastive Learning is Approximately Supervised Contrastive Learning",
+    "url": "https://arxiv.org/abs/2506.04411v2",
+    "authors": [
+      "Luthra, Achleshwar",
+      "Yang, Tianbao",
+      "Galanti, Tomer"
+    ],
+    "published": "2025-06-04",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2205.09113",
+    "title": "Masked Autoencoders As Spatiotemporal Learners",
+    "url": "https://arxiv.org/abs/2205.09113v2",
+    "authors": [
+      "Feichtenhofer, Christoph",
+      "Fan, Haoqi",
+      "Li, Yanghao",
+      "He, Kaiming"
+    ],
+    "published": "2022-05-18",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2306.04898",
+    "title": "Understanding Masked Autoencoders via Hierarchical Latent Variable Models",
+    "url": "https://arxiv.org/abs/2306.04898v1",
+    "authors": [
+      "Kong, Lingjing",
+      "Ma, Martin Q.",
+      "Chen, Guangyi",
+      "Xing, Eric P.",
+      "Chi, Yuejie",
+      "Morency, Louis-Philippe",
+      "Zhang, Kun"
+    ],
+    "published": "2023-06-08",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1901.08573",
+    "title": "Theoretically Principled Trade-off between Robustness and Accuracy",
+    "url": "https://arxiv.org/abs/1901.08573v3",
+    "authors": [
+      "Zhang, Hongyang",
+      "Yu, Yaodong",
+      "Jiao, Jiantao",
+      "Xing, Eric P.",
+      "Ghaoui, Laurent El",
+      "Jordan, Michael I."
+    ],
+    "published": "2019-01-24",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2110.11950",
+    "title": "Adversarial robustness for latent models: Revisiting the robust-standard accuracies tradeoff",
+    "url": "https://arxiv.org/abs/2110.11950v2",
+    "authors": [
+      "Javanmard, Adel",
+      "Mehrabi, Mohammad"
+    ],
+    "published": "2021-10-22",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2002.10716",
+    "title": "Understanding and Mitigating the Tradeoff Between Robustness and Accuracy",
+    "url": "https://arxiv.org/abs/2002.10716v2",
+    "authors": [
+      "Raghunathan, Aditi",
+      "Xie, Sang Michael",
+      "Yang, Fanny",
+      "Duchi, John",
+      "Liang, Percy"
+    ],
+    "published": "2020-02-25",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2010.05761",
+    "title": "The Risks of Invariant Risk Minimization",
+    "url": "https://arxiv.org/abs/2010.05761v2",
+    "authors": [
+      "Rosenfeld, Elan",
+      "Ravikumar, Pradeep",
+      "Risteski, Andrej"
+    ],
+    "published": "2020-10-12",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2101.01134",
+    "title": "Does Invariant Risk Minimization Capture Invariance?",
+    "url": "https://arxiv.org/abs/2101.01134v2",
+    "authors": [
+      "Kamath, Pritish",
+      "Tangella, Akilesh",
+      "Sutherland, Danica J.",
+      "Srebro, Nathan"
+    ],
+    "published": "2021-01-04",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2211.15646",
+    "title": "Beyond Invariance: Test-Time Label-Shift Adaptation for Distributions with \"Spurious\" Correlations",
+    "url": "https://arxiv.org/abs/2211.15646v4",
+    "authors": [
+      "Sun, Qingyao",
+      "Murphy, Kevin",
+      "Ebrahimi, Sayna",
+      "D'Amour, Alexander"
+    ],
+    "published": "2022-11-28",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2208.03471",
+    "title": "Oversquashing in GNNs through the lens of information contraction and graph expansion",
+    "url": "https://arxiv.org/abs/2208.03471v1",
+    "authors": [
+      "Banerjee, Pradeep Kr.",
+      "Karhadkar, Kedar",
+      "Wang, Yu Guang",
+      "Alon, Uri",
+      "Montúfar, Guido"
+    ],
+    "published": "2022-08-06",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2510.17457",
+    "title": "Deeper with Riemannian Geometry: Overcoming Oversmoothing and Oversquashing for Graph Foundation Models",
+    "url": "https://arxiv.org/abs/2510.17457v1",
+    "authors": [
+      "Sun, Li",
+      "Huang, Zhenhao",
+      "Zhang, Ming",
+      "Yu, Philip S."
+    ],
+    "published": "2025-10-20",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2603.26140",
+    "title": "On the Complexity of Optimal Graph Rewiring for Oversmoothing and Oversquashing in Graph Neural Networks",
+    "authors": [
+      "Mostafa Haghir Chehreghani"
+    ],
+    "published": "2026-03-27",
+    "url": "https://arxiv.org/abs/2603.26140v1",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2106.06134",
+    "title": "Is Homophily a Necessity for Graph Neural Networks?",
+    "url": "https://arxiv.org/abs/2106.06134v4",
+    "authors": [
+      "Ma, Yao",
+      "Liu, Xiaorui",
+      "Shah, Neil",
+      "Tang, Jiliang"
+    ],
+    "published": "2021-06-11",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2401.09125",
+    "title": "Understanding Heterophily for Graph Neural Networks",
+    "url": "https://arxiv.org/abs/2401.09125v2",
+    "authors": [
+      "Wang, Junfu",
+      "Guo, Yuanfang",
+      "Yang, Liang",
+      "Wang, Yunhong"
+    ],
+    "published": "2024-01-17",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2310.02579",
+    "title": "On the Stability of Expressive Positional Encodings for Graphs",
+    "url": "https://arxiv.org/abs/2310.02579v3",
+    "authors": [
+      "Huang, Yinan",
+      "Lu, William",
+      "Robinson, Joshua",
+      "Yang, Yu",
+      "Zhang, Muhan",
+      "Jegelka, Stefanie",
+      "Li, Pan"
+    ],
+    "published": "2023-10-04",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2606.13671",
+    "title": "Understanding Truncated Positional Encodings for Graph Neural Networks",
+    "url": "https://arxiv.org/abs/2606.13671v1",
+    "authors": [
+      "Flora, James",
+      "Black, Mitchell",
+      "Wong, Weng-Keen",
+      "Nayyeri, Amir"
+    ],
+    "published": "2026-06-11",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2205.07802",
+    "title": "The Primacy Bias in Deep Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2205.07802v1",
+    "authors": [
+      "Nikishin, Evgenii",
+      "Schwarzer, Max",
+      "D'Oro, Pierluca",
+      "Bacon, Pierre-Luc",
+      "Courville, Aaron"
+    ],
+    "published": "2022-05-16",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2509.22335",
+    "title": "Spectral Collapse Drives Loss of Plasticity in Deep Continual Learning",
+    "url": "https://arxiv.org/abs/2509.22335v3",
+    "authors": [
+      "Prakash, Arjun",
+      "He, Naicheng",
+      "Guo, Kaicheng",
+      "Tiwari, Saket",
+      "Tao, Ruo Yu",
+      "Serapio, Tyrone",
+      "Greenwald, Amy",
+      "Konidaris, George"
+    ],
+    "published": "2025-09-26",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2510.00304",
+    "title": "Barriers for Learning in an Evolving World: Mathematical Understanding of Loss of Plasticity",
+    "url": "https://arxiv.org/abs/2510.00304v3",
+    "authors": [
+      "Joudaki, Amir",
+      "Lanzillotta, Giulia",
+      "Razlighi, Mohammad Samragh",
+      "Mirzadeh, Iman",
+      "Alizadeh, Keivan",
+      "Hofmann, Thomas",
+      "Farajtabar, Mehrdad",
+      "Faghri, Fartash"
+    ],
+    "published": "2025-09-30",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2310.18434",
+    "title": "Bridging Distributionally Robust Learning and Offline RL: An Approach to Mitigate Distribution Shift and Partial Data Coverage",
+    "url": "https://arxiv.org/abs/2310.18434v1",
+    "authors": [
+      "Panaganti, Kishan",
+      "Xu, Zaiyan",
+      "Kalathil, Dileep",
+      "Ghavamzadeh, Mohammad"
+    ],
+    "published": "2023-10-27",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2202.11566",
+    "title": "Pessimistic Bootstrapping for Uncertainty-Driven Offline Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2202.11566v1",
+    "authors": [
+      "Bai, Chenjia",
+      "Wang, Lingxiao",
+      "Yang, Zhuoran",
+      "Deng, Zhihong",
+      "Garg, Animesh",
+      "Liu, Peng",
+      "Wang, Zhaoran"
+    ],
+    "published": "2022-02-23",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1912.11206",
+    "title": "Learning to Combat Compounding-Error in Model-Based Reinforcement Learning",
+    "url": "https://arxiv.org/abs/1912.11206v1",
+    "authors": [
+      "Xiao, Chenjun",
+      "Wu, Yifan",
+      "Ma, Chen",
+      "Schuurmans, Dale",
+      "Müller, Martin"
+    ],
+    "published": "2019-12-24",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2404.09946",
+    "title": "A Note on Loss Functions and Error Compounding in Model-based Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2404.09946v1",
+    "authors": [
+      "Jiang, Nan"
+    ],
+    "published": "2024-04-15",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1803.03635",
+    "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+    "url": "https://arxiv.org/abs/1803.03635v5",
+    "authors": [
+      "Frankle, Jonathan",
+      "Carbin, Michael"
+    ],
+    "published": "2018-03-09",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1903.01611",
+    "title": "Stabilizing the Lottery Ticket Hypothesis",
+    "url": "https://arxiv.org/abs/1903.01611v3",
+    "authors": [
+      "Frankle, Jonathan",
+      "Dziugaite, Gintare Karolina",
+      "Roy, Daniel M.",
+      "Carbin, Michael"
+    ],
+    "published": "2019-03-05",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2002.00585",
+    "title": "Proving the Lottery Ticket Hypothesis: Pruning is All You Need",
+    "url": "https://arxiv.org/abs/2002.00585v1",
+    "authors": [
+      "Malach, Eran",
+      "Yehudai, Gilad",
+      "Shalev-Shwartz, Shai",
+      "Shamir, Ohad"
+    ],
+    "published": "2020-02-03",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2002.03532",
+    "title": "Understanding and Improving Knowledge Distillation",
+    "url": "https://arxiv.org/abs/2002.03532v2",
+    "authors": [
+      "Tang, Jiaxi",
+      "Shivanna, Rakesh",
+      "Zhao, Zhe",
+      "Lin, Dong",
+      "Singh, Anima",
+      "Chi, Ed H.",
+      "Jain, Sagar"
+    ],
+    "published": "2020-02-10",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2106.05945",
+    "title": "Does Knowledge Distillation Really Work?",
+    "url": "https://arxiv.org/abs/2106.05945v2",
+    "authors": [
+      "Stanton, Samuel",
+      "Izmailov, Pavel",
+      "Kirichenko, Polina",
+      "Alemi, Alexander A.",
+      "Wilson, Andrew Gordon"
+    ],
+    "published": "2021-06-10",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2310.17513",
+    "title": "The Expressive Power of Low-Rank Adaptation",
+    "url": "https://arxiv.org/abs/2310.17513v3",
+    "authors": [
+      "Zeng, Yuchen",
+      "Lee, Kangwook"
+    ],
+    "published": "2023-10-26",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2503.12576",
+    "title": "RaSA: Rank-Sharing Low-Rank Adaptation",
+    "url": "https://arxiv.org/abs/2503.12576v1",
+    "authors": [
+      "He, Zhiwei",
+      "Tu, Zhaopeng",
+      "Wang, Xing",
+      "Chen, Xingyu",
+      "Wang, Zhijie",
+      "Xu, Jiahao",
+      "Liang, Tian",
+      "Jiao, Wenxiang",
+      "Zhang, Zhuosheng",
+      "Wang, Rui"
+    ],
+    "published": "2025-03-16",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2203.02053",
+    "title": "Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning",
+    "url": "https://arxiv.org/abs/2203.02053v2",
+    "authors": [
+      "Liang, Weixin",
+      "Zhang, Yuhui",
+      "Kwon, Yongchan",
+      "Yeung, Serena",
+      "Zou, James"
+    ],
+    "published": "2022-03-03",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2412.07909",
+    "title": "Explaining and Mitigating the Modality Gap in Contrastive Multimodal Learning",
+    "url": "https://arxiv.org/abs/2412.07909v2",
+    "authors": [
+      "Yaras, Can",
+      "Chen, Siyi",
+      "Wang, Peng",
+      "Qu, Qing"
+    ],
+    "published": "2024-12-10",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2607.10698",
+    "title": "On the modality gap and the contrastive loss in multi-modal representation learning",
+    "url": "https://arxiv.org/abs/2607.10698v1",
+    "authors": [
+      "Mager, Fabian",
+      "Nassar, Hiba",
+      "Hansen, Lars Kai"
+    ],
+    "published": "2026-07-12",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2203.12221",
+    "title": "Modality Competition: What Makes Joint Training of Multi-modal Network Fail in Deep Learning? (Provably)",
+    "url": "https://arxiv.org/abs/2203.12221v1",
+    "authors": [
+      "Huang, Yu",
+      "Lin, Junyang",
+      "Zhou, Chang",
+      "Yang, Hongxia",
+      "Huang, Longbo"
+    ],
+    "published": "2022-03-23",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2106.04538",
+    "title": "What Makes Multi-modal Learning Better than Single (Provably)",
+    "url": "https://arxiv.org/abs/2106.04538v2",
+    "authors": [
+      "Huang, Yu",
+      "Du, Chenzhuang",
+      "Xue, Zihui",
+      "Chen, Xuanyao",
+      "Zhao, Hang",
+      "Huang, Longbo"
+    ],
+    "published": "2021-06-08",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2001.04536",
+    "title": "Understanding and mitigating gradient pathologies in physics-informed neural networks",
+    "url": "https://arxiv.org/abs/2001.04536v1",
+    "authors": [
+      "Wang, Sifan",
+      "Teng, Yujun",
+      "Perdikaris, Paris"
+    ],
+    "published": "2020-01-13",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2109.01050",
+    "title": "Characterizing possible failure modes in physics-informed neural networks",
+    "url": "https://arxiv.org/abs/2109.01050v2",
+    "authors": [
+      "Krishnapriyan, Aditi S.",
+      "Gholami, Amir",
+      "Zhe, Shandian",
+      "Kirby, Robert M.",
+      "Mahoney, Michael W."
+    ],
+    "published": "2021-09-02",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2405.02221",
+    "title": "Discretization Error of Fourier Neural Operators",
+    "url": "https://arxiv.org/abs/2405.02221v2",
+    "authors": [
+      "Lanthaler, Samuel",
+      "Stuart, Andrew M.",
+      "Trautner, Margaret"
+    ],
+    "published": "2024-05-03",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2305.19913",
+    "title": "Representation Equivalent Neural Operators: a Framework for Alias-free Operator Learning",
+    "url": "https://arxiv.org/abs/2305.19913v2",
+    "authors": [
+      "Bartolucci, Francesca",
+      "de Bézenac, Emmanuel",
+      "Raonić, Bogdan",
+      "Molinaro, Roberto",
+      "Mishra, Siddhartha",
+      "Alaifari, Rima"
+    ],
+    "published": "2023-05-31",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2412.03393",
+    "title": "Can neural operators always be continuously discretized?",
+    "url": "https://arxiv.org/abs/2412.03393v1",
+    "authors": [
+      "Furuya, Takashi",
+      "Puthawala, Michael",
+      "de Hoop, Maarten V.",
+      "Lassas, Matti"
+    ],
+    "published": "2024-12-04",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2404.01413",
+    "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+    "url": "https://arxiv.org/abs/2404.01413v2",
+    "authors": [
+      "Gerstgrasser, Matthias",
+      "Schaeffer, Rylan",
+      "Dey, Apratim",
+      "Rafailov, Rafael",
+      "Sleight, Henry",
+      "Hughes, John",
+      "Korbak, Tomasz",
+      "Agrawal, Rajashree",
+      "Pai, Dhruv",
+      "Gromov, Andrey",
+      "Roberts, Daniel A.",
+      "Yang, Diyi",
+      "Donoho, David L.",
+      "Koyejo, Sanmi"
+    ],
+    "published": "2024-04-01",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2410.16713",
+    "title": "Collapse or Thrive? Perils and Promises of Synthetic Data in a Self-Generating World",
+    "url": "https://arxiv.org/abs/2410.16713v4",
+    "authors": [
+      "Kazdan, Joshua",
+      "Schaeffer, Rylan",
+      "Dey, Apratim",
+      "Gerstgrasser, Matthias",
+      "Rafailov, Rafael",
+      "Donoho, David L.",
+      "Koyejo, Sanmi"
+    ],
+    "published": "2024-10-22",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2602.16601",
+    "title": "Quantifying Error Propagation and Model Collapse in Diffusion Models",
+    "url": "https://arxiv.org/abs/2602.16601v2",
+    "authors": [
+      "Khelifa, Nail B.",
+      "Turner, Richard E.",
+      "Venkataramanan, Ramji"
+    ],
+    "published": "2026-02-18",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2212.01539",
+    "title": "Exploring the Limits of Differentially Private Deep Learning with Group-wise Clipping",
+    "url": "https://arxiv.org/abs/2212.01539v1",
+    "authors": [
+      "He, Jiyan",
+      "Li, Xuechen",
+      "Yu, Da",
+      "Zhang, Huishuai",
+      "Kulkarni, Janardhan",
+      "Lee, Yin Tat",
+      "Backurs, Arturs",
+      "Yu, Nenghai",
+      "Bian, Jiang"
+    ],
+    "published": "2022-12-03",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2009.03106",
+    "title": "Scaling up Differentially Private Deep Learning with Fast Per-Example Gradient Clipping",
+    "url": "https://arxiv.org/abs/2009.03106v1",
+    "authors": [
+      "Lee, Jaewoo",
+      "Kifer, Daniel"
+    ],
+    "published": "2020-09-07",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1906.02530",
+    "title": "Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift",
+    "url": "https://arxiv.org/abs/1906.02530v2",
+    "authors": [
+      "Ovadia, Yaniv",
+      "Fertig, Emily",
+      "Ren, Jie",
+      "Nado, Zachary",
+      "Sculley, D",
+      "Nowozin, Sebastian",
+      "Dillon, Joshua V.",
+      "Lakshminarayanan, Balaji",
+      "Snoek, Jasper"
+    ],
+    "published": "2019-06-06",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2006.08573",
+    "title": "Neural Ensemble Search for Uncertainty Estimation and Dataset Shift",
+    "url": "https://arxiv.org/abs/2006.08573v3",
+    "authors": [
+      "Zaidi, Sheheryar",
+      "Zela, Arber",
+      "Elsken, Thomas",
+      "Holmes, Chris",
+      "Hutter, Frank",
+      "Teh, Yee Whye"
+    ],
+    "published": "2020-06-15",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2305.12616",
+    "title": "Conformal Prediction With Conditional Guarantees",
+    "url": "https://arxiv.org/abs/2305.12616v4",
+    "authors": [
+      "Gibbs, Isaac",
+      "Cherian, John J.",
+      "Candès, Emmanuel J."
+    ],
+    "published": "2023-05-22",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2607.18088",
+    "title": "The Label Complexity of Class-Conditional Coverage under Distribution Shift",
+    "url": "https://arxiv.org/abs/2607.18088v2",
+    "authors": [
+      "Han, Weijia",
+      "Qu, Lisha"
+    ],
+    "published": "2026-07-20",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1703.04933",
+    "title": "Sharp Minima Can Generalize For Deep Nets",
+    "url": "https://arxiv.org/abs/1703.04933v2",
+    "authors": [
+      "Dinh, Laurent",
+      "Pascanu, Razvan",
+      "Bengio, Samy",
+      "Bengio, Yoshua"
+    ],
+    "published": "2017-03-15",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2302.07011",
+    "title": "A Modern Look at the Relationship between Sharpness and Generalization",
+    "url": "https://arxiv.org/abs/2302.07011v2",
+    "authors": [
+      "Andriushchenko, Maksym",
+      "Croce, Francesco",
+      "Müller, Maximilian",
+      "Hein, Matthias",
+      "Flammarion, Nicolas"
+    ],
+    "published": "2023-02-14",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1710.10345",
+    "title": "The Implicit Bias of Gradient Descent on Separable Data",
+    "url": "https://arxiv.org/abs/1710.10345v7",
+    "authors": [
+      "Soudry, Daniel",
+      "Hoffer, Elad",
+      "Nacson, Mor Shpigel",
+      "Gunasekar, Suriya",
+      "Srebro, Nathan"
+    ],
+    "published": "2017-10-27",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2011.12547",
+    "title": "Implicit bias of deep linear networks in the large learning rate phase",
+    "url": "https://arxiv.org/abs/2011.12547v2",
+    "authors": [
+      "Huang, Wei",
+      "Du, Weitao",
+      "Da Xu, Richard Yi",
+      "Liu, Chunrui"
+    ],
+    "published": "2020-11-25",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2604.04230",
+    "title": "Three Phases of Expert Routing: How Load Balance Evolves During Mixture-of-Experts Training",
+    "url": "https://arxiv.org/abs/2604.04230v1",
+    "authors": [
+      "Mouzouni, Charafeddine"
+    ],
+    "published": "2026-04-05",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2506.14038",
+    "title": "Load Balancing Mixture of Experts with Similarity Preserving Routers",
+    "url": "https://arxiv.org/abs/2506.14038v2",
+    "authors": [
+      "Omi, Nabil",
+      "Sen, Siddhartha",
+      "Farhadi, Ali"
+    ],
+    "published": "2025-06-16",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1809.08848",
+    "title": "Dynamical Isometry is Achieved in Residual Networks in a Universal Way for any Activation Function",
+    "url": "https://arxiv.org/abs/1809.08848v3",
+    "authors": [
+      "Tarnowski, Wojciech",
+      "Warchoł, Piotr",
+      "Jastrzębski, Stanisław",
+      "Tabor, Jacek",
+      "Nowak, Maciej A."
+    ],
+    "published": "2018-09-24",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2210.02411",
+    "title": "Dynamical Isometry for Residual Networks",
+    "url": "https://arxiv.org/abs/2210.02411v1",
+    "authors": [
+      "Gadhikar, Advait",
+      "Burkholz, Rebekka"
+    ],
+    "published": "2022-10-05",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1910.06378",
+    "title": "SCAFFOLD: Stochastic Controlled Averaging for Federated Learning",
+    "url": "https://arxiv.org/abs/1910.06378v4",
+    "authors": [
+      "Karimireddy, Sai Praneeth",
+      "Kale, Satyen",
+      "Mohri, Mehryar",
+      "Reddi, Sashank J.",
+      "Stich, Sebastian U.",
+      "Suresh, Ananda Theertha"
+    ],
+    "published": "2019-10-14",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2207.11447",
+    "title": "Handling Data Heterogeneity in Federated Learning via Knowledge Distillation and Fusion",
+    "url": "https://arxiv.org/abs/2207.11447v2",
+    "authors": [
+      "Zhou, Xu",
+      "Lei, Xinyu",
+      "Yang, Cong",
+      "Shi, Yichun",
+      "Zhang, Xiao",
+      "Shi, Jingwen"
+    ],
+    "published": "2022-07-23",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2506.14002",
+    "title": "Taming Polysemanticity in LLMs: Provable Feature Recovery via Sparse Autoencoders",
+    "url": "https://arxiv.org/abs/2506.14002v1",
+    "authors": [
+      "Chen, Siyu",
+      "Sheen, Heejune",
+      "Xiong, Xuyuan",
+      "Wang, Tianhao",
+      "Yang, Zhuoran"
+    ],
+    "published": "2025-06-16",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2512.13568",
+    "title": "Superposition as Lossy Compression: Measure with Sparse Autoencoders and Connect to Adversarial Vulnerability",
+    "url": "https://arxiv.org/abs/2512.13568v1",
+    "authors": [
+      "Bereska, Leonard",
+      "Tzifa-Kratira, Zoe",
+      "Samavi, Reza",
+      "Gavves, Efstratios"
+    ],
+    "published": "2025-12-15",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1705.07215",
+    "title": "On Convergence and Stability of GANs",
+    "url": "https://arxiv.org/abs/1705.07215v5",
+    "authors": [
+      "Kodali, Naveen",
+      "Abernethy, Jacob",
+      "Hays, James",
+      "Kira, Zsolt"
+    ],
+    "published": "2017-05-19",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1706.04156",
+    "title": "Gradient descent GAN optimization is locally stable",
+    "url": "https://arxiv.org/abs/1706.04156v3",
+    "authors": [
+      "Nagarajan, Vaishnavh",
+      "Kolter, J. Zico"
+    ],
+    "published": "2017-06-13",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2303.01469",
+    "title": "Consistency Models",
+    "url": "https://arxiv.org/abs/2303.01469v2",
+    "authors": [
+      "Song, Yang",
+      "Dhariwal, Prafulla",
+      "Chen, Mark",
+      "Sutskever, Ilya"
+    ],
+    "published": "2023-03-02",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2402.07802",
+    "title": "Towards a mathematical theory for consistency training in diffusion models",
+    "url": "https://arxiv.org/abs/2402.07802v1",
+    "authors": [
+      "Li, Gen",
+      "Huang, Zhihan",
+      "Wei, Yuting"
+    ],
+    "published": "2024-02-12",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2006.14651",
+    "title": "Influence Functions in Deep Learning Are Fragile",
+    "url": "https://arxiv.org/abs/2006.14651v2",
+    "authors": [
+      "Basu, Samyadeep",
+      "Pope, Philip",
+      "Feizi, Soheil"
+    ],
+    "published": "2020-06-25",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2512.09103",
+    "title": "Natural Geometry of Robust Data Attribution: From Convex Models to Deep Networks",
+    "authors": [
+      "Shihao Li",
+      "Jiachen Li",
+      "Dongmei Chen"
+    ],
+    "published": "2025-12-09",
+    "url": "https://arxiv.org/abs/2512.09103v1",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2407.06460",
+    "title": "MUSE: Machine Unlearning Six-Way Evaluation for Language Models",
+    "url": "https://arxiv.org/abs/2407.06460v2",
+    "authors": [
+      "Shi, Weijia",
+      "Lee, Jaechan",
+      "Huang, Yangsibo",
+      "Malladi, Sadhika",
+      "Zhao, Jieyu",
+      "Holtzman, Ari",
+      "Liu, Daogao",
+      "Zettlemoyer, Luke",
+      "Smith, Noah A.",
+      "Zhang, Chiyuan"
+    ],
+    "published": "2024-07-08",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2208.10836",
+    "title": "Evaluating Machine Unlearning via Epistemic Uncertainty",
+    "url": "https://arxiv.org/abs/2208.10836v2",
+    "authors": [
+      "Becker, Alexander",
+      "Liebig, Thomas"
+    ],
+    "published": "2022-08-23",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2110.04655",
+    "title": "Disentangled Sequence to Sequence Learning for Compositional Generalization",
+    "url": "https://arxiv.org/abs/2110.04655v2",
+    "authors": [
+      "Zheng, Hao",
+      "Lapata, Mirella"
+    ],
+    "published": "2021-10-09",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2008.02742",
+    "title": "Compositional Networks Enable Systematic Generalization for Grounded Language Understanding",
+    "url": "https://arxiv.org/abs/2008.02742v3",
+    "authors": [
+      "Kuo, Yen-Ling",
+      "Katz, Boris",
+      "Barbu, Andrei"
+    ],
+    "published": "2020-08-06",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1906.02994",
+    "title": "Detecting Out-of-Distribution Inputs to Deep Generative Models Using Typicality",
+    "url": "https://arxiv.org/abs/1906.02994v2",
+    "authors": [
+      "Nalisnick, Eric",
+      "Matsukawa, Akihiro",
+      "Teh, Yee Whye",
+      "Lakshminarayanan, Balaji"
+    ],
+    "published": "2019-06-07",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2203.01097",
+    "title": "Model-agnostic out-of-distribution detection using combined statistical tests",
+    "url": "https://arxiv.org/abs/2203.01097v1",
+    "authors": [
+      "Bergamin, Federico",
+      "Mattei, Pierre-Alexandre",
+      "Havtorn, Jakob D.",
+      "Senetaire, Hugo",
+      "Schmutz, Hugo",
+      "Maaløe, Lars",
+      "Hauberg, Søren",
+      "Frellsen, Jes"
+    ],
+    "published": "2022-03-02",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2402.04051",
+    "title": "Analysis of Linear Mode Connectivity via Permutation-Based Weight Matching: With Insights into Other Permutation Search Methods",
+    "url": "https://arxiv.org/abs/2402.04051v5",
+    "authors": [
+      "Ito, Akira",
+      "Yamada, Masanori",
+      "Kumagai, Atsutoshi"
+    ],
+    "published": "2024-02-06",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2209.04836",
+    "title": "Git Re-Basin: Merging Models modulo Permutation Symmetries",
+    "url": "https://arxiv.org/abs/2209.04836v6",
+    "authors": [
+      "Ainsworth, Samuel K.",
+      "Hayase, Jonathan",
+      "Srinivasa, Siddhartha"
+    ],
+    "published": "2022-09-11",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-1811.12359",
+    "title": "Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations",
+    "url": "https://arxiv.org/abs/1811.12359v4",
+    "authors": [
+      "Locatello, Francesco",
+      "Bauer, Stefan",
+      "Lucic, Mario",
+      "Rätsch, Gunnar",
+      "Gelly, Sylvain",
+      "Schölkopf, Bernhard",
+      "Bachem, Olivier"
+    ],
+    "published": "2018-11-29",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2206.07751",
+    "title": "On the Identifiability of Nonlinear ICA: Sparsity and Beyond",
+    "url": "https://arxiv.org/abs/2206.07751v5",
+    "authors": [
+      "Zheng, Yujia",
+      "Ng, Ignavier",
+      "Zhang, Kun"
+    ],
+    "published": "2022-06-15",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2201.11969",
+    "title": "Approximately Equivariant Networks for Imperfectly Symmetric Dynamics",
+    "url": "https://arxiv.org/abs/2201.11969v4",
+    "authors": [
+      "Wang, Rui",
+      "Walters, Robin",
+      "Yu, Rose"
+    ],
+    "published": "2022-01-28",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2312.09016",
+    "title": "Symmetry Breaking and Equivariant Neural Networks",
+    "url": "https://arxiv.org/abs/2312.09016v2",
+    "authors": [
+      "Kaba, Sékou-Oumar",
+      "Ravanbakhsh, Siamak"
+    ],
+    "published": "2023-12-14",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2409.17582",
+    "title": "Multiplicative Logit Adjustment Approximates Neural-Collapse-Aware Decision Boundary Adjustment",
+    "url": "https://arxiv.org/abs/2409.17582v3",
+    "authors": [
+      "Hasegawa, Naoya",
+      "Sato, Issei"
+    ],
+    "published": "2024-09-26",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2305.10648",
+    "title": "Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition",
+    "url": "https://arxiv.org/abs/2305.10648v2",
+    "authors": [
+      "Li, Mengke",
+      "Cheung, Yiu-ming",
+      "Lu, Yang",
+      "Hu, Zhikai",
+      "Lan, Weichao",
+      "Huang, Hui"
+    ],
+    "published": "2023-05-18",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2207.08815",
+    "title": "Why do tree-based models still outperform deep learning on tabular data?",
+    "url": "https://arxiv.org/abs/2207.08815v1",
+    "authors": [
+      "Grinsztajn, Léo",
+      "Oyallon, Edouard",
+      "Varoquaux, Gaël"
+    ],
+    "published": "2022-07-18",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "arxiv-2407.00956",
+    "title": "A Closer Look at Deep Learning Methods on Tabular Datasets",
+    "url": "https://arxiv.org/abs/2407.00956v4",
+    "authors": [
+      "Ye, Han-Jia",
+      "Liu, Si-Yang",
+      "Cai, Hao-Run",
+      "Zhou, Qi-Le",
+      "Zhan, De-Chuan"
+    ],
+    "published": "2024-07-01",
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened for discovery only; theorem assumptions and experimental details need full-text audit. Version pinned on 2026-10-01."
+  },
+  {
+    "id": "hollmann2025-tabpfn",
+    "title": "Accurate predictions on small data with a tabular foundation model",
+    "url": "https://www.nature.com/articles/s41586-024-08328-6",
+    "published": "2025-01-08",
+    "authors": [
+      "Noah Hollmann",
+      "Samuel Müller",
+      "Lennart Purucker",
+      "Arjun Krishnakumar",
+      "Max Körfer",
+      "Shi Bin Hoo",
+      "Robin Tibor Schirrmeister",
+      "Frank Hutter"
+    ],
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened; later sections and proofs not audited. Publisher landing-page date granularity preserved."
+  },
+  {
+    "id": "arxiv-2505.20003",
+    "title": "TabPFN: One Model to Rule Them All?",
+    "url": "https://arxiv.org/abs/2505.20003v2",
+    "published": "2025-05-26",
+    "authors": [
+      "Qiong Zhang",
+      "Yan Shuo Tan",
+      "Qinglong Tian",
+      "Pengfei Li"
+    ],
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened; later sections and proofs not audited. Publisher landing-page date granularity preserved."
+  },
+  {
+    "id": "pmlr-wang25dx",
+    "title": "Provable Zero-Shot Generalization in Offline Reinforcement Learning",
+    "url": "https://proceedings.mlr.press/v267/wang25dx.html",
+    "published": "2025-07",
+    "authors": [
+      "Zhiyong Wang",
+      "Chen Yang",
+      "John C.S. Lui",
+      "Dongruo Zhou"
+    ],
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened; later sections and proofs not audited. Publisher landing-page date granularity preserved."
+  },
+  {
+    "id": "pmlr-rudner25a",
+    "title": "Fine-Tuning with Uncertainty-Aware Priors Makes Vision and Language Foundation Models More Reliable",
+    "url": "https://proceedings.mlr.press/v258/rudner25a.html",
+    "published": "2025-05",
+    "authors": [
+      "Tim G. J. Rudner",
+      "Xiang Pan",
+      "Yucen Lily Li",
+      "Ravid Shwartz-Ziv",
+      "Andrew Gordon Wilson"
+    ],
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened; later sections and proofs not audited. Publisher landing-page date granularity preserved."
+  },
+  {
+    "id": "acl-wold2025",
+    "title": "Systematic Generalization in Language Models Scales with Information Entropy",
+    "url": "https://aclanthology.org/2025.findings-acl.90/",
+    "published": "2025-07",
+    "authors": [
+      "Sondre Wold",
+      "Lucas Georges Gabriel Charpentier",
+      "Étienne Simon"
+    ],
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened; later sections and proofs not audited. Publisher landing-page date granularity preserved."
+  },
+  {
+    "id": "pmlr-you25c",
+    "title": "Test-time Correlation Alignment",
+    "url": "https://proceedings.mlr.press/v267/you25c.html",
+    "published": "2025-07",
+    "authors": [
+      "Linjing You",
+      "Jiabao Lu",
+      "Xiayuan Huang"
+    ],
+    "reading_depth": "abstract",
+    "checked_on": "2026-10-01",
+    "review_note": "Primary abstract screened; later sections and proofs not audited. Publisher landing-page date granularity preserved."
   }
 ]
