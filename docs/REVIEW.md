@@ -2,7 +2,7 @@
 
 ## Scope and identity
 
-Apply the [scientific scope criteria](SCOPE.md) before novelty or audit-priority ranking. State what mechanism or law of deep learning the answer would reveal. Pure model selection, benchmark ranking and predictor-agnostic statistical questions are adjacent background unless their neural-mechanism bridge is explicit. Scope exclusion is not a claim that a problem lacks value elsewhere or has been solved.
+Apply the [scientific scope criteria](SCOPE.md) before novelty or audit-priority ranking. State what mechanism or law of model training or generalization the answer would reveal. Architecture and application setting alone do not establish scope. Pure model selection, benchmark ranking and predictor-agnostic statistical questions are adjacent background unless their neural-mechanism bridge is explicit. Scope exclusion is not a claim that a problem lacks value elsewhere or has been solved.
 
 Express a problem as assumptions, setting, available inputs, target observable, intervention, and success criterion. Ask whether solving A automatically solves B, and whether the reverse holds. Bidirectional implication suggests equivalence; one direction suggests a special case; shared terminology alone proves neither.
 

@@ -62,7 +62,7 @@ No raw abstracts, private research logs, or unpublished experimental results are
 
 ## Audit next
 
-Start with a small set spanning different kinds of uncertainty: DISC-20261001-001 (known special cases), 009 (different experimental protocols), 012 (measurement definitions), 015 (mechanism identifiability), 022 (existing robustness guarantees), and 024 (theory-to-hardware mapping). This is a proposed reading order, not an authorized experimental queue.
+The focused training-and-generalization queue supersedes the original breadth-first audit order. Start with leads 001, 004, 027, 036, 013 and 051 across the two batches; see [the focused reading queue](../../docs/TRAINING_GENERALIZATION.md). This is a literature-reading priority, not a claim of novelty or an experimental queue.
 
 For each, read full texts, trace subsequent citations, seek an existing answer, compare canonical and discovery neighbors, and write a bounded problem card only if the gap survives. Record resolved or narrowed proposals as useful outcomes.
 

@@ -109,7 +109,7 @@ Each row records selected leads, not completeness or search saturation. See [cov
 
 ## Audit next
 
-First audit 027 (collapse definitions), 032 (adaptation assumptions), 033 (graph proxies), 036 (competing plasticity mechanisms), 039 (existence versus findability), 042 (modality-gap explanations), 045 (discretization), 046 (feedback protocol), 049 (conditional guarantees), 055 (feature recovery) and 063 (identification boundaries). This is a reading queue, not authorization to run experiments.
+The focused training-and-generalization queue supersedes the original breadth-first audit order. Start with leads 001, 004, 027, 036, 013 and 051 across the two batches; see [the focused reading queue](../../docs/TRAINING_GENERALIZATION.md). This is a literature-reading priority, not a claim of novelty or an experimental queue.
 
 For each, read full texts, trace subsequent citations, seek an existing answer, compare canonical and discovery neighbors, and write a bounded problem card only if the gap survives. Record resolved or narrowed proposals as useful outcomes.
 

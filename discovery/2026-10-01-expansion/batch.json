@@ -27,5 +27,5 @@
     "tabular learning"
   ],
   "limitations": "This purposive, English-language, arXiv-heavy pass broadens the earlier LM emphasis but is not exhaustive. A selected primary abstract is not a theorem audit or independent validation. Explicit recent-work searches were uneven and sometimes returned unrelated subjects; foundational pairs do not establish the latest frontier. We did not measure search saturation or complete backward/forward citation traversal. The coverage ledger records thin areas and a specific next search for every subfield.",
-  "audit_next": "First audit 027 (collapse definitions), 032 (adaptation assumptions), 033 (graph proxies), 036 (competing plasticity mechanisms), 039 (existence versus findability), 042 (modality-gap explanations), 045 (discretization), 046 (feedback protocol), 049 (conditional guarantees), 055 (feature recovery) and 063 (identification boundaries). This is a reading queue, not authorization to run experiments."
+  "audit_next": "The focused training-and-generalization queue supersedes the original breadth-first audit order. Start with leads 001, 004, 027, 036, 013 and 051 across the two batches; see [the focused reading queue](../../docs/TRAINING_GENERALIZATION.md). This is a literature-reading priority, not a claim of novelty or an experimental queue."
 }

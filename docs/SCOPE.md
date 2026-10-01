@@ -1,12 +1,22 @@
 # Scientific scope
 
-The main collection seeks mechanisms and predictive laws of deep learning. An entry should explain what solving it would teach us about learned representations, optimization dynamics, architectural composition, parameterization, overparameterization, or their interaction with data. Having prior papers, a benchmark gap and a possible theorem is not enough.
+The main collection focuses on **model training and generalization**: how training produces parameters and representations, and how that process determines performance on unseen data. Representation learning connects these two questions. Having prior papers, a benchmark gap and a possible theorem is not enough.
+
+## Three main lines
+
+1. **Training dynamics:** how optimizer state, learning-rate schedules, normalization, scale and numerical precision determine learning trajectories and stability.
+2. **Representation formation:** how training and data shape learned features, learning order, collapse and the ability to learn further.
+3. **Generalization mechanisms:** how the training process and learned representations determine memorization, implicit bias, noise sensitivity and transfer to unseen examples or compositions.
+
+Architecture, width/depth, data structure, objectives and precision are controlled variables within these lines, not mandates to create separate subfield collections. A training question does not need to solve generalization as well, and vice versa.
+
+The [focused reading queue](TRAINING_GENERALIZATION.md) is the current entry point. Historical coverage tables document what was searched; their suggested searches are a backlog, not the active plan. The immediate priority is deeper literature review and semantic deduplication within the three lines, rather than expansion into more domains.
 
 ## Admission criteria
 
 A proposed problem should identify all of the following:
 
-1. A specific phenomenon in neural learning, with an observable and a controlled intervention.
+1. A specific phenomenon in model training or generalization, with an observable and a controlled intervention.
 2. The neural mechanism or structural property whose role is unresolved. Examples include feature learning, coupled parameter and optimizer states, compositional depth, representation geometry, learned routing, or finite-width departures from a tractable limit.
 3. A scientific payoff beyond selecting a winning method: an explanation, identifiable dynamics, a necessity/sufficiency boundary, or a quantitative prediction across controlled regimes.
 4. Prior explanations and the assumptions that may fail in the target regime, together with a test that distinguishes them.
@@ -24,11 +34,13 @@ Naming gradients, norms or a neural architecture does not itself establish a mec
 | Which pruning method wins? | Method ranking by itself. | Why does early dense training make a sparse subnetwork trainable, and which dynamics distinguish existence from learnability? |
 | Which architecture performs best on graphs? | Model selection by itself. | How do message passing, nonlinear feature learning and topology jointly preserve or destroy task-relevant information? |
 
-These are editorial examples, not claims that the proposed mechanisms are correct or open in every setting. Domain specificity is not a reason for rejection. Graphs, vision, scientific computing, multimodal learning and RL can expose fundamental neural mechanisms.
+These are editorial examples, not claims that the proposed mechanisms are correct or open in every setting. Domain specificity is not a reason for rejection. Graphs, vision, scientific computing, multimodal learning and RL may supply controlled settings for a training or generalization question; covering each domain is not a separate objective. Inference-only policies, deployment allocation, generic statistical guarantees and application model selection are outside the current main agenda. A bridge to a training or generalization mechanism must be substantive, not a change of vocabulary.
 
 ## Reassessment of the discovery queue
 
 On 2026-10-01 the maintainer clarified that breadth should stay within problems intrinsic to deep learning and identified DISC-20261001-066 as uninteresting in its model-selection form. That lead is excluded from the main queue. Its ID, sources, search history and original question remain available as an archived discovery record. The field of tabular learning is not excluded.
+
+The later maintainer clarification narrows the active agenda further to training and generalization. The focused reading queue supersedes historical audit ordering; omission from it is editorial deferral, not scientific rejection.
 
 The following are an assistant-authored watchlist, not additional maintainer rejection decisions or completed scientific reviews:
 

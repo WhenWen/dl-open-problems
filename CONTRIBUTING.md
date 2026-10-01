@@ -4,7 +4,7 @@ Contribute problems, answers, corrections, replications, and coverage audits. Di
 
 ## Issues first or a direct pull request
 
-1. Check the [scientific scope](docs/SCOPE.md): explain the deep-learning mechanism and scientific payoff, beyond selecting a best method. Search the index, existing cards, issues, and closed issues using synonyms.
+1. Check the [scientific scope](docs/SCOPE.md): explain the training or generalization mechanism and scientific payoff, beyond selecting a best method. Use the [focused queue](docs/TRAINING_GENERALIZATION.md) before opening a new domain track. Search the index, existing cards, issues, and closed issues using synonyms.
 2. Use an issue form for a candidate or evidence update. You do not need a complete literature review to propose a candidate.
 3. For a new card, copy `templates/problem` into `problems/DLOP-NNNN`. Use the next unused number provisionally; the maintainer resolves simultaneous ID collisions before merge. Published IDs are never reused.
 4. Fill both files. Add primary references to `bibliography.json`, reusing existing source IDs. Record the exact reading depth. Do not mark a source full-text reviewed after reading only its abstract.
