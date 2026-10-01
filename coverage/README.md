@@ -7,3 +7,5 @@ See [the generated coverage view](../INDEX.md#coverage). The taxonomy is overlap
 Check coverage across topics, phenomena, assumptions and research communities. Follow both references and later citations; actively search for solutions and alternate terminology. After discovery, audit the candidate cards against the original papers. Record why an apparently relevant line was excluded.
 
 A falling rate of new unique problems is a saturation signal for one search route, not evidence of completeness. Try an independent entry point before closing a topic audit. No percentage of all scientific problems discovered is reported because that denominator is unknown.
+
+The [first batch](../discovery/2026-10-01/README.md) touches all eight coarse topics with abstract-level screening. Its exact query manifest, explicit blind spots and triage outcomes are linked there. Topic presence does not imply saturation, full-text coverage or review completeness.

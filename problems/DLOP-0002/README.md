@@ -37,3 +37,7 @@ Seed abstract screening only, 2026-10-01. Full-text assumptions, related normali
 ## Related problems
 
 DLOP-0001 asks for loss prediction. This card asks whether a proposed state representation can forecast itself; it does not assume norms are uniquely causal.
+
+## Discovery update on 2026 10 01
+
+The batch identified preconditioning and momentum results that delimit relevant special cases. Their optimizer definitions and small-step assumptions require full-text checking before importing them into EMA AdamW. See the [batch discovery report](../../discovery/2026-10-01/README.md) and its versioned references. Status remains candidate; full-text review is incomplete.

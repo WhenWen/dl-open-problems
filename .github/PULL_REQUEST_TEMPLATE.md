@@ -14,5 +14,6 @@ What question, evidence, correction or search does this add?
 - [ ] Claims distinguish evidence, interpretation and proposed tests.
 - [ ] Source and contributor attribution is accurate.
 - [ ] State changes have a recorded review; no novelty claim from search absence.
+- [ ] Discovery changes pass `python3 scripts/discovery.py --check`.
 - [ ] `python3 scripts/catalog.py` and `python3 scripts/catalog.py --check` pass.
 - [ ] `python3 -m unittest discover -s tests -v` passes.

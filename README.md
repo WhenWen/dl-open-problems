@@ -2,9 +2,9 @@
 
 An open, evidence-tracked collection of questions connecting deep learning experiments and theory.
 
-We document what is understood, the assumptions behind that understanding, and precise tests of what remains uncertain. A candidate is **not** a verified claim that nobody has solved the problem. This initial release contains three candidate cards and a contribution workflow; it is not a comprehensive survey.
+We document what is understood, the assumptions behind that understanding, and precise tests of what remains uncertain. A candidate is **not** a verified claim that nobody has solved the problem. The canonical catalog contains three candidate cards. The first [discovery batch](discovery/2026-10-01/README.md) adds 26 leads from 57 primary papers: 23 new candidates and three existing-card updates. These are abstract-screened proposals, not a comprehensive survey or a novelty certification.
 
-[Browse problems](INDEX.md) · [Contribute](CONTRIBUTING.md) · [Coverage](coverage/README.md) · [中文](README.zh-CN.md)
+[Browse problems](INDEX.md) · [Discovery queue](discovery/README.md) · [Contribute](CONTRIBUTING.md) · [Coverage](coverage/README.md) · [中文](README.zh-CN.md)
 
 ## Start contributing
 
@@ -26,6 +26,7 @@ Review status and scientific maturity are separate. Theory, empirical support, a
 
 ```text
 problems/DLOP-0001/  # metadata.json and readable README.md
+discovery/          # batch searches and leads awaiting deeper review
 bibliography.json   # canonical source records and reading depth
 coverage/           # search history and explicit unscreened topics
 reviews/            # decisions, exclusions and merge records
@@ -38,12 +39,14 @@ scripts/catalog.py  # validation and generated index
 Python 3.10 or newer; no additional packages required.
 
 ```sh
+python3 scripts/discovery.py
 python3 scripts/catalog.py
+python3 scripts/discovery.py --check
 python3 scripts/catalog.py --check
 python3 -m unittest discover -s tests -v
 ```
 
-The first command rebuilds the index. CI checks metadata, IDs, references, relations, coverage records, local Markdown links, and index freshness. It cannot certify novelty, correctness, or semantic nonduplication; those require [human review](docs/REVIEW.md).
+The first two commands rebuild the discovery reports and catalog index. CI checks metadata, IDs, references, relations, coverage records, local Markdown links, and index freshness. It cannot certify novelty, correctness, or semantic nonduplication; those require [human review](docs/REVIEW.md).
 
 ## Scope and license
 

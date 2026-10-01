@@ -1,0 +1,125 @@
+[
+  {
+    "id": "TRIAGE-01",
+    "framing": "There is no theory of optimal learning rate schedules.",
+    "decision": "narrow",
+    "reason": "Controlled-model schedule results already exist; focus on identifiable transfer to a declared AdamW feature-learning setting.",
+    "sources": [
+      "arxiv-2602.06797",
+      "arxiv-2602.04774"
+    ],
+    "leads": [
+      "DISC-20261001-001"
+    ]
+  },
+  {
+    "id": "TRIAGE-02",
+    "framing": "No scale-transfer prescriptions exist for MoE or GQA.",
+    "decision": "narrow",
+    "reason": "Recent papers provide architecture-specific prescriptions; audit residual finite-scale errors rather than restating solved special cases.",
+    "sources": [
+      "arxiv-2605.14200",
+      "arxiv-2605.15290"
+    ],
+    "leads": [
+      "DISC-20261001-005"
+    ]
+  },
+  {
+    "id": "TRIAGE-03",
+    "framing": "Benefits and harms of repeated data directly contradict each other.",
+    "decision": "separate_protocols",
+    "reason": "Epochs, concentrated duplicate injection, domain dilution and SFT differ in objectives and budgets. They motivate controlled comparison, not an established contradiction.",
+    "sources": [
+      "arxiv-2305.16264",
+      "arxiv-2606.24998",
+      "arxiv-2602.11149"
+    ],
+    "leads": [
+      "DISC-20261001-009"
+    ]
+  },
+  {
+    "id": "TRIAGE-04",
+    "framing": "No direct preference algorithm has robustness guarantees.",
+    "decision": "narrow",
+    "reason": "Chi-squared preference optimization supplies a relevant positive result. Audit assumptions and practical warning signals instead.",
+    "sources": [
+      "arxiv-2407.13399"
+    ],
+    "leads": [
+      "DISC-20261001-022"
+    ]
+  },
+  {
+    "id": "TRIAGE-05",
+    "framing": "No end-to-end diffusion error decomposition exists.",
+    "decision": "narrow",
+    "reason": "A 2026 paper reports an end-to-end framework. Focus on observable estimates and finite-budget decision utility.",
+    "sources": [
+      "arxiv-2607.23226"
+    ],
+    "leads": [
+      "DISC-20261001-020"
+    ]
+  },
+  {
+    "id": "TRIAGE-06",
+    "framing": "A BF16 experiment necessarily has low-precision master weights.",
+    "decision": "reject_inference",
+    "reason": "Forward/backward dtype and master-weight storage are different implementation choices; inspect both before applying low-resolution update arguments.",
+    "sources": [
+      "arxiv-2607.10611"
+    ],
+    "leads": [
+      "DISC-20261001-025"
+    ]
+  },
+  {
+    "id": "TRIAGE-07",
+    "framing": "Finite pass at k proves the base model has zero support for a solution.",
+    "decision": "reject_inference",
+    "reason": "Finite samples do not prove zero probability; use uncertainty bounds and controlled transfer measurements.",
+    "sources": [
+      "arxiv-2504.13837",
+      "arxiv-2505.24864"
+    ],
+    "leads": [
+      "DISC-20261001-021"
+    ]
+  },
+  {
+    "id": "TRIAGE-08",
+    "framing": "Scaling laws for precision in quantum interferometry.",
+    "decision": "out_of_scope",
+    "reason": "A keyword collision returned arXiv:1006.1645. It is outside the deep-learning scope and was not added to the bibliography.",
+    "sources": [],
+    "leads": []
+  },
+  {
+    "id": "TRIAGE-09",
+    "framing": "Reuse the search snippet of the first version of arXiv:2601.21577 as a current claim.",
+    "decision": "version_correction",
+    "reason": "The retrieved primary v2 page has a different title and revised abstract. This batch summarizes v2 and does not carry over the old snippet guarantee.",
+    "sources": [
+      "arxiv-2601.21577"
+    ],
+    "leads": [
+      "DISC-20261001-014"
+    ]
+  },
+  {
+    "id": "TRIAGE-10",
+    "framing": "Treat Bayesian ICL and gradient-descent ICL as universally incompatible.",
+    "decision": "narrow",
+    "reason": "Algorithmic and statistical descriptions can coincide on particular tasks. Propose interventions where their specified predictions actually differ.",
+    "sources": [
+      "arxiv-2111.02080",
+      "arxiv-2212.07677",
+      "arxiv-2211.15661"
+    ],
+    "leads": [
+      "DISC-20261001-015"
+    ]
+  }
+]

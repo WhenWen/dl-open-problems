@@ -37,5 +37,365 @@
     "excluded": [],
     "limitations": "One seed only; precision is tagged on a candidate but has not been searched.",
     "next_steps": "Trace depth and precision extensions and identify answered subcases."
+  },
+  {
+    "id": "SEARCH-0003",
+    "date": "2026-10-01",
+    "topic": "optimization",
+    "method": "Topic discovery through the linked multi-topic query batches and selected primary abstract pages. Shared queries are recorded once in the manifest; no exhaustive citation traversal.",
+    "queries": [
+      "\"learning rate schedules\" \"scaling laws\" \"2026\" site:arxiv.org",
+      "\"central flows\" \"edge of stability\" site:arxiv.org",
+      "\"depth\" \"hyperparameter transfer\" \"2025\" site:arxiv.org",
+      "\"neural scaling laws\" \"compute optimal\" \"2026\" site:arxiv.org",
+      "\"Understanding Optimization in Deep Learning with Central Flows\"",
+      "\"An Empirical Model of Large-Batch Training\"",
+      "\"The Marginal Value of Momentum\" neural networks",
+      "\"Adam or Gauss-Newton\" basis alignment"
+    ],
+    "query_batches": [
+      "optimization-scaling",
+      "opt-foundations"
+    ],
+    "sources": [
+      "arxiv-1812.06162",
+      "arxiv-2307.15196",
+      "arxiv-2410.24206",
+      "arxiv-2510.13680",
+      "arxiv-2602.04774",
+      "arxiv-2602.06797",
+      "arxiv-2609.40148"
+    ],
+    "problems": [
+      "DLOP-0001",
+      "DLOP-0002"
+    ],
+    "discovery_leads": [
+      "DISC-20261001-001",
+      "DISC-20261001-002",
+      "DISC-20261001-003",
+      "DISC-20261001-004"
+    ],
+    "excluded": [
+      "See discovery/2026-10-01/triage.json for explicit rejected or narrowed framings."
+    ],
+    "limitations": "Discovery screening only. Multi-topic query results were uneven; selection is purposive and biased toward arXiv and language models. No topic is complete or saturated.",
+    "next_steps": "Read key full texts, inspect later citations and alternative terminology, test semantic duplicates, and audit the proposed boundary before promotion."
+  },
+  {
+    "id": "SEARCH-0004",
+    "date": "2026-10-01",
+    "topic": "scaling",
+    "method": "Topic discovery through the linked multi-topic query batches and selected primary abstract pages. Shared queries are recorded once in the manifest; no exhaustive citation traversal.",
+    "queries": [
+      "\"learning rate schedules\" \"scaling laws\" \"2026\" site:arxiv.org",
+      "\"central flows\" \"edge of stability\" site:arxiv.org",
+      "\"depth\" \"hyperparameter transfer\" \"2025\" site:arxiv.org",
+      "\"neural scaling laws\" \"compute optimal\" \"2026\" site:arxiv.org",
+      "u muP The Unit Scaled Maximal Update Parametrization",
+      "\"Data Mixing Laws\"",
+      "\"Scaling Data-Constrained Language Models\"",
+      "\"Scaling LLM Test-Time Compute Optimally\"",
+      "\"Scaling Laws for Neural Language Models\" inference compute optimal"
+    ],
+    "query_batches": [
+      "optimization-scaling",
+      "unit-scaling",
+      "data-compute"
+    ],
+    "sources": [
+      "arxiv-2001.08361",
+      "arxiv-2203.15556",
+      "arxiv-2407.17465",
+      "arxiv-2408.03314",
+      "arxiv-2502.02531",
+      "arxiv-2605.14200",
+      "arxiv-2605.15290",
+      "arxiv-2609.40148"
+    ],
+    "problems": [
+      "DLOP-0003"
+    ],
+    "discovery_leads": [
+      "DISC-20261001-005",
+      "DISC-20261001-006",
+      "DISC-20261001-007"
+    ],
+    "excluded": [
+      "See discovery/2026-10-01/triage.json for explicit rejected or narrowed framings."
+    ],
+    "limitations": "Discovery screening only. Multi-topic query results were uneven; selection is purposive and biased toward arXiv and language models. No topic is complete or saturated.",
+    "next_steps": "Read key full texts, inspect later citations and alternative terminology, test semantic duplicates, and audit the proposed boundary before promotion."
+  },
+  {
+    "id": "SEARCH-0005",
+    "date": "2026-10-01",
+    "topic": "data",
+    "method": "Topic discovery through the linked multi-topic query batches and selected primary abstract pages. Shared queries are recorded once in the manifest; no exhaustive citation traversal.",
+    "queries": [
+      "\"data mixing\" \"scaling\" \"2026\" site:arxiv.org",
+      "\"data repetition\" \"language models\" \"scaling\" site:arxiv.org",
+      "\"grokking\" \"theory\" \"2026\" site:arxiv.org",
+      "\"neural collapse\" \"class imbalance\" \"theory\" site:arxiv.org",
+      "\"Data Mixing Laws\"",
+      "\"Scaling Data-Constrained Language Models\"",
+      "\"Scaling LLM Test-Time Compute Optimally\"",
+      "\"Scaling Laws for Neural Language Models\" inference compute optimal",
+      "language model data ordering curriculum theory dynamics site:arxiv.org"
+    ],
+    "query_batches": [
+      "data-representations",
+      "data-compute",
+      "data-order"
+    ],
+    "sources": [
+      "arxiv-2305.16264",
+      "arxiv-2403.16952",
+      "arxiv-2510.19099",
+      "arxiv-2601.21698",
+      "arxiv-2602.11149",
+      "arxiv-2606.24998",
+      "arxiv-2608.14071",
+      "arxiv-2608.17268",
+      "arxiv-2609.38011"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-008",
+      "DISC-20261001-009",
+      "DISC-20261001-010"
+    ],
+    "excluded": [
+      "See discovery/2026-10-01/triage.json for explicit rejected or narrowed framings."
+    ],
+    "limitations": "Discovery screening only. Multi-topic query results were uneven; selection is purposive and biased toward arXiv and language models. No topic is complete or saturated.",
+    "next_steps": "Read key full texts, inspect later citations and alternative terminology, test semantic duplicates, and audit the proposed boundary before promotion."
+  },
+  {
+    "id": "SEARCH-0006",
+    "date": "2026-10-01",
+    "topic": "representation-generalization",
+    "method": "Topic discovery through the linked multi-topic query batches and selected primary abstract pages. Shared queries are recorded once in the manifest; no exhaustive citation traversal.",
+    "queries": [
+      "\"data mixing\" \"scaling\" \"2026\" site:arxiv.org",
+      "\"data repetition\" \"language models\" \"scaling\" site:arxiv.org",
+      "\"grokking\" \"theory\" \"2026\" site:arxiv.org",
+      "\"neural collapse\" \"class imbalance\" \"theory\" site:arxiv.org",
+      "\"grokking\" \"lazy\" \"rich\" Kumar",
+      "\"neural collapse\" \"imbalanced\" \"minority collapse\"",
+      "\"benign overfitting\" \"deep neural\" theory empirical",
+      "\"catastrophic forgetting\" \"feature learning\" theory neural network",
+      "\"Grokking as the Transition from Lazy to Rich Training Dynamics\"",
+      "\"Grokking at the Edge of Numerical Stability\"",
+      "\"neural collapse\" \"layer-peeled\" minority",
+      "\"catastrophic forgetting\" \"theory\" \"feature\" site:arxiv.org",
+      "\"data order\" \"curriculum\" \"language models\" theory site:arxiv.org",
+      "\"diffusion\" \"discretization\" \"score error\" \"theory\" site:arxiv.org",
+      "\"u-μP\" \"Unit-Scaled\"",
+      "\"neural collapse\" \"language models\" site:arxiv.org",
+      "catastrophic forgetting feature learning theory neural networks site:arxiv.org",
+      "catastrophic forgetting theoretical task similarity feature learning 2025 2026 site:arxiv.org"
+    ],
+    "query_batches": [
+      "data-representations",
+      "rep-foundations",
+      "grokking-collapse",
+      "order-sampling",
+      "forgetting",
+      "forgetting-theory"
+    ],
+    "sources": [
+      "arxiv-1612.00796",
+      "arxiv-2007.04028",
+      "arxiv-2101.12699",
+      "arxiv-2207.06569",
+      "arxiv-2305.19377",
+      "arxiv-2310.06110",
+      "arxiv-2405.17767",
+      "arxiv-2405.20236",
+      "arxiv-2501.04697",
+      "arxiv-2601.21577",
+      "arxiv-2607.09487"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-011",
+      "DISC-20261001-012",
+      "DISC-20261001-013",
+      "DISC-20261001-014"
+    ],
+    "excluded": [
+      "See discovery/2026-10-01/triage.json for explicit rejected or narrowed framings."
+    ],
+    "limitations": "Discovery screening only. Multi-topic query results were uneven; selection is purposive and biased toward arXiv and language models. No topic is complete or saturated.",
+    "next_steps": "Read key full texts, inspect later citations and alternative terminology, test semantic duplicates, and audit the proposed boundary before promotion."
+  },
+  {
+    "id": "SEARCH-0007",
+    "date": "2026-10-01",
+    "topic": "in-context-learning",
+    "method": "Topic discovery through the linked multi-topic query batches and selected primary abstract pages. Shared queries are recorded once in the manifest; no exhaustive citation traversal.",
+    "queries": [
+      "\"in-context learning\" \"Bayesian\" \"gradient descent\" site:arxiv.org",
+      "\"in-context learning\" \"out-of-distribution\" \"2026\" site:arxiv.org",
+      "\"classifier-free guidance\" \"theory\" \"2026\" site:arxiv.org",
+      "\"diffusion\" \"memorization\" \"phase transition\" site:arxiv.org",
+      "\"Understanding Classifier-Free Guidance\" \"High-Dimensional\"",
+      "\"What learning algorithm is in-context learning\"",
+      "\"in-context learning\" \"out-of-distribution\" regression site:arxiv.org",
+      "\"Lost in the Middle\" long contexts arxiv",
+      "in context learning out of distribution generalization linear regression site:arxiv.org"
+    ],
+    "query_batches": [
+      "icl-generative",
+      "icl-guidance",
+      "icl-ood"
+    ],
+    "sources": [
+      "arxiv-2111.02080",
+      "arxiv-2211.15661",
+      "arxiv-2212.07677",
+      "arxiv-2307.03172",
+      "arxiv-2405.15115",
+      "arxiv-2412.10079",
+      "arxiv-2505.14808",
+      "arxiv-2506.05574",
+      "arxiv-2507.09440"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-015",
+      "DISC-20261001-016",
+      "DISC-20261001-017"
+    ],
+    "excluded": [
+      "See discovery/2026-10-01/triage.json for explicit rejected or narrowed framings."
+    ],
+    "limitations": "Discovery screening only. Multi-topic query results were uneven; selection is purposive and biased toward arXiv and language models. No topic is complete or saturated.",
+    "next_steps": "Read key full texts, inspect later citations and alternative terminology, test semantic duplicates, and audit the proposed boundary before promotion."
+  },
+  {
+    "id": "SEARCH-0008",
+    "date": "2026-10-01",
+    "topic": "generative-models",
+    "method": "Topic discovery through the linked multi-topic query batches and selected primary abstract pages. Shared queries are recorded once in the manifest; no exhaustive citation traversal.",
+    "queries": [
+      "\"in-context learning\" \"Bayesian\" \"gradient descent\" site:arxiv.org",
+      "\"in-context learning\" \"out-of-distribution\" \"2026\" site:arxiv.org",
+      "\"classifier-free guidance\" \"theory\" \"2026\" site:arxiv.org",
+      "\"diffusion\" \"memorization\" \"phase transition\" site:arxiv.org",
+      "\"Understanding Classifier-Free Guidance\" \"High-Dimensional\"",
+      "\"What learning algorithm is in-context learning\"",
+      "\"in-context learning\" \"out-of-distribution\" regression site:arxiv.org",
+      "\"Lost in the Middle\" long contexts arxiv",
+      "\"data order\" \"curriculum\" \"language models\" theory site:arxiv.org",
+      "\"diffusion\" \"discretization\" \"score error\" \"theory\" site:arxiv.org",
+      "\"u-μP\" \"Unit-Scaled\"",
+      "\"neural collapse\" \"language models\" site:arxiv.org",
+      "diffusion sampling discretization score error sharp convergence 2025 site:arxiv.org"
+    ],
+    "query_batches": [
+      "icl-generative",
+      "icl-guidance",
+      "order-sampling",
+      "sampling-theory"
+    ],
+    "sources": [
+      "arxiv-2209.11215",
+      "arxiv-2410.08727",
+      "arxiv-2502.07849",
+      "arxiv-2508.03210",
+      "arxiv-2508.17689",
+      "arxiv-2607.23226"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-018",
+      "DISC-20261001-019",
+      "DISC-20261001-020"
+    ],
+    "excluded": [
+      "See discovery/2026-10-01/triage.json for explicit rejected or narrowed framings."
+    ],
+    "limitations": "Discovery screening only. Multi-topic query results were uneven; selection is purposive and biased toward arXiv and language models. No topic is complete or saturated.",
+    "next_steps": "Read key full texts, inspect later citations and alternative terminology, test semantic duplicates, and audit the proposed boundary before promotion."
+  },
+  {
+    "id": "SEARCH-0009",
+    "date": "2026-10-01",
+    "topic": "post-training",
+    "method": "Topic discovery through the linked multi-topic query batches and selected primary abstract pages. Shared queries are recorded once in the manifest; no exhaustive citation traversal.",
+    "queries": [
+      "\"reinforcement learning\" \"reasoning capacity\" \"ProRL\" site:arxiv.org",
+      "\"DPO\" \"reward overoptimization\" \"theory\" site:arxiv.org",
+      "\"Scaling Laws for Precision\" site:arxiv.org",
+      "\"low precision\" \"Adam\" \"training\" \"2026\" site:arxiv.org",
+      "\"ProRL\" \"Prolonged Reinforcement Learning Expands Reasoning Boundaries\"",
+      "\"Does Reinforcement Learning Really Incentivize Reasoning Capacity\"",
+      "\"Scaling Laws for Reward Model Overoptimization\"",
+      "\"Scaling of Search and Learning\" \"test-time\"",
+      "\"Data Mixing Laws\"",
+      "\"Scaling Data-Constrained Language Models\"",
+      "\"Scaling LLM Test-Time Compute Optimally\"",
+      "\"Scaling Laws for Neural Language Models\" inference compute optimal"
+    ],
+    "query_batches": [
+      "post-training-precision",
+      "rl-foundations",
+      "data-compute"
+    ],
+    "sources": [
+      "arxiv-2210.10760",
+      "arxiv-2406.02900",
+      "arxiv-2407.13399",
+      "arxiv-2408.03314",
+      "arxiv-2504.13837",
+      "arxiv-2505.24864"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-021",
+      "DISC-20261001-022",
+      "DISC-20261001-023"
+    ],
+    "excluded": [
+      "See discovery/2026-10-01/triage.json for explicit rejected or narrowed framings."
+    ],
+    "limitations": "Discovery screening only. Multi-topic query results were uneven; selection is purposive and biased toward arXiv and language models. No topic is complete or saturated.",
+    "next_steps": "Read key full texts, inspect later citations and alternative terminology, test semantic duplicates, and audit the proposed boundary before promotion."
+  },
+  {
+    "id": "SEARCH-0010",
+    "date": "2026-10-01",
+    "topic": "precision",
+    "method": "Topic discovery through the linked multi-topic query batches and selected primary abstract pages. Shared queries are recorded once in the manifest; no exhaustive citation traversal.",
+    "queries": [
+      "\"reinforcement learning\" \"reasoning capacity\" \"ProRL\" site:arxiv.org",
+      "\"DPO\" \"reward overoptimization\" \"theory\" site:arxiv.org",
+      "\"Scaling Laws for Precision\" site:arxiv.org",
+      "\"low precision\" \"Adam\" \"training\" \"2026\" site:arxiv.org",
+      "u muP The Unit Scaled Maximal Update Parametrization"
+    ],
+    "query_batches": [
+      "post-training-precision",
+      "unit-scaling"
+    ],
+    "sources": [
+      "arxiv-2407.17465",
+      "arxiv-2411.04330",
+      "arxiv-2602.19241",
+      "arxiv-2607.10611"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-024",
+      "DISC-20261001-025",
+      "DISC-20261001-026"
+    ],
+    "excluded": [
+      "See discovery/2026-10-01/triage.json for explicit rejected or narrowed framings."
+    ],
+    "limitations": "Discovery screening only. Multi-topic query results were uneven; selection is purposive and biased toward arXiv and language models. No topic is complete or saturated.",
+    "next_steps": "Read key full texts, inspect later citations and alternative terminology, test semantic duplicates, and audit the proposed boundary before promotion."
   }
 ]

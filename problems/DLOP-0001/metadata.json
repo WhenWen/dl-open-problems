@@ -17,7 +17,10 @@
   "target": "The entire held-out validation loss curve and its uncertainty.",
   "intervention": "Change schedule shape and duration at held-out learning rates.",
   "sources": [
-    "tissue2024"
+    "tissue2024",
+    "arxiv-2602.06797",
+    "arxiv-2602.04774",
+    "arxiv-2609.40148"
   ],
   "relations": [
     {

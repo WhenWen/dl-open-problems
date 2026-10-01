@@ -24,3 +24,9 @@ By contributing, you agree to license your original contribution under the repos
 ## Updating or resolving a problem
 
 An evidence PR must name the exact setting it addresses. A toy-model answer may resolve a subproblem without resolving the practical question. For state changes, merges and exclusions, add a dated entry to `reviews/decisions.json` and follow the review checklist. For a merge, keep the old card with `status: merged` and a `canonical_id`; update inbound relations. Never delete an ID to make the catalog look cleaner.
+
+## Batch discovery
+
+Large searches belong in `discovery/YYYY-MM-DD/` as leads with explicit reading depth. They do not create canonical problem IDs automatically. Keep exact queries, versioned primary references, identity comparisons and rejected framings. Use the current batch as a schema example, and run `python3 scripts/discovery.py` followed by `python3 scripts/discovery.py --check`. Extend this script when introducing new batch conventions; do not silently drop provenance validation. Follow-up searches should use globally unique query-batch IDs.
+
+A lead can map to an existing card or propose a new one. Promotion requires a separate scoped review; moving a lead into `problems/` does not establish novelty. AI assistance and the absence or presence of human review must be stated.

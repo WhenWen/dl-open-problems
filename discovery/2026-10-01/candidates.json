@@ -1,0 +1,769 @@
+[
+  {
+    "id": "DISC-20261001-001",
+    "title": "Frozen schedule prediction beyond solved random-feature settings",
+    "topic": "optimization",
+    "status": "discovery_lead",
+    "disposition": "update_existing",
+    "sources": [
+      "arxiv-2602.06797",
+      "arxiv-2602.04774",
+      "arxiv-2609.40148"
+    ],
+    "known": "Functional-scaling and random-feature analyses already derive optimal schedules with task-dependent regimes. A September 2026 preprint also studies joint learning-rate and batch-size effects using spectral response components.",
+    "question": "Can a law calibrated on a few AdamW language-model runs predict complete held-out schedule curves and identify the regime in which its prediction is valid?",
+    "boundary": "The existence of optimal schedules in controlled SGD models is already addressed. The candidate gap is identifiable, quantitative transfer to adaptive optimization and feature learning, not the absence of any schedule theory.",
+    "decisive_test": "Reproduce a published special case, then hold out schedules and horizons in a fixed neural architecture. Freeze parameter fitting before the target run and report systematic residuals against seed variation.",
+    "evidence": {
+      "theory": "Analytical solutions and phase regimes are reported for specified surrogate models.",
+      "empirical": "The papers report numerical tests; one includes controlled nanoGPT experiments.",
+      "prediction": "Cross-schedule transfer is already studied; its precise AdamW and feature-learning envelope needs auditing."
+    },
+    "audit_priority": "first",
+    "priority_reason": "Recent work could substantially narrow the existing card.",
+    "existing_problems": [
+      "DLOP-0001"
+    ],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-006",
+        "type": "related_to",
+        "reason": "Schedule transfer and exponent identification have different targets."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-002",
+    "title": "A predictive stochastic extension of central flows",
+    "topic": "optimization",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2410.24206"
+    ],
+    "known": "Central flows model time-averaged optimization trajectories in deterministic neural-network training, including adaptive-optimizer behavior.",
+    "question": "Which stochastic corrections let a coarse-grained flow forecast averaged loss and stability boundaries for a specified minibatch AdamW training setup?",
+    "boundary": "Deterministic trajectory prediction is an existing result. Minibatch noise, momentum and preconditioner evolution must be introduced explicitly rather than assumed covered.",
+    "decisive_test": "Compare full-batch and matched minibatch runs on the same problem. Fit any correction on one batch size and predict another, measuring both averaged loss and oscillation envelopes.",
+    "evidence": {
+      "theory": "Deterministic coarse-grained dynamics are developed in the cited work.",
+      "empirical": "Numerical trajectory agreement is reported in the tested networks.",
+      "prediction": "The minibatch AdamW target in this proposal has not been audited."
+    },
+    "audit_priority": "first",
+    "priority_reason": "One tractable change of setting with observable trajectories.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-004",
+        "type": "related_to",
+        "reason": "A coarse-grained trajectory is not the same object as a module-statistic closure."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-003",
+    "title": "Choosing a batch schedule from preconditioned noise measurements",
+    "topic": "optimization",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-1812.06162",
+      "arxiv-2602.04774",
+      "arxiv-2609.40148"
+    ],
+    "known": "Gradient noise scale predicts useful batch size empirically; newer surrogate analyses study joint batch and learning-rate schedules.",
+    "question": "Can early measurements of preconditioned signal and noise select a compute-efficient batch schedule for AdamW without tuning every target schedule?",
+    "boundary": "Useful parallelism, token efficiency and wall-clock efficiency are different objectives. A result for SGD noise is not automatically a rule for adaptive updates.",
+    "decisive_test": "Hold tokens and compute accounting fixed, measure throughput separately, and predict the useful-batch transition on held-out learning rates. Compare scalar noise scale with preconditioned diagnostics.",
+    "evidence": {
+      "theory": "Noise-based models and solvable schedule analyses exist.",
+      "empirical": "Large-batch behavior has been measured across multiple domains.",
+      "prediction": "A universal unpreconditioned noise rule is not assumed; calibration and transfer need review."
+    },
+    "audit_priority": "second",
+    "priority_reason": "Potentially valuable, but needs careful hardware and optimizer controls.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-001",
+        "type": "related_to",
+        "reason": "Joint batch control adds an intervention beyond schedule-only prediction."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-004",
+    "title": "Identifiable closure for Adam alignment and momentum",
+    "topic": "optimization",
+    "status": "discovery_lead",
+    "disposition": "update_existing",
+    "sources": [
+      "arxiv-2510.13680",
+      "arxiv-2307.15196"
+    ],
+    "known": "Adam-style and Gauss-Newton preconditioning behave differently with basis choice and minibatch noise in controlled objectives. Small-learning-rate SGD studies also delimit when momentum provides little benefit.",
+    "question": "Which few module statistics are enough to forecast norms and update alignment for actual EMA AdamW under a changed schedule?",
+    "boundary": "An Adam-style theoretical preconditioner must not be silently identified with every implementation of EMA AdamW. Momentum conclusions for small-step SGD are not universal statements about Adam.",
+    "decisive_test": "First compare a controlled regression model with exact observable dynamics, then add EMA preconditioning and feature learning one at a time. Forecast held-out norm trajectories rather than feed in their future values.",
+    "evidence": {
+      "theory": "Controlled-objective results distinguish noise and geometry; precise optimizer definitions require full-text review.",
+      "empirical": "The papers include experiments, not a validated general module-level closure.",
+      "prediction": "No closed, identifiable module predictor is established by this abstract screening."
+    },
+    "audit_priority": "first",
+    "priority_reason": "Directly sharpens what the existing norm-state question must demonstrate.",
+    "existing_problems": [
+      "DLOP-0002"
+    ],
+    "related_leads": [],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-005",
+    "title": "Finite-scale errors after architecture-specific parameterization",
+    "topic": "scaling",
+    "status": "discovery_lead",
+    "disposition": "update_existing",
+    "sources": [
+      "arxiv-2502.02531",
+      "arxiv-2407.17465",
+      "arxiv-2605.14200",
+      "arxiv-2605.15290"
+    ],
+    "known": "Deep-linear dynamics, unit-scaled parametrization, MoE scale-stable parametrization and GQA scaling prescriptions already address several extensions beyond basic width transfer.",
+    "question": "After implementing the appropriate prescription, can small runs predict finite-scale tuning regret when depth, routing structure or precision also changes?",
+    "boundary": "Do not list the derivation of any MoE or GQA transfer rule as wholly unsolved. Separate implementation errors, asymptotic prescriptions and quantitative finite-scale residuals.",
+    "decisive_test": "Reproduce the matching architecture-specific baseline and its scaling diagnostics before varying two axes jointly. Estimate tuning regret with direct target tuning on a small validation subset.",
+    "evidence": {
+      "theory": "Architecture-specific limiting analyses and scaling prescriptions are reported.",
+      "empirical": "Transfer experiments exist in the cited architecture families.",
+      "prediction": "A finite-scale error predictor for a declared joint intervention remains a candidate to audit."
+    },
+    "audit_priority": "first",
+    "priority_reason": "The initial card is too broad without these newer answers.",
+    "existing_problems": [
+      "DLOP-0003"
+    ],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-026",
+        "type": "related_to",
+        "reason": "Scale transfer changes model size; module precision allocation changes numerical policy."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-006",
+    "title": "When a measured loss exponent changes with training",
+    "topic": "scaling",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2609.40148",
+      "arxiv-2502.02531",
+      "arxiv-2001.08361"
+    ],
+    "known": "Empirical language-model power laws coexist with surrogate theories in which spectral structure, schedules and feature-learning regimes change learning curves.",
+    "question": "Can early observable statistics distinguish a genuinely changing asymptotic exponent from finite-horizon mixtures of learning and noise components?",
+    "boundary": "A fitted exponent is not necessarily an intrinsic constant of a dataset. Statistical identifiability of competing curve forms must be addressed before assigning a mechanism.",
+    "decisive_test": "Fit several theoretically motivated forms on identical early windows, freeze long-horizon predictions, and test sensitivity to additive floors, schedules and window length on synthetic and neural models.",
+    "evidence": {
+      "theory": "Controlled spectral and deep-linear models provide alternative mechanisms.",
+      "empirical": "Power-law behavior is empirically established in specific ranges.",
+      "prediction": "Separating mechanisms from finite-window fit ambiguity is not completed here."
+    },
+    "audit_priority": "first",
+    "priority_reason": "A clear prediction-versus-identification problem connecting several literatures.",
+    "existing_problems": [],
+    "related_leads": [],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-007",
+    "title": "Compute allocation when the deployment workload changes",
+    "topic": "scaling",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2001.08361",
+      "arxiv-2203.15556",
+      "arxiv-2408.03314"
+    ],
+    "known": "Pretraining scaling studies allocate model size and tokens under training budgets. Test-time compute work finds allocation depends on prompt difficulty and inference strategy.",
+    "question": "Given a specified deployment-query distribution and expected query volume, can a small calibration portfolio choose model size, training tokens and inference budget jointly?",
+    "boundary": "Training-only compute optimality and total lifecycle optimality have different objectives. This search does not claim that joint-allocation literature is absent.",
+    "decisive_test": "Compare training-only and workload-aware allocation on held-out query mixtures using the same total compute convention. Include verifier and failed-sample costs.",
+    "evidence": {
+      "theory": "Empirical scaling and inference-allocation frameworks exist; complete related-work review is pending.",
+      "empirical": "Separate components have experimental support.",
+      "prediction": "A portable lifecycle decision rule is a candidate; prioritize searching existing answers before experiments."
+    },
+    "audit_priority": "second",
+    "priority_reason": "Broad literature likely contains partial or complete answers under additional terminology.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-023",
+        "type": "related_to",
+        "reason": "Lifecycle allocation chooses training investment; inference stopping conditions on a fixed model."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-008",
+    "title": "Predicting beneficial data transfer beyond aligned covariance models",
+    "topic": "data",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2403.16952",
+      "arxiv-2609.38011"
+    ],
+    "known": "Data Mixing Laws predicts performance across empirical mixtures. Recent high-dimensional regression theory specifies when auxiliary data can improve scaling rates under covariance and target assumptions.",
+    "question": "Can measurable source-target statistics predict whether adding a new domain improves target learning when representations change and the domains do not share a regression function?",
+    "boundary": "The regression result already answers meaningful special cases. Qualitative agreement of LM experiments does not by itself identify the quantities needed for numerical prediction.",
+    "decisive_test": "Begin with the theory-supported case, then independently perturb covariance alignment and target agreement. Freeze a predictor before neural-domain mixture tests.",
+    "evidence": {
+      "theory": "Minimax and ridge-regression analyses are reported under explicit structures.",
+      "empirical": "Empirical mixing laws and qualitative LM comparisons exist.",
+      "prediction": "Transfer outside shared-target or aligned settings needs precise audit."
+    },
+    "audit_priority": "first",
+    "priority_reason": "A concrete theory-to-practice assumption boundary with a new primary paper.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-009",
+        "type": "related_to",
+        "reason": "Changing domain composition and changing duplicate concentration are different interventions."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-009",
+    "title": "When repetition helps and when duplication wastes compute",
+    "topic": "data",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2305.16264",
+      "arxiv-2608.14071",
+      "arxiv-2606.24998",
+      "arxiv-2602.11149"
+    ],
+    "known": "Data-limited pretraining, domain repetition, internal duplicate injection and long-CoT SFT report different effects of repeated examples under different budgets and objectives.",
+    "question": "Can a model of exposure structure, task alignment and optimization progress predict the sign and size of repetition effects in a specified training regime?",
+    "boundary": "These findings are not automatically contradictory: whole-corpus epochs, repeated subsets, domain dilution and SFT are distinct interventions. Equal updates need not mean equal tokens or compute.",
+    "decisive_test": "Use one fixed model and objective to vary duplicate concentration and epoch count with matched tokens and compute; only then test transfer to SFT. Separate exact duplicates from semantically related samples.",
+    "evidence": {
+      "theory": "A misspecified-regression account of a duplication peak is reported; other lines are primarily empirical.",
+      "empirical": "Several distinct repetition protocols have measured effects.",
+      "prediction": "A joint predictor is a proposed synthesis, not a demonstrated unsolved theorem."
+    },
+    "audit_priority": "first",
+    "priority_reason": "Apparent disagreement can be narrowed into controlled, useful questions.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-010",
+        "type": "related_to",
+        "reason": "Exposure multiplicity differs from ordering a fixed multiset."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-010",
+    "title": "Predicting curriculum effects from cross-difficulty transfer",
+    "topic": "data",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2601.21698",
+      "arxiv-2510.19099",
+      "arxiv-2608.17268"
+    ],
+    "known": "Curriculum studies report scale-dependent optimization effects and no universally best ordering; recent work proposes relative-transfer measurements to guide sampling.",
+    "question": "Can transfer measurements taken before or early in training forecast which ordering helps, holding sample selection and exposure counts fixed?",
+    "boundary": "Adaptive resampling changes exposure as well as order. A useful dynamic sampler does not automatically provide an early predictive law for a fixed multiset.",
+    "decisive_test": "Permute the same multiset, match learning-rate schedules and token budgets, and compare frozen early transfer estimates with an online oracle. Track when the transfer matrix changes.",
+    "evidence": {
+      "theory": "Optimization-dynamics explanations and a transfer-based sampling rule are reported; a quantitative theory audit remains pending.",
+      "empirical": "Pretraining and reasoning post-training studies exist.",
+      "prediction": "The target is early prediction rather than retrospective characterization or unrestricted adaptive resampling."
+    },
+    "audit_priority": "first",
+    "priority_reason": "A clean intervention can separate common confounds.",
+    "existing_problems": [],
+    "related_leads": [],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-011",
+    "title": "Distinguishing mechanisms of delayed generalization",
+    "topic": "representation-generalization",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2310.06110",
+      "arxiv-2501.04697"
+    ],
+    "known": "Lazy-to-rich feature learning and numerical/logit-scaling effects each explain delayed generalization in studied grokking settings.",
+    "question": "Can early diagnostics predict which mechanism controls generalization timing in a new controlled task and initialization regime?",
+    "boundary": "These mechanisms can coexist and the papers need not disagree. Delayed test generalization is not interchangeable with an arbitrary bend in training loss.",
+    "decisive_test": "Cross precision changes with feature-learning controls while preserving the task. Predict timing before running long trajectories and quantify seed uncertainty.",
+    "evidence": {
+      "theory": "A controlled regression mechanism and numerical-stability account are available.",
+      "empirical": "Interventions and task experiments support aspects of both accounts.",
+      "prediction": "Cross-setting onset prediction and mechanism identification remain to be audited."
+    },
+    "audit_priority": "first",
+    "priority_reason": "Competing explanations can be distinguished with modest interventions.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-012",
+        "type": "related_to",
+        "reason": "Delayed generalization timing and terminal representation geometry are distinct outcomes."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-012",
+    "title": "Representation collapse under contextual and imbalanced labels",
+    "topic": "representation-generalization",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2101.12699",
+      "arxiv-2405.17767",
+      "arxiv-2607.09487"
+    ],
+    "known": "Layer-peeled models analyze minority collapse. LM studies investigate collapse-like geometry, while a recent preprint emphasizes retained context information and variance floors.",
+    "question": "For a specified token or semantic partition, what representation geometry is predicted when class imbalance, contextual label uncertainty and dimension all matter?",
+    "boundary": "Class means, token identities and semantic categories are different partitions. An information floor and partial collapse metrics may be compatible, not a direct contradiction.",
+    "decisive_test": "Use identical partitions and centering conventions to reproduce the metrics, then vary imbalance and conditional ambiguity separately in a controllable next-token task.",
+    "evidence": {
+      "theory": "Analytical surrogate results and information-floor claims exist; the newer claims require full-text scrutiny.",
+      "empirical": "Empirical LM geometry has been studied using differing definitions.",
+      "prediction": "A shared measurable prediction requires reconciling definitions first."
+    },
+    "audit_priority": "first",
+    "priority_reason": "A measurement and assumption audit should precede new experiments.",
+    "existing_problems": [],
+    "related_leads": [],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-013",
+    "title": "Predicting benign versus tempered overfitting under feature learning",
+    "topic": "representation-generalization",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2305.19377",
+      "arxiv-2207.06569",
+      "arxiv-2007.04028"
+    ],
+    "known": "Lazy-training theory establishes benign-overfitting results under specified data conditions. A taxonomy separates benign, tempered and catastrophic regimes; robustness work identifies a distinct cost of label noise.",
+    "question": "Can spectral, margin and representation diagnostics predict noise-induced excess risk when a network leaves the lazy regime?",
+    "boundary": "Low natural test error does not imply vanishing excess risk or adversarial robustness. Classification and regression statements require separate accounting.",
+    "decisive_test": "Vary label noise and feature-learning strength with a known Bayes reference. Measure excess risk, margins and robustness separately and compare early stopping with interpolation.",
+    "evidence": {
+      "theory": "Precise results exist under restricted distributional and training assumptions.",
+      "empirical": "Neural experiments motivate distinctions between risk regimes.",
+      "prediction": "The proposed feature-learning risk predictor has not been checked against all existing theories."
+    },
+    "audit_priority": "second",
+    "priority_reason": "Broad and mature literature needs a deeper novelty search.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-014",
+        "type": "related_to",
+        "reason": "Noise-induced risk under one task differs from interference across sequential tasks."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-014",
+    "title": "Forecasting forgetting from evolving task geometry",
+    "topic": "representation-generalization",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-1612.00796",
+      "arxiv-2405.20236",
+      "arxiv-2601.21577"
+    ],
+    "known": "EWC slows updates to parameters important for previous tasks. Teacher-student theory distinguishes input-feature and readout similarity; a current parameter-gradient method uses conflicting versus collaborative contributions.",
+    "question": "Can a bounded calibration set of old-task gradients predict a future retention-learning tradeoff under finite-step AdamW and changing representations?",
+    "boundary": "A local gradient relation is not a full future trajectory model. Limited access to old tasks changes the information available to the predictor.",
+    "decisive_test": "Control feature and readout overlap separately, then test finite learning rates and partial old-task coverage. Freeze predicted forgetting curves before the second task.",
+    "evidence": {
+      "theory": "Latent linear teacher-student analysis gives conditional relationships.",
+      "empirical": "Continual-learning methods and current LM knowledge-injection experiments provide evidence.",
+      "prediction": "Current theory does not automatically establish the specific finite-horizon forecast proposed here."
+    },
+    "audit_priority": "second",
+    "priority_reason": "Requires current-version and access-assumption checks before prioritizing compute.",
+    "existing_problems": [],
+    "related_leads": [],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-015",
+    "title": "Identifying the algorithm behind in-context predictions",
+    "topic": "in-context-learning",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2111.02080",
+      "arxiv-2212.07677",
+      "arxiv-2211.15661",
+      "arxiv-2507.09440"
+    ],
+    "known": "Bayesian and optimization accounts explain ICL in controlled settings. A later regression study reports prompt-shift failures inconsistent with exact OLS behavior in its trained models.",
+    "question": "Which interventions distinguish approximate algorithm implementation from a predictor that agrees with that algorithm only on the training distribution?",
+    "boundary": "Bayesian inference and gradient methods are not always mutually exclusive descriptions. Existence constructions do not imply every trained transformer implements the construction.",
+    "decisive_test": "Match in-distribution accuracy, then apply covariance, scale and prompt perturbations on which candidate algorithms predict different outputs. Include internal-state predictions where available.",
+    "evidence": {
+      "theory": "Constructive and distribution-specific results already exist.",
+      "empirical": "In-distribution agreement and selected OOD failures are documented.",
+      "prediction": "The target is identifiable mechanism within a declared model family, not one universal ICL algorithm."
+    },
+    "audit_priority": "first",
+    "priority_reason": "Explicitly addresses the difference between observational agreement and mechanism.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-016",
+        "type": "related_to",
+        "reason": "Mechanism identifiability differs from predicting task-distribution transfer."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-016",
+    "title": "Task diversity and the boundary of in-context generalization",
+    "topic": "in-context-learning",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2505.14808",
+      "arxiv-2506.05574",
+      "arxiv-2405.15115"
+    ],
+    "known": "Subspace analyses and task-diversity experiments explain some ICL OOD behavior. Uncertainty-prediction tasks help distinguish prior-dependent estimators.",
+    "question": "Can a measurable description of pretraining task diversity predict generalization and uncertainty outside the observed task span in nonlinear tasks?",
+    "boundary": "Within-span novelty is not arbitrary out-of-support transfer. Predictive uncertainty and point accuracy are distinct outcomes.",
+    "decisive_test": "Vary span coverage independently of task count, then test nonlinear features and novel subspaces. Freeze both mean-risk and uncertainty predictions.",
+    "evidence": {
+      "theory": "Linear/subspace and Bayes-related results support restricted cases.",
+      "empirical": "Synthetic task transitions and selected transformer experiments exist.",
+      "prediction": "General nonlinear out-of-span prediction is only a candidate boundary, not a certified open theorem."
+    },
+    "audit_priority": "first",
+    "priority_reason": "Existing results sharply define a useful special-case boundary.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-017",
+        "type": "related_to",
+        "reason": "Task-span shift differs from relocating the same evidence in a prompt."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-017",
+    "title": "Predicting failures to combine dispersed context evidence",
+    "topic": "in-context-learning",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2307.03172",
+      "arxiv-2412.10079"
+    ],
+    "known": "Long-context studies measure position sensitivity; multi-hop work also reports effects of the separation between necessary pieces of information.",
+    "question": "Can a model of retrieval and composition predict accuracy from evidence placement, distractor density and hop count for a specified long-context model?",
+    "boundary": "Single-fact retrieval and multi-hop composition are different tasks. Positional performance curves alone do not identify a causal attention mechanism.",
+    "decisive_test": "Hold facts and question semantics fixed while permuting positions and distances. Use retrieval probes to separate missing evidence from failed composition and validate predictions on held-out layouts.",
+    "evidence": {
+      "theory": "This seed line is primarily empirical; a theory audit is still required.",
+      "empirical": "Controlled position and multi-hop experiments exist.",
+      "prediction": "Quantitative transfer to held-out layouts is the proposed target."
+    },
+    "audit_priority": "second",
+    "priority_reason": "Need to search more recent positional and attention-mechanism theories.",
+    "existing_problems": [],
+    "related_leads": [],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-018",
+    "title": "Guidance schedules with finite-dimensional score error",
+    "topic": "generative-models",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2502.07849"
+    ],
+    "known": "High-dimensional CFG analysis characterizes finite-dimensional overshoot and variance effects and motivates nonlinear guidance forms.",
+    "question": "Can measurable score error and conditioning strength select a guidance schedule that predicts a quality-diversity tradeoff on a held-out conditional distribution?",
+    "boundary": "Exact or idealized high-dimensional scores and finite learned scores need different error accounting. A guidance method improving benchmarks is not yet a transferable selection law.",
+    "decisive_test": "First reproduce Gaussian-mixture predictions, then introduce controlled score errors and finite dimension. Freeze schedule selection before a specified image experiment.",
+    "evidence": {
+      "theory": "High-dimensional and finite-dimensional analysis exists in a controlled framework.",
+      "empirical": "Gaussian and image-generation experiments are reported.",
+      "prediction": "Practical schedule selection with known error budgets remains to be reviewed."
+    },
+    "audit_priority": "second",
+    "priority_reason": "Only one primary line was screened; expand citations before declaring a gap.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-020",
+        "type": "related_to",
+        "reason": "Guidance bias and numerical sampling error can interact but require different controls."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-019",
+    "title": "A quantitative boundary between diffusion generalization and memorization",
+    "topic": "generative-models",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2508.17689",
+      "arxiv-2410.08727"
+    ],
+    "known": "A synthetic/natural-image-like laboratory predicts a memorization crossover by model capacity. Manifold analysis describes direction-dependent geometric memorization.",
+    "question": "Can local data geometry and model capacity predict partial memorization before exact training-example reproduction occurs in a specified learned diffusion model?",
+    "boundary": "Exact duplication, nearest-neighbor resemblance and lost tangent directions measure different phenomena. Their thresholds should not be treated as identical.",
+    "decisive_test": "Use manifolds with controlled directional variance, train across capacities and sample counts, and freeze predictions for geometry loss and exact-copy rates separately.",
+    "evidence": {
+      "theory": "Tractable crossover and geometric analyses already provide predictions.",
+      "empirical": "Controlled simulations and image-like experiments support those analyses.",
+      "prediction": "Generalization to a learned-score setting beyond tested assumptions needs audit."
+    },
+    "audit_priority": "first",
+    "priority_reason": "A precise measurement bridge between two explanatory lines.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-020",
+        "type": "related_to",
+        "reason": "Training-data memorization is distinct from approximation error to a specified target."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-020",
+    "title": "Making diffusion error decompositions operational",
+    "topic": "generative-models",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2209.11215",
+      "arxiv-2508.03210",
+      "arxiv-2607.23226"
+    ],
+    "known": "Sampling bounds relate score error to convergence; later work analyzes deterministic and stochastic samplers, and an end-to-end framework includes learning and discretization errors.",
+    "question": "Can quantities estimated from finite validation data guide how to allocate training effort and sampler evaluations for a fixed target distribution?",
+    "boundary": "End-to-end error decompositions already exist. The candidate concerns estimability and useful finite-budget decisions, not the absence of convergence theory.",
+    "decisive_test": "Compare bound-derived choices with an empirical budget sweep on a tractable target, then a declared image dataset. Measure whether estimated components rank the best allocation correctly.",
+    "evidence": {
+      "theory": "Score-conditional and end-to-end convergence frameworks are reported.",
+      "empirical": "Practical tightness and decision utility were not established by this screening.",
+      "prediction": "Observable allocation rules need further validation and novelty checking."
+    },
+    "audit_priority": "first",
+    "priority_reason": "Avoids proposing a theorem class that recent work already addresses.",
+    "existing_problems": [],
+    "related_leads": [],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-021",
+    "title": "Distinguishing reasoning acquisition from probability reweighting",
+    "topic": "post-training",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2504.13837",
+      "arxiv-2505.24864"
+    ],
+    "known": "One RLVR study uses large-k evaluation to argue for reweighting in its settings; ProRL reports broader reasoning performance after prolonged training under a different protocol.",
+    "question": "Which finite-sample tests can distinguish reusable new task-solving behavior from improved sampling of rare base-model behavior under matched budgets?",
+    "boundary": "Finite sampling cannot prove a base policy assigns zero probability. Training duration, task mixtures, decoding and reference-policy changes differ across studies.",
+    "decisive_test": "Reproduce both protocols on a shared base model and tasks. Match sample and training budgets, report uncertainty for rare success events, and test held-out compositional transfer.",
+    "evidence": {
+      "theory": "This dispute needs an operational definition of capability before a theorem or causal claim.",
+      "empirical": "Competing empirical interpretations are reported under different protocols.",
+      "prediction": "Neither abstract establishes a universal yes/no answer; a common test is proposed."
+    },
+    "audit_priority": "first",
+    "priority_reason": "High scientific value but measurement definitions must lead the investigation.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-023",
+        "type": "related_to",
+        "reason": "Changing the policy through RL differs from allocating sampling to a fixed policy."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-022",
+    "title": "Observable warning signals for preference overoptimization",
+    "topic": "post-training",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2210.10760",
+      "arxiv-2406.02900",
+      "arxiv-2407.13399"
+    ],
+    "known": "Empirical reward-overoptimization laws extend from proxy-reward optimization to direct alignment. Chi-squared preference optimization provides a theoretical alternative with robustness guarantees.",
+    "question": "Without access to a gold reward oracle, can observable coverage and uncertainty diagnostics forecast harmful overoptimization for a declared preference-learning setup?",
+    "boundary": "The existence of a robust preference algorithm is already addressed under assumptions. Synthetic gold-model reward is not identical to human preferences, and KL alone may not identify optimization pressure.",
+    "decisive_test": "Use hidden gold reward only for evaluation, calibrate on limited held-out preferences, and freeze warning thresholds. Compare DPO and chi-squared regularization under controlled coverage shifts.",
+    "evidence": {
+      "theory": "Robustness guarantees already exist; their coverage assumptions require full-text audit.",
+      "empirical": "Overoptimization trajectories have been measured for several methods.",
+      "prediction": "An oracle-free warning rule is a separate candidate from designing a robust algorithm."
+    },
+    "audit_priority": "first",
+    "priority_reason": "Existing positive theory should narrow rather than erase the practical question.",
+    "existing_problems": [],
+    "related_leads": [],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-023",
+    "title": "Adaptive inference budgets with imperfect verifiers",
+    "topic": "post-training",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2408.03314",
+      "arxiv-2210.10760"
+    ],
+    "known": "Test-time compute studies find prompt-dependent allocation benefits, while reward-model work shows selection can overoptimize an imperfect proxy.",
+    "question": "Can a small calibration set predict when another sample or reasoning step helps more than it increases verifier selection error on a shifted task distribution?",
+    "boundary": "An oracle difficulty estimate and a learned verifier supply different information. Best-of-N success and judged quality must be separated.",
+    "decisive_test": "Hold the proposal model fixed, perturb verifier calibration and task difficulty, and predict stopping decisions. Include all rejected samples and verifier calls in compute.",
+    "evidence": {
+      "theory": "Empirical allocation and overoptimization models provide ingredients.",
+      "empirical": "Both sampling-based selection and inference strategies have measured tradeoffs.",
+      "prediction": "A transferable stopping criterion is a proposed synthesis awaiting audit."
+    },
+    "audit_priority": "second",
+    "priority_reason": "Related to lifecycle compute allocation but operates after the model is fixed.",
+    "existing_problems": [],
+    "related_leads": [],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-024",
+    "title": "Which precision law matches the quantization mechanism",
+    "topic": "precision",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2411.04330",
+      "arxiv-2602.19241"
+    ],
+    "known": "Empirical precision-aware scaling laws use effective capacity; sketched-regression theory distinguishes additive and multiplicative quantization effects.",
+    "question": "Can measured error structure identify the correct precision-loss model before fitting a separate scaling law for each format and tensor group?",
+    "boundary": "Additive and multiplicative noise models are assumptions, not interchangeable descriptions of every hardware quantizer. Training and post-training quantization must be separated.",
+    "decisive_test": "Check error conditional on tensor magnitude, then predict loss under held-out bit budgets and group assignments with a fixed calibration budget.",
+    "evidence": {
+      "theory": "A controlled high-dimensional analysis explains distinct scaling forms.",
+      "empirical": "Precision-aware LM scaling fits have empirical support.",
+      "prediction": "Mapping real tensor errors to the right theoretical regime is the proposed validation target."
+    },
+    "audit_priority": "first",
+    "priority_reason": "A concrete bridge from mechanism to predictive functional form.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-025",
+        "type": "related_to",
+        "reason": "Global precision-loss scaling and tail update stagnation are different prediction targets."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-025",
+    "title": "Predicting low-learning-rate stagnation from update resolution",
+    "topic": "precision",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2607.10611",
+      "arxiv-2411.04330"
+    ],
+    "known": "M+Adam identifies update stagnation with low-precision master weights and proposes additive-multiplicative updates; precision scaling work studies loss effects more broadly.",
+    "question": "Given rounding mode, master-weight precision and update-to-weight ratios, can we predict when a decaying schedule stops producing useful parameter changes?",
+    "boundary": "BF16 forward computation with FP32 master weights is not the low-precision-master setting. Loss quantization, parameter rounding and statistical plateaus require separate diagnostics.",
+    "decisive_test": "Branch identical checkpoints into controlled master-weight and rounding configurations with matched data order. Forecast zero-update fractions and loss differences before running tails.",
+    "evidence": {
+      "theory": "A proposed optimizer has a smooth-objective descent analysis; exact assumptions still need review.",
+      "empirical": "Low-precision-master LM experiments are reported.",
+      "prediction": "Tail-specific quantitative thresholds across precision configurations remain a candidate."
+    },
+    "audit_priority": "first",
+    "priority_reason": "A cheap decisive test with an important implementation distinction.",
+    "existing_problems": [],
+    "related_leads": [
+      {
+        "target": "DISC-20261001-026",
+        "type": "related_to",
+        "reason": "Late update resolution and early module precision allocation have different inputs."
+      }
+    ],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  },
+  {
+    "id": "DISC-20261001-026",
+    "title": "Precision allocation after scale-stable initialization",
+    "topic": "precision",
+    "status": "discovery_lead",
+    "disposition": "new_candidate",
+    "sources": [
+      "arxiv-2407.17465",
+      "arxiv-2411.04330"
+    ],
+    "known": "Unit-scaled maximal-update parametrization supports low-precision training, while precision-aware laws quantify quality-cost effects of tensor precisions.",
+    "question": "Can initial scaling plus early tensor statistics predict which modules need higher precision later in training, without per-module ablation sweeps?",
+    "boundary": "Unit-scale initialization does not imply stationary distributions throughout training. Format range, rounding and accumulated optimizer state must be specified.",
+    "decisive_test": "Freeze a module precision allocation from early diagnostics, then test later distributions and quality on held-out sizes and schedules against uniform and tuned allocations.",
+    "evidence": {
+      "theory": "Parametrization principles and empirical precision laws provide starting points.",
+      "empirical": "Low-precision training and mixed-component fits have been reported.",
+      "prediction": "An early-data precision allocator is the proposed target, not an established gap."
+    },
+    "audit_priority": "second",
+    "priority_reason": "Needs a fuller audit of mixed-precision allocation methods.",
+    "existing_problems": [],
+    "related_leads": [],
+    "audit_limitations": "Primary abstracts screened only. No full-text novelty audit, independent replication, or human scientific review in this batch. Questions and tests are curator proposals."
+  }
+]

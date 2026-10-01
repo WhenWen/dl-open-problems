@@ -37,3 +37,7 @@ Only the seed abstract was checked on 2026-10-01. Later work on depth, unit scal
 ## Related problems
 
 No relation to another seed card has been established. Shared use of the word scaling is not sufficient to assert equivalence.
+
+## Discovery update on 2026 10 01
+
+The batch found architecture-specific MoE and GQA prescriptions, alongside deep-linear and unit-scaled analyses. A broad claim that joint scale transfer lacks theory would be misleading; finite-scale error prediction needs a narrower audit. See the [batch discovery report](../../discovery/2026-10-01/README.md) and its versioned references. Status remains candidate; full-text review is incomplete.
