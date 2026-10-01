@@ -1,0 +1,521 @@
+[
+  {
+    "area": "self-supervised vision",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-ssl",
+      "b2-ssl-augmentation",
+      "b2-ssl-recent",
+      "b2-mae"
+    ],
+    "leads": [
+      "DISC-20261001-027",
+      "DISC-20261001-028",
+      "DISC-20261001-029"
+    ],
+    "sources": [
+      "arxiv-2110.04947",
+      "arxiv-2203.13457",
+      "arxiv-2205.09113",
+      "arxiv-2209.15007",
+      "arxiv-2306.04898",
+      "arxiv-2309.16109",
+      "arxiv-2506.04411",
+      "arxiv-2507.01028"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Compare objective-specific collapse theories with DINO/VICReg and dense prediction; trace MAE theory citations."
+  },
+  {
+    "area": "robustness and domain shift",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-robustness",
+      "b2-invariance",
+      "b2-venue-calibration"
+    ],
+    "leads": [
+      "DISC-20261001-030",
+      "DISC-20261001-031",
+      "DISC-20261001-032"
+    ],
+    "sources": [
+      "arxiv-1901.08573",
+      "arxiv-2002.10716",
+      "arxiv-2010.05761",
+      "arxiv-2101.01134",
+      "arxiv-2110.11950",
+      "arxiv-2211.15646",
+      "pmlr-you25c"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add group DRO, causal representation learning, adversarial certificates and non-image shifts; inspect adaptation assumptions."
+  },
+  {
+    "area": "graph learning",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-graphs",
+      "b2-graph-heterophily",
+      "b2-graph-expressivity"
+    ],
+    "leads": [
+      "DISC-20261001-033",
+      "DISC-20261001-034",
+      "DISC-20261001-035"
+    ],
+    "sources": [
+      "arxiv-2106.06134",
+      "arxiv-2208.03471",
+      "arxiv-2310.02579",
+      "arxiv-2401.09125",
+      "arxiv-2510.17457",
+      "arxiv-2603.26140",
+      "arxiv-2606.13671"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Check task-aware rewiring, graph-size transfer and graph transformer benchmarks against the selected theories."
+  },
+  {
+    "area": "non-language reinforcement learning",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-rl",
+      "b2-rl-plasticity",
+      "b2-rl-models",
+      "b2-venue-rl"
+    ],
+    "leads": [
+      "DISC-20261001-036",
+      "DISC-20261001-037",
+      "DISC-20261001-038"
+    ],
+    "sources": [
+      "arxiv-1912.11206",
+      "arxiv-2202.11566",
+      "arxiv-2205.07802",
+      "arxiv-2310.18434",
+      "arxiv-2404.09946",
+      "arxiv-2509.22335",
+      "arxiv-2510.00304",
+      "pmlr-wang25dx"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add exploration, off-policy instability, offline-to-online transfer and multi-agent control; audit neural uncertainty guarantees."
+  },
+  {
+    "area": "compression and adaptation",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-compression",
+      "b2-lora",
+      "b2-distillation",
+      "b2-venue-compression"
+    ],
+    "leads": [
+      "DISC-20261001-039",
+      "DISC-20261001-040",
+      "DISC-20261001-041"
+    ],
+    "sources": [
+      "arxiv-1803.03635",
+      "arxiv-1903.01611",
+      "arxiv-2002.00585",
+      "arxiv-2002.03532",
+      "arxiv-2106.05945",
+      "arxiv-2310.17513",
+      "arxiv-2503.12576"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Read recent pruning papers beyond the inaccessible landing page; add structured sparsity and matched-hardware compute."
+  },
+  {
+    "area": "multimodal learning",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-multimodal",
+      "b2-multimodal-competition"
+    ],
+    "leads": [
+      "DISC-20261001-042",
+      "DISC-20261001-043"
+    ],
+    "sources": [
+      "arxiv-2106.04538",
+      "arxiv-2203.02053",
+      "arxiv-2203.12221",
+      "arxiv-2412.07909",
+      "arxiv-2607.10698"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Extend beyond dual encoders and late fusion to audio/video, generative fusion and missing modalities."
+  },
+  {
+    "area": "scientific machine learning",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-scientific",
+      "b2-operator"
+    ],
+    "leads": [
+      "DISC-20261001-044",
+      "DISC-20261001-045"
+    ],
+    "sources": [
+      "arxiv-2001.04536",
+      "arxiv-2109.01050",
+      "arxiv-2305.19913",
+      "arxiv-2405.02221",
+      "arxiv-2412.03393"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add chaotic long-time forecasting, inverse problems, irregular meshes and numerical-analysis literature."
+  },
+  {
+    "area": "synthetic-data feedback",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-privacy",
+      "b2-recent-countercheck"
+    ],
+    "leads": [
+      "DISC-20261001-046"
+    ],
+    "sources": [
+      "arxiv-2404.01413",
+      "arxiv-2410.16713",
+      "arxiv-2602.16601"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Audit filtering, finite retention, fresh-data bounds and rare-event metrics across modalities."
+  },
+  {
+    "area": "differentially private learning",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-privacy"
+    ],
+    "leads": [
+      "DISC-20261001-047"
+    ],
+    "sources": [
+      "arxiv-2009.03106",
+      "arxiv-2212.01539"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Search private scaling laws, clipping bias, lower bounds and subgroup utility beyond efficient implementation papers."
+  },
+  {
+    "area": "predictive uncertainty",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-uncertainty",
+      "b2-calibration",
+      "b2-venue-calibration"
+    ],
+    "leads": [
+      "DISC-20261001-048",
+      "DISC-20261001-049"
+    ],
+    "sources": [
+      "arxiv-1906.02530",
+      "arxiv-2006.08573",
+      "arxiv-2305.12616",
+      "arxiv-2607.18088",
+      "pmlr-rudner25a"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Audit calibration metric definitions, target-label budgets, dependent streams and conformal assumption violations."
+  },
+  {
+    "area": "generalization mechanisms",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-flatness",
+      "b2-implicit"
+    ],
+    "leads": [
+      "DISC-20261001-050",
+      "DISC-20261001-051"
+    ],
+    "sources": [
+      "arxiv-1703.04933",
+      "arxiv-1710.10345",
+      "arxiv-2011.12547",
+      "arxiv-2302.07011"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add PAC-Bayes, stability, information-theoretic bounds, double descent and feature-learning counterexamples."
+  },
+  {
+    "area": "architecture dynamics",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-architecture",
+      "b2-depth"
+    ],
+    "leads": [
+      "DISC-20261001-052",
+      "DISC-20261001-053"
+    ],
+    "sources": [
+      "arxiv-1809.08848",
+      "arxiv-2210.02411",
+      "arxiv-2506.14038",
+      "arxiv-2604.04230"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add SSMs, attention sinks, recurrent memory, depth limits and architecture search; broaden beyond residual networks and MoE."
+  },
+  {
+    "area": "federated learning",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-federated"
+    ],
+    "leads": [
+      "DISC-20261001-054"
+    ],
+    "sources": [
+      "arxiv-1910.06378",
+      "arxiv-2207.11447"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add nonstationary participation, personalization, asynchronous updates and systems constraints."
+  },
+  {
+    "area": "mechanistic interpretability",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-interpretability",
+      "b2-sae-identifiability"
+    ],
+    "leads": [
+      "DISC-20261001-055"
+    ],
+    "sources": [
+      "arxiv-2506.14002",
+      "arxiv-2512.13568"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add circuit faithfulness, feature splitting and cross-seed identification; audit SAE latent-model assumptions."
+  },
+  {
+    "area": "generative training dynamics",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-gan",
+      "b2-distill-generation",
+      "b2-recent-countercheck"
+    ],
+    "leads": [
+      "DISC-20261001-056",
+      "DISC-20261001-057"
+    ],
+    "sources": [
+      "arxiv-1705.07215",
+      "arxiv-1706.04156",
+      "arxiv-2303.01469",
+      "arxiv-2402.07802"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Update GAN lineage and add flow matching, discrete generation, sampler bias and current consistency bounds."
+  },
+  {
+    "area": "data attribution",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-influence"
+    ],
+    "leads": [
+      "DISC-20261001-058"
+    ],
+    "sources": [
+      "arxiv-2006.14651",
+      "arxiv-2512.09103"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Compare TRAK, TracIn, influence variants and data Shapley against actual retraining under a shared protocol."
+  },
+  {
+    "area": "machine unlearning",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-unlearning"
+    ],
+    "leads": [
+      "DISC-20261001-059"
+    ],
+    "sources": [
+      "arxiv-2208.10836",
+      "arxiv-2407.06460"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Read certified unlearning guarantees and recent adaptive attacks; separate deletion from answer suppression."
+  },
+  {
+    "area": "compositional learning",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-composition",
+      "b2-venue-composition"
+    ],
+    "leads": [
+      "DISC-20261001-060"
+    ],
+    "sources": [
+      "acl-wold2025",
+      "arxiv-2008.02742",
+      "arxiv-2110.04655"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Audit entropy-based predictions and grammar-support assumptions; add non-language compositional tasks."
+  },
+  {
+    "area": "out-of-distribution detection",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-ood"
+    ],
+    "leads": [
+      "DISC-20261001-061"
+    ],
+    "sources": [
+      "arxiv-1906.02994",
+      "arxiv-2203.01097"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add semantic versus covariate OOD, near-OOD alternatives and sequential tests under dependent data."
+  },
+  {
+    "area": "model merging",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-merging"
+    ],
+    "leads": [
+      "DISC-20261001-062"
+    ],
+    "sources": [
+      "arxiv-2209.04836",
+      "arxiv-2402.04051"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add task arithmetic, nonlinear alignment, heterogeneous architectures and post-merge safety of unrelated tasks."
+  },
+  {
+    "area": "representation identifiability",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-disentanglement"
+    ],
+    "leads": [
+      "DISC-20261001-063"
+    ],
+    "sources": [
+      "arxiv-1811.12359",
+      "arxiv-2206.07751"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Compare auxiliary-variable, temporal and sparse-mixing identification; quantify approximate assumptions."
+  },
+  {
+    "area": "symmetry and geometric learning",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-equivariance"
+    ],
+    "leads": [
+      "DISC-20261001-064"
+    ],
+    "sources": [
+      "arxiv-2201.11969",
+      "arxiv-2312.09016"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add equivariant statistical learning theory and stochastic symmetry-breaking outputs."
+  },
+  {
+    "area": "long-tailed recognition",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-longtail"
+    ],
+    "leads": [
+      "DISC-20261001-065"
+    ],
+    "sources": [
+      "arxiv-2305.10648",
+      "arxiv-2409.17582"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Add label noise, unequal within-class diversity and changing deployment priors; inspect feature sufficiency claims."
+  },
+  {
+    "area": "tabular learning",
+    "stage": "selected_primary_abstracts",
+    "query_batches": [
+      "b2-tabular",
+      "b2-venue-tabular"
+    ],
+    "leads": [
+      "DISC-20261001-066"
+    ],
+    "sources": [
+      "arxiv-2207.08815",
+      "arxiv-2407.00956",
+      "arxiv-2505.20003",
+      "hollmann2025-tabpfn"
+    ],
+    "full_text_audit": false,
+    "citation_closure": false,
+    "saturation_measured": false,
+    "next_search": "Compare recent tabular foundation models, meta-learning priors, unseen schema transfer and amortized compute."
+  }
+]

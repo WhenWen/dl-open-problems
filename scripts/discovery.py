@@ -18,6 +18,14 @@ def validate(root, batch):
     candidates = read(batch / 'candidates.json')
     bibliography = {p['id']: p for p in read(root / 'bibliography.json')}
     topics = read(root / 'taxonomy.json')['topics']
+    all_batches = sorted((root / 'discovery').glob('*/candidates.json'))
+    all_candidates = [p for file in all_batches for p in read(file)]
+    all_ids = [p['id'] for p in all_candidates]
+    require(len(all_ids) == len(set(all_ids)), 'duplicate discovery ID across batches')
+    all_questions = [' '.join(p['question'].lower().split()) for p in all_candidates]
+    require(len(all_questions) == len(set(all_questions)), 'duplicate discovery question across batches')
+    locations = {p['id']: '../' + file.parent.name + '/README.md#' + p['id'].lower()
+                 for file in all_batches for p in read(file)}
     ids = [p['id'] for p in candidates]
     require(len(ids) == len(set(ids)), 'duplicate discovery ID')
     signatures = [' '.join(p['question'].lower().split()) for p in candidates]
@@ -37,7 +45,7 @@ def validate(root, batch):
             require(isinstance(p['evidence'][key], str) and p['evidence'][key].strip(), f'missing discovery evidence {key}')
         require(p['audit_priority'] in ['first', 'second'], 'unknown audit priority')
         for edge in p['related_leads']:
-            require(edge['target'] in ids and edge['target'] != p['id'], 'dangling discovery relation')
+            require(edge['target'] in all_ids and edge['target'] != p['id'], 'dangling discovery relation')
             require(edge['type'] == 'related_to' and edge['reason'].strip(), 'invalid discovery comparison')
     manifest = read(batch / 'search-manifest.json')
     require(len({x['id'] for x in manifest}) == len(manifest), 'duplicate query batch')
@@ -59,31 +67,55 @@ def validate(root, batch):
     for x in triage:
         require(set(x['sources']) <= bibliography.keys() and set(x['leads']) <= set(ids), 'dangling triage reference')
         require(x['framing'].strip() and x['reason'].strip(), 'empty triage rationale')
-    return candidates, bibliography, topics, manifest, triage
+    global_manifests = [entry for file in (root / 'discovery').glob('*/search-manifest.json') for entry in read(file)]
+    query_ids = [entry['id'] for entry in global_manifests]
+    require(len(query_ids) == len(set(query_ids)), 'duplicate query batch across batches')
+    metadata = read(batch / 'batch.json') if (batch / 'batch.json').exists() else {}
+    metadata['locations'] = {key: ('#'+key.lower() if key in ids else value) for key, value in locations.items()}
+    if metadata.get('areas'):
+        require(all(p.get('area') in metadata['areas'] for p in candidates), 'unknown discovery area')
+        require(set(metadata['areas']) == {p['area'] for p in candidates}, 'area coverage disagrees with leads')
+        coverage = read(batch / 'area-coverage.json')
+        require(len(coverage) == len(metadata['areas']) and {x['area'] for x in coverage} == set(metadata['areas']), 'area ledger incomplete')
+        for row in coverage:
+            require(set(row['query_batches']) <= {x['id'] for x in manifest}, 'unknown area query batch')
+            matching = [p for p in candidates if p['area'] == row['area']]
+            require(set(row['leads']) == {p['id'] for p in matching}, 'area leads disagree')
+            require(set(row['sources']) == {s for p in matching for s in p['sources']}, 'area sources disagree')
+            require(row['stage'] == 'selected_primary_abstracts' and row['next_search'].strip(), 'invalid area stage or next search')
+            require(all(row[key] is False for key in ['full_text_audit', 'citation_closure', 'saturation_measured']), 'discovery cannot certify area completeness')
+    return candidates, bibliography, topics, manifest, triage, metadata
 
-def render(candidates, bibliography, topics, manifest, triage):
+def render(candidates, bibliography, topics, manifest, triage, metadata=None):
+    metadata = metadata or {}
     nqueries = sum(len(x['queries']) for x in manifest)
     source_ids = {s for c in candidates for s in c['sources']}
     counts = Counter(c['topic'] for c in candidates)
     new = sum(c['disposition'] == 'new_candidate' for c in candidates)
     def refs(ids):
         return '; '.join(f"[{bibliography[s]['title']}]({bibliography[s]['url']})" for s in ids)
-    rows = ['# Discovery batch 2026 10 01', '',
+    rows = [metadata.get('title', '# Discovery batch 2026 10 01'), '',
             f'{nqueries} search queries in {len(manifest)} query batches; {len(source_ids)} selected primary papers screened at abstract level; {len(candidates)} leads across {len(counts)} topics.', '',
             f'**{new} new candidate leads and {len(candidates)-new} updates to existing cards. None is promoted to a literature-audited open problem.**', '',
             'This is a discovery queue, not the canonical problem catalog. Paper summaries describe author-reported results; questions, boundaries and proposed tests are curator synthesis. Priority means order for deeper auditing, not confidence in novelty or scientific importance.', '',
             '[Canonical catalog](../../INDEX.md) · [Structured leads](candidates.json) · [Exact queries](search-manifest.json) · [Triage log](triage.json)', '',
             '## Method and limits', '',
             'Searches combined foundational titles, recent-work queries, and targeted follow-ups for under-covered areas. Selected arXiv abstract pages were read directly, and citations record the retrieved version. Several search snippets used older titles or claims; current primary pages took precedence. No systematic backward/forward citation traversal, full-text theorem audit, independent experiment, or human scientific review was performed.', '',
-            'The selection is purposive, English-language, arXiv-heavy and biased toward language-model training. Eight coarse topics touched does not mean the field is covered. Search saturation was not measured. Vision beyond the selected theory examples, multimodal learning, graph learning, contrastive/self-supervised learning, causal/OOD robustness, non-language RL, architecture search and pruning deserve separate search passes. Within each topic, older and competing research communities may be missing.', '',
+            metadata.get('limitations', 'The selection is purposive, English-language, arXiv-heavy and biased toward language-model training. Eight coarse topics touched does not mean the field is covered. Search saturation was not measured. Vision beyond the selected theory examples, multimodal learning, graph learning, contrastive/self-supervised learning, causal/OOD robustness, non-language RL, architecture search and pruning deserve separate search passes. Within each topic, older and competing research communities may be missing.'), '',
             'No raw abstracts, private research logs, or unpublished experimental results are redistributed. AI-assisted discovery and synthesis were checked against primary abstracts by the assistant; human scholarly review remains pending.', '',
             '## Coverage', '', '| Topic | Leads |', '| --- | --- |']
     rows += [f'| {t} | {counts[t]} |' for t in topics]
+    if metadata.get('areas'):
+        rows += ['', '## Subfield coverage', '',
+                 'Each row records selected leads, not completeness or search saturation. See [coverage and remaining gaps](coverage.md).', '',
+                 '| Area | Leads |', '| --- | --- |']
+        area_counts = Counter(c['area'] for c in candidates)
+        rows += [f'| {area} | {area_counts[area]} |' for area in metadata['areas']]
     rows += ['', '## Lead index', '', '| Lead | Question family | Triage | Audit order |', '| --- | --- | --- | --- |']
     for c in candidates:
         rows.append(f"| [{c['id']}](#{c['id'].lower()}) | {c['title']} | {c['disposition']} | {c['audit_priority']} |")
     rows += ['', '## Audit next', '',
-             'Start with a small set spanning different kinds of uncertainty: DISC-20261001-001 (known special cases), 009 (different experimental protocols), 012 (measurement definitions), 015 (mechanism identifiability), 022 (existing robustness guarantees), and 024 (theory-to-hardware mapping). This is a proposed reading order, not an authorized experimental queue.', '',
+             metadata.get('audit_next', 'Start with a small set spanning different kinds of uncertainty: DISC-20261001-001 (known special cases), 009 (different experimental protocols), 012 (measurement definitions), 015 (mechanism identifiability), 022 (existing robustness guarantees), and 024 (theory-to-hardware mapping). This is a proposed reading order, not an authorized experimental queue.'), '',
              'For each, read full texts, trace subsequent citations, seek an existing answer, compare canonical and discovery neighbors, and write a bounded problem card only if the gap survives. Record resolved or narrowed proposals as useful outcomes.', '', '## Lead details', '']
     for c in candidates:
         rows += [f"### {c['id']}", '', f"**{c['title']}** · {c['topic']} · {c['disposition']}", '',
@@ -99,7 +131,7 @@ def render(candidates, bibliography, topics, manifest, triage):
         if c['existing_problems']:
             rows += ['**Existing card.** '+', '.join(f'[{p}](../../problems/{p}/README.md)' for p in c['existing_problems'])+'. Update these IDs rather than creating duplicates.', '']
         for edge in c['related_leads']:
-            rows += [f"**Identity check.** [{edge['target']}](#{edge['target'].lower()}): {edge['reason']}", '']
+            rows += [f"**Identity check.** [{edge['target']}]({metadata.get('locations', {}).get(edge['target'], '#'+edge['target'].lower())}): {edge['reason']}", '']
     rows += ['## Rejected or narrowed framings', '']
     for t in triage:
         rows += [f"- **{t['id']} — {t['decision']}:** {t['framing']} {t['reason']}" + (' '+refs(t['sources']) if t['sources'] else '')]

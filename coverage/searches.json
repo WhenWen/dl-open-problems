@@ -397,5 +397,381 @@
     ],
     "limitations": "Discovery screening only. Multi-topic query results were uneven; selection is purposive and biased toward arXiv and language models. No topic is complete or saturated.",
     "next_steps": "Read key full texts, inspect later citations and alternative terminology, test semantic duplicates, and audit the proposed boundary before promotion."
+  },
+  {
+    "id": "SEARCH-B2-001",
+    "date": "2026-10-01",
+    "topic": "optimization",
+    "method": "Breadth expansion with targeted follow-ups and selected primary-abstract checks; no full-text audit.",
+    "queries": [
+      "lottery ticket hypothesis pruning at initialization limitations theory site:arxiv.org",
+      "knowledge distillation theory student teacher capacity gap site:arxiv.org",
+      "LoRA expressivity rank theory full fine tuning site:arxiv.org",
+      "physics informed neural networks gradient pathology failure modes site:arxiv.org",
+      "neural operator discretization convergence resolution generalization theory site:arxiv.org",
+      "deep learning differential privacy utility scaling theory clipping site:arxiv.org",
+      "synthetic data model collapse accumulating data theory site:arxiv.org",
+      "implicit bias gradient descent non separable deep learning logistic regression theory site:arxiv.org",
+      "federated learning client drift data heterogeneity theory SCAFFOLD site:arxiv.org",
+      "residual networks depth width scaling dynamical isometry theory site:arxiv.org",
+      "model merging linear mode connectivity permutation alignment theory site:arxiv.org",
+      "2025 pruning lottery ticket sparse trainability theory site:openreview.net"
+    ],
+    "query_batches": [
+      "b2-compression",
+      "b2-scientific",
+      "b2-privacy",
+      "b2-implicit",
+      "b2-depth",
+      "b2-federated",
+      "b2-merging",
+      "b2-venue-compression"
+    ],
+    "sources": [
+      "arxiv-1710.10345",
+      "arxiv-1803.03635",
+      "arxiv-1809.08848",
+      "arxiv-1903.01611",
+      "arxiv-1910.06378",
+      "arxiv-2001.04536",
+      "arxiv-2002.00585",
+      "arxiv-2009.03106",
+      "arxiv-2011.12547",
+      "arxiv-2109.01050",
+      "arxiv-2207.11447",
+      "arxiv-2209.04836",
+      "arxiv-2210.02411",
+      "arxiv-2212.01539",
+      "arxiv-2402.04051"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-039",
+      "DISC-20261001-044",
+      "DISC-20261001-047",
+      "DISC-20261001-051",
+      "DISC-20261001-053",
+      "DISC-20261001-054",
+      "DISC-20261001-062"
+    ],
+    "excluded": [
+      "Universal claims and already-answered framings narrowed in discovery/2026-10-01-expansion/triage.json."
+    ],
+    "limitations": "Purposive search, not a systematic review. Query coverage overlaps topics. Some recent-work and venue queries were dominated by other results; sources and abstracts do not certify novelty.",
+    "next_steps": "Follow the area-specific missing assumptions, source communities and citation-audit tasks in discovery/2026-10-01-expansion/coverage.md."
+  },
+  {
+    "id": "SEARCH-B2-002",
+    "date": "2026-10-01",
+    "topic": "scaling",
+    "method": "Breadth expansion with targeted follow-ups and selected primary-abstract checks; no full-text audit.",
+    "queries": [
+      "residual neural network depth scaling dynamical isometry theory finite width site:arxiv.org",
+      "mixture of experts router collapse load balancing theory specialization site:arxiv.org"
+    ],
+    "query_batches": [
+      "b2-architecture"
+    ],
+    "sources": [
+      "arxiv-2506.14038",
+      "arxiv-2604.04230"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-052"
+    ],
+    "excluded": [
+      "Universal claims and already-answered framings narrowed in discovery/2026-10-01-expansion/triage.json."
+    ],
+    "limitations": "Purposive search, not a systematic review. Query coverage overlaps topics. Some recent-work and venue queries were dominated by other results; sources and abstracts do not certify novelty.",
+    "next_steps": "Follow the area-specific missing assumptions, source communities and citation-audit tasks in discovery/2026-10-01-expansion/coverage.md."
+  },
+  {
+    "id": "SEARCH-B2-003",
+    "date": "2026-10-01",
+    "topic": "data",
+    "method": "Breadth expansion with targeted follow-ups and selected primary-abstract checks; no full-text audit.",
+    "queries": [
+      "deep learning differential privacy utility scaling theory clipping site:arxiv.org",
+      "synthetic data model collapse accumulating data theory site:arxiv.org",
+      "influence functions deep neural networks fragile evaluation attribution site:arxiv.org",
+      "approximate machine unlearning deep networks evaluation retraining indistinguishability site:arxiv.org",
+      "2025 2026 lottery ticket pruning findability theory site:arxiv.org",
+      "2025 2026 offline reinforcement learning pessimism uncertainty calibration deep neural networks site:arxiv.org",
+      "2025 2026 diffusion consistency models error convergence theory site:arxiv.org"
+    ],
+    "query_batches": [
+      "b2-privacy",
+      "b2-recent-countercheck",
+      "b2-influence",
+      "b2-unlearning"
+    ],
+    "sources": [
+      "arxiv-2006.14651",
+      "arxiv-2208.10836",
+      "arxiv-2404.01413",
+      "arxiv-2407.06460",
+      "arxiv-2410.16713",
+      "arxiv-2512.09103",
+      "arxiv-2602.16601"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-046",
+      "DISC-20261001-058",
+      "DISC-20261001-059"
+    ],
+    "excluded": [
+      "Universal claims and already-answered framings narrowed in discovery/2026-10-01-expansion/triage.json."
+    ],
+    "limitations": "Purposive search, not a systematic review. Query coverage overlaps topics. Some recent-work and venue queries were dominated by other results; sources and abstracts do not certify novelty.",
+    "next_steps": "Follow the area-specific missing assumptions, source communities and citation-audit tasks in discovery/2026-10-01-expansion/coverage.md."
+  },
+  {
+    "id": "SEARCH-B2-004",
+    "date": "2026-10-01",
+    "topic": "representation-generalization",
+    "method": "Breadth expansion with targeted follow-ups and selected primary-abstract checks; no full-text audit.",
+    "queries": [
+      "non contrastive self supervised learning collapse theory feature learning site:arxiv.org",
+      "contrastive learning augmentation theory alignment uniformity spectral site:arxiv.org",
+      "invariant risk minimization risks invariance domain generalization theory site:arxiv.org",
+      "adversarial robustness accuracy tradeoff theory features site:arxiv.org",
+      "graph neural networks oversquashing oversmoothing curvature theory site:arxiv.org",
+      "graph neural networks heterophily expressivity positional encoding theory site:arxiv.org",
+      "The Risks of Invariant Risk Minimization site:arxiv.org",
+      "test time adaptation failure label shift theory site:arxiv.org",
+      "multimodal contrastive learning modality gap theory site:arxiv.org",
+      "multimodal learning modality competition lazy learner theory site:arxiv.org",
+      "neural network calibration dataset shift uncertainty deep ensembles site:arxiv.org",
+      "conformal prediction distribution shift impossibility conditional coverage site:arxiv.org",
+      "heterophily graph neural networks homophily not enough theory 2024 2025 site:arxiv.org",
+      "graph neural networks expressivity learnability positional encodings stability theory site:arxiv.org",
+      "neural operator discretization aliasing resolution generalization theory site:arxiv.org",
+      "contrastive learning augmentation overlap theory downstream classification spectral site:arxiv.org",
+      "sharp minima generalize deep networks reparameterization flatness sharpness theory site:arxiv.org",
+      "multimodal learning uni modal lazy learning modality competition theoretical understanding site:arxiv.org",
+      "masked autoencoder theory representation learning masking ratio shortcut site:arxiv.org",
+      "sparse autoencoder feature splitting superposition identifiability theory site:arxiv.org",
+      "Can You Trust Your Model Uncertainty Evaluating Predictive Uncertainty Under Dataset Shift site:arxiv.org",
+      "2025 2026 non contrastive self supervised learning collapse theory site:arxiv.org",
+      "compositional generalization neural networks theory systematic generalization disentanglement site:arxiv.org",
+      "sparse autoencoder identifiability feature splitting instability 2025 site:arxiv.org",
+      "why tree based models outperform deep learning tabular data theory 2025 site:arxiv.org",
+      "long tailed recognition neural collapse imbalance theory logit adjustment site:arxiv.org",
+      "approximately equivariant neural networks symmetry breaking generalization theory site:arxiv.org",
+      "unsupervised disentanglement impossible inductive biases nonlinear ICA auxiliary variables site:arxiv.org",
+      "TabPFN accurate predictions small data tabular foundation model 2025 Nature",
+      "Tabular deep learning theory TabPFN 2026 site:openreview.net",
+      "2025 calibration distribution shift impossibility neural networks site:proceedings.mlr.press",
+      "2025 compositional generalization theory systematic generalization site:aclanthology.org"
+    ],
+    "query_batches": [
+      "b2-ssl",
+      "b2-robustness",
+      "b2-invariance",
+      "b2-graphs",
+      "b2-graph-heterophily",
+      "b2-graph-expressivity",
+      "b2-ssl-augmentation",
+      "b2-ssl-recent",
+      "b2-mae",
+      "b2-multimodal",
+      "b2-multimodal-competition",
+      "b2-operator",
+      "b2-uncertainty",
+      "b2-calibration",
+      "b2-flatness",
+      "b2-interpretability",
+      "b2-sae-identifiability",
+      "b2-composition",
+      "b2-disentanglement",
+      "b2-equivariance",
+      "b2-longtail",
+      "b2-tabular",
+      "b2-venue-calibration",
+      "b2-venue-composition",
+      "b2-venue-tabular"
+    ],
+    "sources": [
+      "acl-wold2025",
+      "arxiv-1703.04933",
+      "arxiv-1811.12359",
+      "arxiv-1901.08573",
+      "arxiv-1906.02530",
+      "arxiv-2002.10716",
+      "arxiv-2006.08573",
+      "arxiv-2008.02742",
+      "arxiv-2010.05761",
+      "arxiv-2101.01134",
+      "arxiv-2106.04538",
+      "arxiv-2106.06134",
+      "arxiv-2110.04655",
+      "arxiv-2110.04947",
+      "arxiv-2110.11950",
+      "arxiv-2201.11969",
+      "arxiv-2203.02053",
+      "arxiv-2203.12221",
+      "arxiv-2203.13457",
+      "arxiv-2205.09113",
+      "arxiv-2206.07751",
+      "arxiv-2207.08815",
+      "arxiv-2208.03471",
+      "arxiv-2209.15007",
+      "arxiv-2211.15646",
+      "arxiv-2302.07011",
+      "arxiv-2305.10648",
+      "arxiv-2305.12616",
+      "arxiv-2305.19913",
+      "arxiv-2306.04898",
+      "arxiv-2309.16109",
+      "arxiv-2310.02579",
+      "arxiv-2312.09016",
+      "arxiv-2401.09125",
+      "arxiv-2405.02221",
+      "arxiv-2407.00956",
+      "arxiv-2409.17582",
+      "arxiv-2412.03393",
+      "arxiv-2412.07909",
+      "arxiv-2505.20003",
+      "arxiv-2506.04411",
+      "arxiv-2506.14002",
+      "arxiv-2507.01028",
+      "arxiv-2510.17457",
+      "arxiv-2512.13568",
+      "arxiv-2603.26140",
+      "arxiv-2606.13671",
+      "arxiv-2607.10698",
+      "arxiv-2607.18088",
+      "hollmann2025-tabpfn",
+      "pmlr-rudner25a",
+      "pmlr-you25c"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-027",
+      "DISC-20261001-028",
+      "DISC-20261001-029",
+      "DISC-20261001-030",
+      "DISC-20261001-031",
+      "DISC-20261001-032",
+      "DISC-20261001-033",
+      "DISC-20261001-034",
+      "DISC-20261001-035",
+      "DISC-20261001-042",
+      "DISC-20261001-043",
+      "DISC-20261001-045",
+      "DISC-20261001-048",
+      "DISC-20261001-049",
+      "DISC-20261001-050",
+      "DISC-20261001-055",
+      "DISC-20261001-060",
+      "DISC-20261001-063",
+      "DISC-20261001-064",
+      "DISC-20261001-065",
+      "DISC-20261001-066"
+    ],
+    "excluded": [
+      "Universal claims and already-answered framings narrowed in discovery/2026-10-01-expansion/triage.json."
+    ],
+    "limitations": "Purposive search, not a systematic review. Query coverage overlaps topics. Some recent-work and venue queries were dominated by other results; sources and abstracts do not certify novelty.",
+    "next_steps": "Follow the area-specific missing assumptions, source communities and citation-audit tasks in discovery/2026-10-01-expansion/coverage.md."
+  },
+  {
+    "id": "SEARCH-B2-005",
+    "date": "2026-10-01",
+    "topic": "generative-models",
+    "method": "Breadth expansion with targeted follow-ups and selected primary-abstract checks; no full-text audit.",
+    "queries": [
+      "GAN mode collapse convergence local equilibrium theory regularization site:arxiv.org",
+      "diffusion distillation few step error theory consistency models site:arxiv.org",
+      "out of distribution detection likelihood generative models typicality theory site:arxiv.org",
+      "2025 2026 lottery ticket pruning findability theory site:arxiv.org",
+      "2025 2026 offline reinforcement learning pessimism uncertainty calibration deep neural networks site:arxiv.org",
+      "2025 2026 diffusion consistency models error convergence theory site:arxiv.org"
+    ],
+    "query_batches": [
+      "b2-gan",
+      "b2-distill-generation",
+      "b2-recent-countercheck",
+      "b2-ood"
+    ],
+    "sources": [
+      "arxiv-1705.07215",
+      "arxiv-1706.04156",
+      "arxiv-1906.02994",
+      "arxiv-2203.01097",
+      "arxiv-2303.01469",
+      "arxiv-2402.07802"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-056",
+      "DISC-20261001-057",
+      "DISC-20261001-061"
+    ],
+    "excluded": [
+      "Universal claims and already-answered framings narrowed in discovery/2026-10-01-expansion/triage.json."
+    ],
+    "limitations": "Purposive search, not a systematic review. Query coverage overlaps topics. Some recent-work and venue queries were dominated by other results; sources and abstracts do not certify novelty.",
+    "next_steps": "Follow the area-specific missing assumptions, source communities and citation-audit tasks in discovery/2026-10-01-expansion/coverage.md."
+  },
+  {
+    "id": "SEARCH-B2-006",
+    "date": "2026-10-01",
+    "topic": "post-training",
+    "method": "Breadth expansion with targeted follow-ups and selected primary-abstract checks; no full-text audit.",
+    "queries": [
+      "deep reinforcement learning loss plasticity primacy bias theory site:arxiv.org",
+      "offline reinforcement learning bootstrapping distribution shift pessimism theory site:arxiv.org",
+      "lottery ticket hypothesis pruning at initialization limitations theory site:arxiv.org",
+      "knowledge distillation theory student teacher capacity gap site:arxiv.org",
+      "LoRA expressivity rank theory full fine tuning site:arxiv.org",
+      "loss of plasticity deep learning continual learning 2024 2025 theory site:arxiv.org",
+      "model based reinforcement learning compounding error model bias rollout theory site:arxiv.org",
+      "expressive power low rank adaptation LoRA theory rank site:arxiv.org",
+      "knowledge distillation theory teacher student capacity data geometry site:arxiv.org",
+      "2025 2026 lottery ticket pruning findability theory site:arxiv.org",
+      "2025 2026 offline reinforcement learning pessimism uncertainty calibration deep neural networks site:arxiv.org",
+      "2025 2026 diffusion consistency models error convergence theory site:arxiv.org",
+      "2025 offline reinforcement learning uncertainty pessimism theory site:proceedings.mlr.press"
+    ],
+    "query_batches": [
+      "b2-rl",
+      "b2-rl-plasticity",
+      "b2-rl-models",
+      "b2-compression",
+      "b2-distillation",
+      "b2-lora",
+      "b2-recent-countercheck",
+      "b2-venue-rl"
+    ],
+    "sources": [
+      "arxiv-1912.11206",
+      "arxiv-2002.03532",
+      "arxiv-2106.05945",
+      "arxiv-2202.11566",
+      "arxiv-2205.07802",
+      "arxiv-2310.17513",
+      "arxiv-2310.18434",
+      "arxiv-2404.09946",
+      "arxiv-2503.12576",
+      "arxiv-2509.22335",
+      "arxiv-2510.00304",
+      "pmlr-wang25dx"
+    ],
+    "problems": [],
+    "discovery_leads": [
+      "DISC-20261001-036",
+      "DISC-20261001-037",
+      "DISC-20261001-038",
+      "DISC-20261001-040",
+      "DISC-20261001-041"
+    ],
+    "excluded": [
+      "Universal claims and already-answered framings narrowed in discovery/2026-10-01-expansion/triage.json."
+    ],
+    "limitations": "Purposive search, not a systematic review. Query coverage overlaps topics. Some recent-work and venue queries were dominated by other results; sources and abstracts do not certify novelty.",
+    "next_steps": "Follow the area-specific missing assumptions, source communities and citation-audit tasks in discovery/2026-10-01-expansion/coverage.md."
   }
 ]

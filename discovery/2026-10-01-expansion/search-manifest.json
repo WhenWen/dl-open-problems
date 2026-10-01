@@ -1,0 +1,896 @@
+[
+  {
+    "id": "b2-ssl",
+    "date": "2026-10-01",
+    "queries": [
+      "non contrastive self supervised learning collapse theory feature learning site:arxiv.org",
+      "contrastive learning augmentation theory alignment uniformity spectral site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2002.05709",
+      "2110.04947",
+      "2203.05997",
+      "2209.15007",
+      "2212.01026",
+      "2309.16109",
+      "2405.20718"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-robustness",
+    "date": "2026-10-01",
+    "queries": [
+      "invariant risk minimization risks invariance domain generalization theory site:arxiv.org",
+      "adversarial robustness accuracy tradeoff theory features site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1810.02424",
+      "1901.08573",
+      "2002.02007",
+      "2002.10716",
+      "2109.13858",
+      "2110.11950",
+      "2304.04168",
+      "2304.13033",
+      "2403.08880",
+      "2406.01873"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-graphs",
+    "date": "2026-10-01",
+    "queries": [
+      "graph neural networks oversquashing oversmoothing curvature theory site:arxiv.org",
+      "graph neural networks heterophily expressivity positional encoding theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2104.13478",
+      "2203.10280",
+      "2206.01506",
+      "2208.03471",
+      "2303.10993",
+      "2304.04168",
+      "2510.17457",
+      "2603.26140"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-rl",
+    "date": "2026-10-01",
+    "queries": [
+      "deep reinforcement learning loss plasticity primacy bias theory site:arxiv.org",
+      "offline reinforcement learning bootstrapping distribution shift pessimism theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1805.09461",
+      "2202.11566",
+      "2205.07802",
+      "2310.15017",
+      "2310.18434",
+      "2312.11314",
+      "2411.04832"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-invariance",
+    "date": "2026-10-01",
+    "queries": [
+      "The Risks of Invariant Risk Minimization site:arxiv.org",
+      "test time adaptation failure label shift theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2010.05761",
+      "2101.01134",
+      "2101.04840",
+      "2106.03762",
+      "2106.09777",
+      "2109.13858",
+      "2204.13263",
+      "2210.06579",
+      "2211.15646",
+      "2406.09130"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-compression",
+    "date": "2026-10-01",
+    "queries": [
+      "lottery ticket hypothesis pruning at initialization limitations theory site:arxiv.org",
+      "knowledge distillation theory student teacher capacity gap site:arxiv.org",
+      "LoRA expressivity rank theory full fine tuning site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1803.03635",
+      "1903.01611",
+      "2002.00585",
+      "2004.00176",
+      "2105.11611",
+      "2109.10485",
+      "2310.02277",
+      "2406.09021",
+      "2407.02805",
+      "2605.31191"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-scientific",
+    "date": "2026-10-01",
+    "queries": [
+      "physics informed neural networks gradient pathology failure modes site:arxiv.org",
+      "neural operator discretization convergence resolution generalization theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2001.04536",
+      "2104.02741",
+      "2109.01050",
+      "2203.13181",
+      "2209.09988",
+      "2603.23799"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-multimodal",
+    "date": "2026-10-01",
+    "queries": [
+      "multimodal contrastive learning modality gap theory site:arxiv.org",
+      "multimodal learning modality competition lazy learner theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2201.08071",
+      "2203.02053",
+      "2406.10581",
+      "2406.17711",
+      "2407.17083",
+      "2412.07909",
+      "2510.03268",
+      "2607.10698"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-privacy",
+    "date": "2026-10-01",
+    "queries": [
+      "deep learning differential privacy utility scaling theory clipping site:arxiv.org",
+      "synthetic data model collapse accumulating data theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1802.08908",
+      "2009.03106",
+      "2102.09249",
+      "2202.12219",
+      "2212.01539",
+      "2404.01413",
+      "2404.09816",
+      "2406.19593",
+      "2410.16713"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-uncertainty",
+    "date": "2026-10-01",
+    "queries": [
+      "neural network calibration dataset shift uncertainty deep ensembles site:arxiv.org",
+      "conformal prediction distribution shift impossibility conditional coverage site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2006.08573",
+      "2105.04504",
+      "2106.03762",
+      "2305.12616",
+      "2406.01960",
+      "2607.18088",
+      "2609.33456"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-graph-heterophily",
+    "date": "2026-10-01",
+    "queries": [
+      "heterophily graph neural networks homophily not enough theory 2024 2025 site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2106.06134",
+      "2203.10280",
+      "2210.07606",
+      "2302.06299",
+      "2304.04168",
+      "2401.09125",
+      "2403.17351"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-graph-expressivity",
+    "date": "2026-10-01",
+    "queries": [
+      "graph neural networks expressivity learnability positional encodings stability theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2104.13478",
+      "2203.10280",
+      "2304.02656",
+      "2310.02579",
+      "2412.07407",
+      "2502.01122",
+      "2606.13671"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-rl-plasticity",
+    "date": "2026-10-01",
+    "queries": [
+      "loss of plasticity deep learning continual learning 2024 2025 theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2207.05080",
+      "2207.10131",
+      "2210.06579",
+      "2404.00781",
+      "2503.20018",
+      "2509.22335",
+      "2510.00304"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-rl-models",
+    "date": "2026-10-01",
+    "queries": [
+      "model based reinforcement learning compounding error model bias rollout theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1805.09461",
+      "1905.13320",
+      "1912.11206",
+      "2102.12962",
+      "2310.15017",
+      "2404.09946",
+      "2504.01766"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-lora",
+    "date": "2026-10-01",
+    "queries": [
+      "expressive power low rank adaptation LoRA theory rank site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2106.09685",
+      "2212.06713",
+      "2305.19124",
+      "2307.14385",
+      "2310.17513",
+      "2312.03732",
+      "2401.00243",
+      "2405.00200",
+      "2406.04879",
+      "2503.12576",
+      "2604.11841"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-distillation",
+    "date": "2026-10-01",
+    "queries": [
+      "knowledge distillation theory teacher student capacity data geometry site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1911.03080",
+      "2002.03532",
+      "2004.00176",
+      "2010.07485",
+      "2106.05945",
+      "2209.14520",
+      "2304.04222"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-operator",
+    "date": "2026-10-01",
+    "queries": [
+      "neural operator discretization aliasing resolution generalization theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2108.08481",
+      "2111.04578",
+      "2203.13181",
+      "2305.19913",
+      "2405.02221",
+      "2412.03393"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-ssl-augmentation",
+    "date": "2026-10-01",
+    "queries": [
+      "contrastive learning augmentation overlap theory downstream classification spectral site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2002.05709",
+      "2010.02037",
+      "2203.13457",
+      "2212.01026",
+      "2302.02909",
+      "2511.03114"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-flatness",
+    "date": "2026-10-01",
+    "queries": [
+      "sharp minima generalize deep networks reparameterization flatness sharpness theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1703.04933",
+      "2104.13478",
+      "2209.14520",
+      "2302.07011",
+      "2304.00320",
+      "2402.10198",
+      "2405.10957",
+      "2506.17809",
+      "2510.12451"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-implicit",
+    "date": "2026-10-01",
+    "queries": [
+      "implicit bias gradient descent non separable deep learning logistic regression theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1710.10345",
+      "1810.00670",
+      "2011.12547",
+      "2104.13478",
+      "2210.06705",
+      "2304.00320",
+      "2304.05187",
+      "2305.11788",
+      "2608.04382"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-architecture",
+    "date": "2026-10-01",
+    "queries": [
+      "residual neural network depth scaling dynamical isometry theory finite width site:arxiv.org",
+      "mixture of experts router collapse load balancing theory specialization site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1908.00709",
+      "2202.09368",
+      "2209.15207",
+      "2210.02411",
+      "2304.05187",
+      "2403.09611",
+      "2405.02810",
+      "2506.14038",
+      "2604.04230"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-multimodal-competition",
+    "date": "2026-10-01",
+    "queries": [
+      "multimodal learning uni modal lazy learning modality competition theoretical understanding site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2004.00176",
+      "2106.04538",
+      "2106.11059",
+      "2201.08071",
+      "2202.03052",
+      "2203.12221",
+      "2204.05133",
+      "2212.05171",
+      "2406.11839"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-mae",
+    "date": "2026-10-01",
+    "queries": [
+      "masked autoencoder theory representation learning masking ratio shortcut site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1603.00806",
+      "2205.09113",
+      "2205.11169",
+      "2207.06405",
+      "2210.08344",
+      "2303.05861",
+      "2306.04898"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-federated",
+    "date": "2026-10-01",
+    "queries": [
+      "federated learning client drift data heterogeneity theory SCAFFOLD site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1910.06378",
+      "2203.13321",
+      "2206.02465",
+      "2207.11447",
+      "2209.14520",
+      "2309.13536",
+      "2404.09816",
+      "2405.20127"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-interpretability",
+    "date": "2026-10-01",
+    "queries": [
+      "sparse autoencoder feature splitting superposition identifiability theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1603.00806",
+      "2202.03220",
+      "2307.06941",
+      "2402.04550",
+      "2503.01824",
+      "2512.13568",
+      "2606.06333",
+      "2606.18538"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-calibration",
+    "date": "2026-10-01",
+    "queries": [
+      "Can You Trust Your Model Uncertainty Evaluating Predictive Uncertainty Under Dataset Shift site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1906.02530",
+      "2010.08001",
+      "2105.04504",
+      "2106.03762",
+      "2107.10989",
+      "2109.00186",
+      "2111.04665"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-ssl-recent",
+    "date": "2026-10-01",
+    "queries": [
+      "2025 2026 non contrastive self supervised learning collapse theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2002.05709",
+      "2006.09882",
+      "2102.06810",
+      "2302.11414",
+      "2503.08203",
+      "2506.04411",
+      "2507.01028"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-depth",
+    "date": "2026-10-01",
+    "queries": [
+      "residual networks depth width scaling dynamical isometry theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1806.07396",
+      "1809.08848",
+      "2104.13478",
+      "2210.02411",
+      "2302.00453",
+      "2304.05187",
+      "2309.16620",
+      "2406.01461"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-gan",
+    "date": "2026-10-01",
+    "queries": [
+      "GAN mode collapse convergence local equilibrium theory regularization site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1507.00407",
+      "1703.05192",
+      "1705.07215",
+      "1706.04156",
+      "1807.04015",
+      "1908.10999",
+      "2109.13858",
+      "2209.14520",
+      "2304.00320"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-distill-generation",
+    "date": "2026-10-01",
+    "queries": [
+      "diffusion distillation few step error theory consistency models site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2303.01469",
+      "2310.14189",
+      "2311.00613",
+      "2312.03052",
+      "2403.15383",
+      "2403.17782",
+      "2411.08954",
+      "2602.10764"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-influence",
+    "date": "2026-10-01",
+    "queries": [
+      "influence functions deep neural networks fragile evaluation attribution site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1710.10547",
+      "1711.00867",
+      "1802.00614",
+      "2005.06676",
+      "2006.14651",
+      "2512.09103"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-unlearning",
+    "date": "2026-10-01",
+    "queries": [
+      "approximate machine unlearning deep networks evaluation retraining indistinguishability site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1706.05394",
+      "1909.05504",
+      "2001.03274",
+      "2106.15093",
+      "2109.13398",
+      "2208.10836",
+      "2404.09816",
+      "2404.11045",
+      "2407.06460"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-composition",
+    "date": "2026-10-01",
+    "queries": [
+      "compositional generalization neural networks theory systematic generalization disentanglement site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1908.08351",
+      "2008.02742",
+      "2106.00769",
+      "2110.04655",
+      "2202.08806",
+      "2210.00482"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-ood",
+    "date": "2026-10-01",
+    "queries": [
+      "out of distribution detection likelihood generative models typicality theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1906.02994",
+      "1907.04572",
+      "2106.08462",
+      "2107.06908",
+      "2203.01097",
+      "2405.09800"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-sae-identifiability",
+    "date": "2026-10-01",
+    "queries": [
+      "sparse autoencoder identifiability feature splitting instability 2025 site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1603.00806",
+      "2402.04550",
+      "2405.14711",
+      "2502.00127",
+      "2506.14002",
+      "2509.21379",
+      "2606.06333"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-tabular",
+    "date": "2026-10-01",
+    "queries": [
+      "why tree based models outperform deep learning tabular data theory 2025 site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1603.02754",
+      "1811.02579",
+      "2102.09249",
+      "2104.13030",
+      "2110.01889",
+      "2202.02145",
+      "2207.08815",
+      "2312.04927",
+      "2402.03970",
+      "2407.00956"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-longtail",
+    "date": "2026-10-01",
+    "queries": [
+      "long tailed recognition neural collapse imbalance theory logit adjustment site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1711.02173",
+      "2104.06094",
+      "2104.13030",
+      "2203.03128",
+      "2210.10109",
+      "2302.11414",
+      "2304.00320",
+      "2305.10648",
+      "2305.16573",
+      "2409.17582"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-equivariance",
+    "date": "2026-10-01",
+    "queries": [
+      "approximately equivariant neural networks symmetry breaking generalization theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2104.13478",
+      "2112.12493",
+      "2201.11969",
+      "2312.09016",
+      "2408.08823",
+      "2503.21985"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-merging",
+    "date": "2026-10-01",
+    "queries": [
+      "model merging linear mode connectivity permutation alignment theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "0811.2799",
+      "2104.13478",
+      "2209.04836",
+      "2402.01342",
+      "2402.04051",
+      "2402.06147",
+      "2406.04879",
+      "2503.06001"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-disentanglement",
+    "date": "2026-10-01",
+    "queries": [
+      "unsupervised disentanglement impossible inductive biases nonlinear ICA auxiliary variables site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "1811.12359",
+      "1905.01258",
+      "2204.04606",
+      "2206.07751",
+      "2302.11414",
+      "2305.13299",
+      "2406.01898",
+      "2406.03631"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-recent-countercheck",
+    "date": "2026-10-01",
+    "queries": [
+      "2025 2026 lottery ticket pruning findability theory site:arxiv.org",
+      "2025 2026 offline reinforcement learning pessimism uncertainty calibration deep neural networks site:arxiv.org",
+      "2025 2026 diffusion consistency models error convergence theory site:arxiv.org"
+    ],
+    "returned_arxiv_ids": [
+      "2212.09912",
+      "2305.10157",
+      "2308.11449",
+      "2310.02277",
+      "2311.00613",
+      "2402.07802",
+      "2407.02805",
+      "2505.21400",
+      "2602.16601"
+    ],
+    "method": "Web search for discovery; returned identifiers are unfiltered search leads, not endorsements or all selected sources."
+  },
+  {
+    "id": "b2-venue-tabular",
+    "date": "2026-10-01",
+    "queries": [
+      "TabPFN accurate predictions small data tabular foundation model 2025 Nature",
+      "Tabular deep learning theory TabPFN 2026 site:openreview.net"
+    ],
+    "returned_arxiv_ids": [
+      "2511.08667",
+      "2505.20003",
+      "2507.03971",
+      "2510.08920"
+    ],
+    "returned_primary_urls": [
+      "https://www.nature.com/articles/s41586-024-08328-6"
+    ],
+    "method": "Targeted publisher/venue search; selected primary abstract pages checked; unselected results remain leads."
+  },
+  {
+    "id": "b2-venue-rl",
+    "date": "2026-10-01",
+    "queries": [
+      "2025 offline reinforcement learning uncertainty pessimism theory site:proceedings.mlr.press"
+    ],
+    "returned_arxiv_ids": [],
+    "returned_primary_urls": [
+      "https://proceedings.mlr.press/v162/shi22c.html",
+      "https://proceedings.mlr.press/v139/jin21e.html",
+      "https://proceedings.mlr.press/v139/jin21e.html},",
+      "https://proceedings.mlr.press/v267/wang25dx.html",
+      "https://proceedings.mlr.press/v235/koppel24a.html",
+      "https://proceedings.mlr.press/v283/panaganti25a.html",
+      "https://proceedings.mlr.press/v139/jin21e/jin21e.pdf",
+      "https://proceedings.mlr.press/v236/liu24a.html",
+      "https://proceedings.mlr.press/v267/jeong25a.html",
+      "https://proceedings.mlr.press/v267/jeong25a.html},",
+      "https://proceedings.mlr.press/v235/hu24p.html",
+      "https://proceedings.mlr.press/v164/li22d.html",
+      "https://proceedings.mlr.press/v286/huang25a.html",
+      "https://proceedings.mlr.press/v286/huang25a.html},",
+      "https://proceedings.mlr.press/v238/zhu24a.html",
+      "https://proceedings.mlr.press/v238/zhu24a/zhu24a.pdf},",
+      "https://proceedings.mlr.press/v238/zhu24a.html},",
+      "https://proceedings.mlr.press/v202/li23b.html",
+      "https://proceedings.mlr.press/v216/yang23a/yang23a.pdf",
+      "https://proceedings.mlr.press/v238/wang24h/wang24h.pdf",
+      "https://proceedings.mlr.press/v238/wang24a/wang24a.pdf",
+      "https://proceedings.mlr.press/v206/zhou23a/zhou23a.pdf"
+    ],
+    "method": "Targeted publisher/venue search; selected primary abstract pages checked; unselected results remain leads."
+  },
+  {
+    "id": "b2-venue-compression",
+    "date": "2026-10-01",
+    "queries": [
+      "2025 pruning lottery ticket sparse trainability theory site:openreview.net"
+    ],
+    "returned_arxiv_ids": [],
+    "returned_primary_urls": [
+      "https://openreview.net/pdf?id=caBhOKTD6Z",
+      "https://openreview.net/pdf?id=cLtE4qoPlD",
+      "https://openreview.net/pdf?id=uuU8h4UK4j",
+      "https://openreview.net/pdf/e6e9ea397e628a28b939f3222bd928816896a015.pdf",
+      "https://openreview.net/pdf/da2e53b52542cf48ac364fa00f724a17cd4df731.pdf",
+      "https://openreview.net/pdf/a2d75a86115d6b79b3ddb06fb4dc83a6c64187f5.pdf",
+      "https://openreview.net/profile?id=~Yani_Ioannou1",
+      "https://openreview.net/profile?id=~Shengji_Tang1",
+      "https://openreview.net/profile?id=~Hitesh_Sapkota1",
+      "https://openreview.net/profile?id=~Yasuyuki_Okoshi1",
+      "https://openreview.net/profile?id=~Ashwinee_Panda1",
+      "https://openreview.net/forum?id=CStG5ukHlQ",
+      "https://openreview.net/profile?id=~Longbo_Huang2",
+      "https://openreview.net/profile?id=~Yite_Wang1",
+      "https://openreview.net/forum?id=zFR5aWGaUs",
+      "https://openreview.net/profile?id=~Janice_Lan1",
+      "https://openreview.net/forum?id=T5OuTgPxHS",
+      "https://openreview.net/forum?id=JM9r3GAhTr"
+    ],
+    "method": "Targeted publisher/venue search; selected primary abstract pages checked; unselected results remain leads."
+  },
+  {
+    "id": "b2-venue-calibration",
+    "date": "2026-10-01",
+    "queries": [
+      "2025 calibration distribution shift impossibility neural networks site:proceedings.mlr.press"
+    ],
+    "returned_arxiv_ids": [],
+    "returned_primary_urls": [
+      "https://proceedings.mlr.press/v258/rudner25a.html",
+      "https://proceedings.mlr.press/v258/rudner25a.html.",
+      "https://proceedings.mlr.press/v267/you25c.html",
+      "https://proceedings.mlr.press/v267/you25c.html},",
+      "https://proceedings.mlr.press/v291/qiao25a.html",
+      "https://proceedings.mlr.press/v291/qiao25a.html},",
+      "https://proceedings.mlr.press/v306/zhang26he.html",
+      "https://proceedings.mlr.press/v306/zhang26he.html},",
+      "https://proceedings.mlr.press/v258/baek25a.html",
+      "https://proceedings.mlr.press/v258/baek25a.html},",
+      "https://proceedings.mlr.press/v287/kapash25a.html",
+      "https://proceedings.mlr.press/v287/kapash25a.html},",
+      "https://proceedings.mlr.press/v337/lee26g.html",
+      "https://proceedings.mlr.press/v337/lee26g.html},",
+      "https://proceedings.mlr.press/v267/li25ec.html",
+      "https://proceedings.mlr.press/v337/barker26a.html",
+      "https://proceedings.mlr.press/v119/alexandari20a.html",
+      "https://proceedings.mlr.press/v258/labonte25a.html",
+      "https://proceedings.mlr.press/v337/huang26b.html",
+      "https://proceedings.mlr.press/v162/darestani22a/darestani22a.pdf",
+      "https://proceedings.mlr.press/v202/dheur23a/dheur23a.pdf",
+      "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf"
+    ],
+    "method": "Targeted publisher/venue search; selected primary abstract pages checked; unselected results remain leads."
+  },
+  {
+    "id": "b2-venue-composition",
+    "date": "2026-10-01",
+    "queries": [
+      "2025 compositional generalization theory systematic generalization site:aclanthology.org"
+    ],
+    "returned_arxiv_ids": [],
+    "returned_primary_urls": [
+      "https://aclanthology.org/2025.findings-acl.90/",
+      "https://aclanthology.org/2025.findings-acl.90.pdf",
+      "https://aclanthology.org/2025.findings-acl.90/\",",
+      "https://aclanthology.org/2021.findings-emnlp.21/",
+      "https://aclanthology.org/2025.acl-long.1537/",
+      "https://aclanthology.org/2025.naacl-long.59/",
+      "https://aclanthology.org/2025.naacl-long.59.pdf--------------------------------------------------------------------------------",
+      "https://aclanthology.org/people/sondre-wold/unverified/",
+      "https://aclanthology.org/2024.acl-long.36/",
+      "https://aclanthology.org/2024.acl-long.36.pdf",
+      "https://aclanthology.org/2024.acl-long.36/\",",
+      "https://aclanthology.org/2024.naacl-srw.3/",
+      "https://aclanthology.org/2024.naacl-srw.3/\",",
+      "https://aclanthology.org/2025.findings-emnlp.1133/",
+      "https://aclanthology.org/2025.findings-emnlp.1133/\",",
+      "https://aclanthology.org/2025.quantumnlp-1.2/",
+      "https://aclanthology.org/people/i/ivan-vegner/",
+      "https://aclanthology.org/2020.acl-srw.42/",
+      "https://aclanthology.org/2025.acl-long.1508/",
+      "https://aclanthology.org/2025.acl-long.1508/\",",
+      "https://aclanthology.org/anthology-files/pdf/findings/2025.findings-acl.90.pdf",
+      "https://aclanthology.org/W18-5413.pdf",
+      "https://aclanthology.org/2025.naacl-long.59.pdf"
+    ],
+    "method": "Targeted publisher/venue search; selected primary abstract pages checked; unselected results remain leads."
+  }
+]

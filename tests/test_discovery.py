@@ -61,5 +61,36 @@ class DiscoveryTests(unittest.TestCase):
         self.edit('discovery/2026-10-01/candidates.json',lambda x:x[1].update(question=x[0]['question']))
         self.reject('duplicate discovery question')
 
+    def test_cross_batch_duplicate_id(self):
+        original = json.loads((self.batch/'candidates.json').read_text())[0]
+        self.edit('discovery/2026-10-01-expansion/candidates.json', lambda x:x[0].update(id=original['id']))
+        self.reject('duplicate discovery ID across batches')
+
+    def test_cross_batch_duplicate_question(self):
+        original = json.loads((self.batch/'candidates.json').read_text())[0]
+        self.edit('discovery/2026-10-01-expansion/candidates.json', lambda x:x[0].update(question=original['question']))
+        self.reject('duplicate discovery question across batches')
+
+    def test_expansion_snapshot_and_cross_batch_link(self):
+        batch = self.root/'discovery/2026-10-01-expansion'
+        output = discovery.render(*discovery.validate(self.root,batch))
+        self.assertEqual(output,(batch/'README.md').read_text())
+        self.assertIn('../2026-10-01/README.md#disc-20261001-012',output)
+
+    def test_area_cannot_silently_claim_completion(self):
+        self.batch = self.root/'discovery/2026-10-01-expansion'
+        self.edit('discovery/2026-10-01-expansion/area-coverage.json',lambda x:x[0].update(full_text_audit=True))
+        self.reject('cannot certify area completeness')
+
+    def test_area_source_provenance(self):
+        self.batch = self.root/'discovery/2026-10-01-expansion'
+        self.edit('discovery/2026-10-01-expansion/area-coverage.json',lambda x:x[0].update(sources=[]))
+        self.reject('area sources disagree')
+
+    def test_query_ids_unique_across_batches(self):
+        old = json.loads((self.batch/'search-manifest.json').read_text())[0]['id']
+        self.edit('discovery/2026-10-01-expansion/search-manifest.json',lambda x:x[0].update(id=old))
+        self.reject('duplicate query batch across batches')
+
 if __name__=='__main__':
     unittest.main()

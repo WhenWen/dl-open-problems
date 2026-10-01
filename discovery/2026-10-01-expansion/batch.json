@@ -1,0 +1,31 @@
+{
+  "title": "# Breadth expansion: 2026 10 01",
+  "areas": [
+    "architecture dynamics",
+    "compositional learning",
+    "compression and adaptation",
+    "data attribution",
+    "differentially private learning",
+    "federated learning",
+    "generalization mechanisms",
+    "generative training dynamics",
+    "graph learning",
+    "long-tailed recognition",
+    "machine unlearning",
+    "mechanistic interpretability",
+    "model merging",
+    "multimodal learning",
+    "non-language reinforcement learning",
+    "out-of-distribution detection",
+    "predictive uncertainty",
+    "representation identifiability",
+    "robustness and domain shift",
+    "scientific machine learning",
+    "self-supervised vision",
+    "symmetry and geometric learning",
+    "synthetic-data feedback",
+    "tabular learning"
+  ],
+  "limitations": "This purposive, English-language, arXiv-heavy pass broadens the earlier LM emphasis but is not exhaustive. A selected primary abstract is not a theorem audit or independent validation. Explicit recent-work searches were uneven and sometimes returned unrelated subjects; foundational pairs do not establish the latest frontier. We did not measure search saturation or complete backward/forward citation traversal. The coverage ledger records thin areas and a specific next search for every subfield.",
+  "audit_next": "First audit 027 (collapse definitions), 032 (adaptation assumptions), 033 (graph proxies), 036 (competing plasticity mechanisms), 039 (existence versus findability), 042 (modality-gap explanations), 045 (discretization), 046 (feedback protocol), 049 (conditional guarantees), 055 (feature recovery) and 063 (identification boundaries). This is a reading queue, not authorization to run experiments."
+}
